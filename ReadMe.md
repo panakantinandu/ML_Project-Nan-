@@ -121,16 +121,26 @@ No manual action needed.
 
 ## 📊 Screenshots
 
-*Add screenshots after pushing to GitHub (Streamlit UI, SHAP charts, etc.).*
-
 Example layout sections you should upload:
 
 * Home Dashboard
+* <img width="1900" height="888" alt="Screenshot 2025-11-13 031610" src="https://github.com/user-attachments/assets/047e23ff-0415-473e-b813-6d0a44bc3fa1" />
+
 * Single Prediction
+* <img width="1896" height="885" alt="Screenshot 2025-11-13 031709" src="https://github.com/user-attachments/assets/38810366-17e1-4f6a-9b78-6611d6b99a9d" />
+
 * Batch Upload
+* <img width="1894" height="893" alt="image" src="https://github.com/user-attachments/assets/0bf58979-fb33-4f61-831a-bb0027fbc2e0" />
+
 * Model Evaluation
+* <img width="1891" height="895" alt="Screenshot 2025-11-13 031924" src="https://github.com/user-attachments/assets/8b201a43-b472-450e-92f4-3e5406d4d761" />
+
 * SHAP Global Importance
+* <img width="1905" height="906" alt="image" src="https://github.com/user-attachments/assets/e5866c23-eb25-46f9-8862-ff5980abadc7" />
 * SHAP Waterfall
+* <img width="1886" height="904" alt="image" src="https://github.com/user-attachments/assets/b8162bd8-893b-4493-a9c9-2949375b7e96" />
+
+
 
 ---
 
