@@ -38,6 +38,7 @@ download_dataset()
 MODEL_URL = "https://drive.google.com/uc?id=13ibNfS8n36ItzzDkJBg0pEMCxEYIDmMd"
 MODEL_PATH = "employee_attrition_pipeline.pkl"
 
+
 def download_model():
     if not os.path.exists(MODEL_PATH):
         st.warning("Downloading ML model…")
