@@ -2,7 +2,6 @@
 # Employee Attrition ML App - Dark Pro Version
 # =========================
 import os
-
 import gdown
 import joblib
 import matplotlib.pyplot as plt
@@ -20,7 +19,7 @@ from sklearn.metrics import (
 from sklearn.model_selection import train_test_split
 
 # =========================
-# Streamlit Page Config  (MUST BE FIRST STREAMLIT CALL)
+# Streamlit Page Config
 # =========================
 st.set_page_config(
     page_title="Employee Attrition Prediction",
@@ -30,12 +29,23 @@ st.set_page_config(
 )
 
 # =========================
-# CONFIG: DATA & MODEL  (NO DOWNLOADING)
+# CONFIG: DATA & MODEL
 # =========================
 
-# Use the local files stored in your repo
-DATA_PATH = "HR_Data.parquet"
+DATA_URL = "https://drive.google.com/uc?id=1RYCIena3mCajKIDPFUsPmtl29FMpidvF"
+DATA_PATH = "HR_Data_SMALL.parquet"
+
 MODEL_PATH = "employee_attrition_pipeline.pkl"
+
+# =========================
+# Download Data If Missing
+# =========================
+
+def download_dataset():
+    if not os.path.exists(DATA_PATH):
+        gdown.download(DATA_URL, DATA_PATH, quiet=False)
+
+download_dataset()
 
 # =========================
 # Load Model & Data
@@ -56,7 +66,6 @@ def load_data():
     try:
         df = pd.read_parquet(DATA_PATH)
 
-        # Add your derived target column
         df["left"] = df["Status"].apply(
             lambda x: 0 if str(x).strip().lower() == "active" else 1
         )
@@ -67,7 +76,6 @@ def load_data():
         st.stop()
 
 df = load_data()
-
 
 # =========================
 # Dark AI-style custom CSS
