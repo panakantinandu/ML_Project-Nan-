@@ -54,9 +54,15 @@ download_dataset()
 @st.cache_resource
 def load_model():
     try:
-        return joblib.load(MODEL_PATH)
+        df = pd.read_parquet(DATA_PATH)
+
+        df["left"] = df["Status"].apply(
+            lambda x: 0 if str(x).strip().lower() == "active" else 1
+        )
+        return df
+
     except Exception as e:
-        st.error(f"Model loading failed: {e}")
+        st.error(f"Data loading failed: {e}")
         st.stop()
 
 model = load_model()
