@@ -18,12 +18,9 @@ from sklearn.metrics import confusion_matrix, classification_report, roc_curve, 
 # CONFIG: DATA & MODEL
 # =========================
 
-DATA_URL = "https://drive.google.com/uc?id=1oCM6l_7Kx6E9ftLS8C8qjlZ0VWxnUC3Y"  # your Drive link
+# === Dataset ===
+DATA_URL = "https://drive.google.com/uc?id=1oCM6l_7Kx6E9ftLS8C8qjlZ0VWxnUC3Y"  # FIXED DIRECT DOWNLOAD LINK
 DATA_PATH = "HR_Data.csv"
-
-HERE = os.path.dirname(os.path.abspath(__file__))
-MODEL_PATH = os.path.join(HERE, "employee_attrition_pipeline.pkl")
-
 
 def download_dataset():
     """Download HR_Data.csv from Google Drive if not present."""
@@ -32,12 +29,11 @@ def download_dataset():
         gdown.download(DATA_URL, DATA_PATH, quiet=False)
         st.success("✅ Dataset downloaded successfully.")
 
-
 download_dataset()
 
-MODEL_URL = "https://drive.google.com/uc?id=13ibNfS8n36ItzzDkJBg0pEMCxEYIDmMd"
-MODEL_PATH = "employee_attrition_pipeline.pkl"
-
+# === Model ===
+MODEL_URL = "https://drive.google.com/uc?id=13ibNfS8n36ItzzDkJBg0pEMCxEYIDmMd"  # FIXED DIRECT DOWNLOAD LINK
+MODEL_PATH = "employee_attrition_pipeline.pkl"  # ONLY ONE MODEL_PATH
 
 def download_model():
     if not os.path.exists(MODEL_PATH):
@@ -46,6 +42,7 @@ def download_model():
         st.success("Model downloaded!")
 
 download_model()
+
 
 
 
