@@ -2,6 +2,7 @@
 # Employee Attrition ML App - Dark Pro Version
 # =========================
 import os
+
 import gdown
 import joblib
 import matplotlib.pyplot as plt
@@ -19,7 +20,7 @@ from sklearn.metrics import (
 from sklearn.model_selection import train_test_split
 
 # =========================
-# Streamlit Page Config
+# Streamlit Page Config  (MUST BE FIRST STREAMLIT CALL)
 # =========================
 st.set_page_config(
     page_title="Employee Attrition Prediction",
@@ -32,56 +33,55 @@ st.set_page_config(
 # CONFIG: DATA & MODEL
 # =========================
 
-# If you uploaded the small Parquet and want to load locally:
+# Local Parquet file (you already uploaded this to GitHub)
 DATA_PATH = "HR_Data_SMALL.parquet"
+
+# Model file name
 MODEL_PATH = "employee_attrition_pipeline.pkl"
+MODEL_URL = "https://drive.google.com/uc?id=13ibNfS8n36ItzzDkJBg0pEMCxEYIDmMd"
 
-# If you still use Drive download (optional), set the correct DATA_URL:
-DATA_URL = "https://drive.google.com/uc?id=1RYCIena3mCajKIDPFUsPmtl29FMpidvF"
 
-# Optional: if you want to keep download logic:
-def download_dataset():
-    if not os.path.exists(DATA_PATH):
-        gdown.download(DATA_URL, DATA_PATH, quiet=False)
+def download_model():
+    """Download model pickle from Google Drive if not present."""
+    if not os.path.exists(MODEL_PATH):
+        gdown.download(MODEL_URL, MODEL_PATH, quiet=False)
 
-download_dataset()
 
+download_model()
 
 # =========================
 # Load Model & Data
 # =========================
 
+
 @st.cache_resource
 def load_model():
-    try:
-        df = pd.read_parquet(DATA_PATH)
+    return joblib.load(MODEL_PATH)
 
-        df["left"] = df["Status"].apply(
-            lambda x: 0 if str(x).strip().lower() == "active" else 1
-        )
-        return df
-
-    except Exception as e:
-        st.error(f"Data loading failed: {e}")
-        st.stop()
 
 model = load_model()
 
+
 @st.cache_data
 def load_data():
-    try:
-        df = pd.read_parquet(DATA_PATH)
+    # IMPORTANT: Parquet, not CSV
+    df = pd.read_parquet(DATA_PATH)
 
-        df["left"] = df["Status"].apply(
-            lambda x: 0 if str(x).strip().lower() == "active" else 1
-        )
-        return df
+    # Binary target: 0 = Active, 1 = Not Active (Resigned/Terminated/Retired)
+    df["left"] = df["Status"].apply(
+        lambda x: 0 if str(x).strip().lower() == "active" else 1
+    )
+    return df
 
-    except Exception as e:
-        st.error(f"Data loading failed: {e}")
-        st.stop()
 
 df = load_data()
+
+# Sanity: model must be a Pipeline with preprocessor + classifier
+preprocessor = model.named_steps.get("preprocessor", None)
+classifier = model.named_steps.get("classifier", None)
+if preprocessor is None or classifier is None:
+    st.error("❌ Model is not a Pipeline with 'preprocessor' and 'classifier' steps.")
+    st.stop()
 
 # =========================
 # Dark AI-style custom CSS
@@ -140,38 +140,6 @@ st.markdown(
     """,
     unsafe_allow_html=True,
 )
-
-# =========================
-# Load Model & Data
-# =========================
-
-
-@st.cache_resource
-def load_model():
-    return joblib.load(MODEL_PATH)
-
-
-model = load_model()
-
-
-@st.cache_data
-def load_data():
-    df = pd.read_csv(DATA_PATH)
-    # Binary target: 0 = Active, 1 = Not Active (Resigned/Terminated/Retired)
-    df["left"] = df["Status"].apply(
-        lambda x: 0 if str(x).strip().lower() == "active" else 1
-    )
-    return df
-
-
-df = load_data()
-
-# Sanity: model must be a Pipeline with preprocessor + classifier
-preprocessor = model.named_steps.get("preprocessor", None)
-classifier = model.named_steps.get("classifier", None)
-if preprocessor is None or classifier is None:
-    st.error("❌ Model is not a Pipeline with 'preprocessor' and 'classifier' steps.")
-    st.stop()
 
 # =========================
 # Sidebar Navigation
@@ -319,7 +287,14 @@ elif page == "📂 Batch Predictions":
 
             drop_cols = [
                 col
-                for col in ["Status", "left", "Unnamed: 0", "Employee_ID", "Full_Name", "Hire_Date"]
+                for col in [
+                    "Status",
+                    "left",
+                    "Unnamed: 0",
+                    "Employee_ID",
+                    "Full_Name",
+                    "Hire_Date",
+                ]
                 if col in new_df.columns
             ]
             new_df_for_pred = new_df.drop(columns=drop_cols, errors="ignore")
@@ -427,6 +402,7 @@ elif page == "🔍 Explainability":
                 X, y, test_size=0.2, random_state=42, stratify=y
             )
 
+            # Preprocess and sample
             X_processed = preprocessor.transform(X_test)
             feature_names = preprocessor.get_feature_names_out()
             X_processed_df = pd.DataFrame(X_processed, columns=feature_names)
@@ -478,12 +454,14 @@ elif page == "🔍 Explainability":
                 X, y, test_size=0.2, random_state=42, stratify=y
             )
 
+            # Reset index to keep mapping back to original df
             X_test_reset = X_test.reset_index().rename(columns={"index": "orig_index"})
 
             X_processed = preprocessor.transform(X_test)
             feature_names = preprocessor.get_feature_names_out()
             X_processed_df = pd.DataFrame(X_processed, columns=feature_names)
 
+            # Build dropdown options
             employee_choices = []
             for row_idx, row in X_test_reset.iterrows():
                 orig_idx = row["orig_index"]
@@ -512,6 +490,7 @@ elif page == "🔍 Explainability":
 
             shap.initjs()
 
+            # Use a small background sample for explainer
             background = X_processed_df.sample(
                 min(300, len(X_processed_df)), random_state=42
             )
