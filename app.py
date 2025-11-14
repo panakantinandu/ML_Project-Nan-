@@ -34,7 +34,7 @@ st.set_page_config(
 # =========================
 
 DATA_URL = "https://drive.google.com/uc?id=1oCM6l_7Kx6E9ftLS8C8qjlZ0VWxnUC3Y"
-DATA_PATH = "HR_Data.csv"
+DATA_PATH = "HR_Data.parquet.csv"
 
 MODEL_URL = "https://drive.google.com/uc?id=13ibNfS8n36ItzzDkJBg0pEMCxEYIDmMd"
 MODEL_PATH = "employee_attrition_pipeline.pkl"
