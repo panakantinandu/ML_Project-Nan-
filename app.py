@@ -2,17 +2,22 @@
 # Employee Attrition ML App - Dark Pro Version
 # =========================
 import os
-import pandas as pd
-import numpy as np
-import streamlit as st
+
+import gdown
+import joblib
 import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
 import seaborn as sns
 import shap
-import joblib
-import gdown
-
+import streamlit as st
+from sklearn.metrics import (
+    auc,
+    classification_report,
+    confusion_matrix,
+    roc_curve,
+)
 from sklearn.model_selection import train_test_split
-from sklearn.metrics import confusion_matrix, classification_report, roc_curve, auc
 
 # =========================
 # Streamlit Page Config  (MUST BE FIRST STREAMLIT CALL)
@@ -28,7 +33,6 @@ st.set_page_config(
 # CONFIG: DATA & MODEL
 # =========================
 
-# Paths relative to repo root (where app.py is)
 DATA_URL = "https://drive.google.com/uc?id=1oCM6l_7Kx6E9ftLS8C8qjlZ0VWxnUC3Y"
 DATA_PATH = "HR_Data.csv"
 
@@ -39,18 +43,15 @@ MODEL_PATH = "employee_attrition_pipeline.pkl"
 def download_dataset():
     """Download HR_Data.csv from Google Drive if not present."""
     if not os.path.exists(DATA_PATH):
-        # No Streamlit calls here
         gdown.download(DATA_URL, DATA_PATH, quiet=False)
 
 
 def download_model():
     """Download model pickle from Google Drive if not present."""
     if not os.path.exists(MODEL_PATH):
-        # No Streamlit calls here
         gdown.download(MODEL_URL, MODEL_PATH, quiet=False)
 
 
-# Download on first run only
 download_dataset()
 download_model()
 
@@ -115,6 +116,7 @@ st.markdown(
 # =========================
 # Load Model & Data
 # =========================
+
 
 @st.cache_resource
 def load_model():
@@ -267,10 +269,7 @@ elif page == "🧩 Single Prediction":
 
             with colA:
                 st.markdown("### 🔮 Prediction")
-                st.metric(
-                    "Result",
-                    "Leave 😢" if pred == 1 else "Stay 🙂",
-                )
+                st.metric("Result", "Leave 😢" if pred == 1 else "Stay 🙂")
                 st.metric("Confidence", f"{prob:.2%}")
 
             with colB:
@@ -290,7 +289,6 @@ elif page == "📂 Batch Predictions":
         try:
             new_df = pd.read_csv(uploaded)
 
-            # Optional safety: drop any extra columns that are obviously not features
             drop_cols = [
                 col
                 for col in ["Status", "left", "Unnamed: 0", "Employee_ID", "Full_Name", "Hire_Date"]
@@ -401,7 +399,6 @@ elif page == "🔍 Explainability":
                 X, y, test_size=0.2, random_state=42, stratify=y
             )
 
-            # Preprocess and sample
             X_processed = preprocessor.transform(X_test)
             feature_names = preprocessor.get_feature_names_out()
             X_processed_df = pd.DataFrame(X_processed, columns=feature_names)
@@ -453,14 +450,12 @@ elif page == "🔍 Explainability":
                 X, y, test_size=0.2, random_state=42, stratify=y
             )
 
-            # Reset index to keep mapping back to original df
             X_test_reset = X_test.reset_index().rename(columns={"index": "orig_index"})
 
             X_processed = preprocessor.transform(X_test)
             feature_names = preprocessor.get_feature_names_out()
             X_processed_df = pd.DataFrame(X_processed, columns=feature_names)
 
-            # Build dropdown options
             employee_choices = []
             for row_idx, row in X_test_reset.iterrows():
                 orig_idx = row["orig_index"]
@@ -489,7 +484,6 @@ elif page == "🔍 Explainability":
 
             shap.initjs()
 
-            # Use a small background sample for explainer
             background = X_processed_df.sample(
                 min(300, len(X_processed_df)), random_state=42
             )
@@ -497,7 +491,8 @@ elif page == "🔍 Explainability":
             shap_values = explainer(processed_input)
 
             st.markdown("#### 📊 SHAP Waterfall Explanation")
-            # Use the newer plots API; no manual fig
-            shap.plots.waterfall(shap_values[0], max_display=10)
+            fig, ax = plt.subplots(figsize=(10, 5))
+            shap.plots.waterfall(shap_values[0], max_display=10, show=False)
+            st.pyplot(fig)
         except Exception as e:
             st.error(f"Individual SHAP failed: {e}")
