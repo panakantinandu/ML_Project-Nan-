@@ -15,39 +15,7 @@ from sklearn.model_selection import train_test_split
 from sklearn.metrics import confusion_matrix, classification_report, roc_curve, auc
 
 # =========================
-# CONFIG: DATA & MODEL
-# =========================
-
-# === Dataset ===
-DATA_URL = "https://drive.google.com/uc?id=1oCM6l_7Kx6E9ftLS8C8qjlZ0VWxnUC3Y"  # FIXED DIRECT DOWNLOAD LINK
-DATA_PATH = "HR_Data.csv"
-
-def download_dataset():
-    """Download HR_Data.csv from Google Drive if not present."""
-    if not os.path.exists(DATA_PATH):
-        st.warning("HR_Data.csv not found. Downloading from Google Drive...")
-        gdown.download(DATA_URL, DATA_PATH, quiet=False)
-        st.success("✅ Dataset downloaded successfully.")
-
-download_dataset()
-
-# === Model ===
-MODEL_URL = "https://drive.google.com/uc?id=13ibNfS8n36ItzzDkJBg0pEMCxEYIDmMd"  # FIXED DIRECT DOWNLOAD LINK
-MODEL_PATH = "employee_attrition_pipeline.pkl"  # ONLY ONE MODEL_PATH
-
-def download_model():
-    if not os.path.exists(MODEL_PATH):
-        st.warning("Downloading ML model…")
-        gdown.download(MODEL_URL, MODEL_PATH, quiet=False)
-        st.success("Model downloaded!")
-
-download_model()
-
-
-
-
-# =========================
-# Streamlit Page Config
+# Streamlit Page Config  (MUST BE FIRST STREAMLIT CALL)
 # =========================
 st.set_page_config(
     page_title="Employee Attrition Prediction",
@@ -55,6 +23,37 @@ st.set_page_config(
     layout="wide",
     initial_sidebar_state="expanded",
 )
+
+# =========================
+# CONFIG: DATA & MODEL
+# =========================
+
+# === Dataset ===
+DATA_URL = "https://drive.google.com/uc?id=1oCM6l_7Kx6E9ftLS8C8qjlZ0VWxnUC3Y"
+DATA_PATH = "HR_Data.csv"
+
+
+def download_dataset():
+    """Download HR_Data.csv from Google Drive if not present."""
+    if not os.path.exists(DATA_PATH):
+        # NO streamlit calls here – just download
+        gdown.download(DATA_URL, DATA_PATH, quiet=False)
+
+
+download_dataset()
+
+# === Model ===
+MODEL_URL = "https://drive.google.com/uc?id=13ibNfS8n36ItzzDkJBg0pEMCxEYIDmMd"
+MODEL_PATH = "employee_attrition_pipeline.pkl"
+
+
+def download_model():
+    if not os.path.exists(MODEL_PATH):
+        # NO streamlit calls here – just download
+        gdown.download(MODEL_URL, MODEL_PATH, quiet=False)
+
+
+download_model()
 
 # Dark AI-style custom CSS
 st.markdown(
@@ -115,6 +114,7 @@ st.markdown(
 # =========================
 # Load Model & Data
 # =========================
+
 
 @st.cache_resource
 def load_model():
