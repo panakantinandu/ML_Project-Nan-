@@ -32,20 +32,20 @@ st.set_page_config(
 # CONFIG: DATA & MODEL
 # =========================
 
-DATA_URL = "https://drive.google.com/uc?id=1RYCIena3mCajKIDPFUsPmtl29FMpidvF"
+# If you uploaded the small Parquet and want to load locally:
 DATA_PATH = "HR_Data_SMALL.parquet"
-
 MODEL_PATH = "employee_attrition_pipeline.pkl"
 
-# =========================
-# Download Data If Missing
-# =========================
+# If you still use Drive download (optional), set the correct DATA_URL:
+DATA_URL = "https://drive.google.com/uc?id=1RYCIena3mCajKIDPFUsPmtl29FMpidvF"
 
+# Optional: if you want to keep download logic:
 def download_dataset():
     if not os.path.exists(DATA_PATH):
         gdown.download(DATA_URL, DATA_PATH, quiet=False)
 
 download_dataset()
+
 
 # =========================
 # Load Model & Data
