@@ -30,30 +30,38 @@ st.set_page_config(
 )
 
 # =========================
-# CONFIG: DATA & MODEL
+# CONFIG: DATA & MODEL  (NO MORE DOWNLOADING BIG CSV)
 # =========================
 
-DATA_URL = "https://drive.google.com/uc?id=1oCM6l_7Kx6E9ftLS8C8qjlZ0VWxnUC3Y"
-DATA_PATH = "HR_Data.parquet.csv"
-
-MODEL_URL = "https://drive.google.com/uc?id=13ibNfS8n36ItzzDkJBg0pEMCxEYIDmMd"
+# ❗ Use only these two. MATCH FILENAMES EXACTLY.
+DATA_PATH = "HR_Data.parquet"
 MODEL_PATH = "employee_attrition_pipeline.pkl"
 
+# ❗ Remove ALL downloading logic (Streamlit cloud already has the files)
+# No gdown, no URLs, no download_dataset(), no download_model()
 
-def download_dataset():
-    """Download HR_Data.csv from Google Drive if not present."""
-    if not os.path.exists(DATA_PATH):
-        gdown.download(DATA_URL, DATA_PATH, quiet=False)
+# =========================
+# Load Model & Data
+# =========================
 
+@st.cache_resource
+def load_model():
+    return joblib.load(MODEL_PATH)
 
-def download_model():
-    """Download model pickle from Google Drive if not present."""
-    if not os.path.exists(MODEL_PATH):
-        gdown.download(MODEL_URL, MODEL_PATH, quiet=False)
+model = load_model()
 
+@st.cache_data
+def load_data():
+    # 🚀 Load optimized Parquet instead of 245MB CSV
+    df = pd.read_parquet(DATA_PATH)
 
-download_dataset()
-download_model()
+    # Add your derived target
+    df["left"] = df["Status"].apply(
+        lambda x: 0 if str(x).strip().lower() == "active" else 1
+    )
+    return df
+
+df = load_data()
 
 # =========================
 # Dark AI-style custom CSS
