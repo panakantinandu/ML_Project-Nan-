@@ -28,34 +28,35 @@ st.set_page_config(
 # CONFIG: DATA & MODEL
 # =========================
 
-# === Dataset ===
+# Paths relative to repo root (where app.py is)
 DATA_URL = "https://drive.google.com/uc?id=1oCM6l_7Kx6E9ftLS8C8qjlZ0VWxnUC3Y"
 DATA_PATH = "HR_Data.csv"
+
+MODEL_URL = "https://drive.google.com/uc?id=13ibNfS8n36ItzzDkJBg0pEMCxEYIDmMd"
+MODEL_PATH = "employee_attrition_pipeline.pkl"
 
 
 def download_dataset():
     """Download HR_Data.csv from Google Drive if not present."""
     if not os.path.exists(DATA_PATH):
-        # NO streamlit calls here – just download
+        # No Streamlit calls here
         gdown.download(DATA_URL, DATA_PATH, quiet=False)
 
 
-download_dataset()
-
-# === Model ===
-MODEL_URL = "https://drive.google.com/uc?id=13ibNfS8n36ItzzDkJBg0pEMCxEYIDmMd"
-MODEL_PATH = "employee_attrition_pipeline.pkl"
-
-
 def download_model():
+    """Download model pickle from Google Drive if not present."""
     if not os.path.exists(MODEL_PATH):
-        # NO streamlit calls here – just download
+        # No Streamlit calls here
         gdown.download(MODEL_URL, MODEL_PATH, quiet=False)
 
 
+# Download on first run only
+download_dataset()
 download_model()
 
+# =========================
 # Dark AI-style custom CSS
+# =========================
 st.markdown(
     """
     <style>
@@ -115,7 +116,6 @@ st.markdown(
 # Load Model & Data
 # =========================
 
-
 @st.cache_resource
 def load_model():
     return joblib.load(MODEL_PATH)
@@ -127,6 +127,7 @@ model = load_model()
 @st.cache_data
 def load_data():
     df = pd.read_csv(DATA_PATH)
+    # Binary target: 0 = Active, 1 = Not Active (Resigned/Terminated/Retired)
     df["left"] = df["Status"].apply(
         lambda x: 0 if str(x).strip().lower() == "active" else 1
     )
@@ -288,7 +289,16 @@ elif page == "📂 Batch Predictions":
     if uploaded:
         try:
             new_df = pd.read_csv(uploaded)
-            preds = model.predict(new_df)
+
+            # Optional safety: drop any extra columns that are obviously not features
+            drop_cols = [
+                col
+                for col in ["Status", "left", "Unnamed: 0", "Employee_ID", "Full_Name", "Hire_Date"]
+                if col in new_df.columns
+            ]
+            new_df_for_pred = new_df.drop(columns=drop_cols, errors="ignore")
+
+            preds = model.predict(new_df_for_pred)
             new_df["Prediction"] = np.where(preds == 1, "Leave", "Stay")
             st.markdown("### Preview")
             st.dataframe(new_df.head(15), use_container_width=True)
@@ -478,6 +488,7 @@ elif page == "🔍 Explainability":
                 st.dataframe(raw_input.T, use_container_width=True)
 
             shap.initjs()
+
             # Use a small background sample for explainer
             background = X_processed_df.sample(
                 min(300, len(X_processed_df)), random_state=42
@@ -486,9 +497,7 @@ elif page == "🔍 Explainability":
             shap_values = explainer(processed_input)
 
             st.markdown("#### 📊 SHAP Waterfall Explanation")
-            fig, ax = plt.subplots(figsize=(10, 5))
-            shap.plots.waterfall(shap_values[0], show=False)
-            st.pyplot(fig)
-
+            # Use the newer plots API; no manual fig
+            shap.plots.waterfall(shap_values[0], max_display=10)
         except Exception as e:
             st.error(f"Individual SHAP failed: {e}")
