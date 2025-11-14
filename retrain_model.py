@@ -1,52 +1,108 @@
-# =========================
-# Model Retraining Script
-# =========================
 import pandas as pd
 import numpy as np
-import joblib
 from sklearn.model_selection import train_test_split
-from sklearn.preprocessing import StandardScaler, OneHotEncoder, OrdinalEncoder
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
 from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score
+import joblib
 
-# 1️⃣ Load Data
+# ==================================================
+# 1. LOAD DATA
+# ==================================================
+print("Loading dataset...")
 df = pd.read_csv("HR_Data.csv")
-df["left"] = df["Status"].apply(lambda x: 0 if str(x).strip().lower() == "active" else 1)
 
-# 2️⃣ Split Features / Target
-X = df.drop(columns=["Status", "left", "Unnamed: 0", "Employee_ID", "Full_Name", "Hire_Date"])
-y = df["left"]
+# ==================================================
+# 2. OPTIONAL: Sample large dataset for faster training
+# ==================================================
+MAX_ROWS = 20000   # Safe for any laptop
 
-# 3️⃣ Define Columns by Type
-numeric_features = ["Performance_Rating", "Experience_Years", "Salary_INR"]
-low_card_features = ["Department", "Work_Mode"]
-high_card_features = ["Job_Title", "Location"]
+if df.shape[0] > MAX_ROWS:
+    df = df.sample(n=MAX_ROWS, random_state=42)
+    print(f"Dataset too large. Using sample of {MAX_ROWS} rows.")
+else:
+    print(f"Dataset size OK: {df.shape[0]} rows")
 
-# 4️⃣ Build Transformers
+print(df.head())
+print(df.columns)
+
+# ==================================================
+# 3. PREPARE TARGET
+# ==================================================
+target = "Status"    # Your actual target column
+
+if target not in df.columns:
+    raise ValueError(f"❌ ERROR: Target column '{target}' not found in dataset!")
+
+y = df[target]
+X = df.drop(columns=[target])
+
+# ==================================================
+# 4. IDENTIFY COLUMN TYPES
+# ==================================================
+numeric_cols = X.select_dtypes(include=["int64", "float64"]).columns.tolist()
+categorical_cols = X.select_dtypes(include=["object"]).columns.tolist()
+
+print("Numeric columns:", numeric_cols)
+print("Categorical columns:", categorical_cols)
+
+# ==================================================
+# 5. PREPROCESSORS
+# ==================================================
 numeric_transformer = StandardScaler()
-low_card_transformer = OneHotEncoder(handle_unknown="ignore", sparse_output=False)
-high_card_transformer = OrdinalEncoder(handle_unknown="use_encoded_value", unknown_value=-1)
+
+categorical_transformer = OneHotEncoder(handle_unknown="ignore")
 
 preprocessor = ColumnTransformer(
     transformers=[
-        ("num", numeric_transformer, numeric_features),
-        ("low", low_card_transformer, low_card_features),
-        ("high", high_card_transformer, high_card_features)
+        ("num", numeric_transformer, numeric_cols),
+        ("cat", categorical_transformer, categorical_cols),
     ]
 )
 
-# 5️⃣ Pipeline
-model = Pipeline([
+# ==================================================
+# 6. MODEL
+# ==================================================
+model = LogisticRegression(
+    max_iter=1000,
+    n_jobs=-1
+)
+
+pipeline = Pipeline(steps=[
     ("preprocessor", preprocessor),
-    ("classifier", LogisticRegression(max_iter=500))
+    ("model", model)
 ])
 
-# 6️⃣ Train/Test Split
-X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.2, stratify=y, random_state=42)
+# ==================================================
+# 7. TRAIN / TEST SPLIT
+# ==================================================
+print("Splitting dataset...")
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42
+)
 
-# 7️⃣ Train and Save
-model.fit(X_train, y_train)
-joblib.dump(model, "employee_attrition_pipeline.pkl")
+# ==================================================
+# 8. TRAIN MODEL
+# ==================================================
+print("Training model...")
+pipeline.fit(X_train, y_train)
 
-print("✅ Model retrained and saved successfully.")
+# ==================================================
+# 9. EVALUATE
+# ==================================================
+y_pred = pipeline.predict(X_test)
+acc = accuracy_score(y_test, y_pred)
+
+print(f"\n🎉 Model trained successfully!")
+print(f"Accuracy: {acc:.4f}")
+
+# ==================================================
+# 10. SAVE MODEL
+# ==================================================
+MODEL_PATH = "employee_attrition_pipeline.pkl"
+joblib.dump(pipeline, MODEL_PATH)
+
+print(f"\n💾 Model saved as: {MODEL_PATH}")
+print("Done!")
