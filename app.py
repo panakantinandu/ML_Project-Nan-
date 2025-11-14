@@ -30,15 +30,12 @@ st.set_page_config(
 )
 
 # =========================
-# CONFIG: DATA & MODEL  (NO MORE DOWNLOADING BIG CSV)
+# CONFIG: DATA & MODEL  (NO DOWNLOADING)
 # =========================
 
-# ❗ Use only these two. MATCH FILENAMES EXACTLY.
+# Use the local files stored in your repo
 DATA_PATH = "HR_Data.parquet"
 MODEL_PATH = "employee_attrition_pipeline.pkl"
-
-# ❗ Remove ALL downloading logic (Streamlit cloud already has the files)
-# No gdown, no URLs, no download_dataset(), no download_model()
 
 # =========================
 # Load Model & Data
@@ -46,22 +43,31 @@ MODEL_PATH = "employee_attrition_pipeline.pkl"
 
 @st.cache_resource
 def load_model():
-    return joblib.load(MODEL_PATH)
+    try:
+        return joblib.load(MODEL_PATH)
+    except Exception as e:
+        st.error(f"Model loading failed: {e}")
+        st.stop()
 
 model = load_model()
 
 @st.cache_data
 def load_data():
-    # 🚀 Load optimized Parquet instead of 245MB CSV
-    df = pd.read_parquet(DATA_PATH)
+    try:
+        df = pd.read_parquet(DATA_PATH)
 
-    # Add your derived target
-    df["left"] = df["Status"].apply(
-        lambda x: 0 if str(x).strip().lower() == "active" else 1
-    )
-    return df
+        # Add your derived target column
+        df["left"] = df["Status"].apply(
+            lambda x: 0 if str(x).strip().lower() == "active" else 1
+        )
+        return df
+
+    except Exception as e:
+        st.error(f"Data loading failed: {e}")
+        st.stop()
 
 df = load_data()
+
 
 # =========================
 # Dark AI-style custom CSS
