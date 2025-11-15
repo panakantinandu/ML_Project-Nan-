@@ -1,181 +1,244 @@
-# 🏢 Employee Attrition Prediction System
-
-### AI-Powered Workforce Analytics | Streamlit • Scikit-Learn • SHAP • Python
+# 🏢 Employee Attrition Prediction System 
+### AI-Powered HR Analytics • LightGBM • Streamlit • SHAP • Python
 
 <p align="center">
   <img src="https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Streamlit-App-red?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Machine%20Learning-Scikit--Learn-blue?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Streamlit-Dashboard-red?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Machine%20Learning-LightGBM-blue?style=for-the-badge">
   <img src="https://img.shields.io/badge/Explainability-SHAP-purple?style=for-the-badge">
-  <img src="https://img.shields.io/badge/Status-Production%20Ready-brightgreen?style=for-the-badge">
+  <img src="https://img.shields.io/badge/Deployment-Render-brightgreen?style=for-the-badge">
 </p>
 
-A complete end-to-end Machine Learning application built to predict **employee attrition** and provide **explainable insights** using SHAP.
-This project delivers a real-world HR analytics experience with a **modern dark UI**, **batch predictions**, and a **smart explainability dashboard**.
+A production-ready **Employee Attrition Prediction System** that uses **LightGBM**, a highly efficient gradient boosting algorithm, combined with **OneHotEncoding pipelines**, **explainability (SHAP)**, and a polished **modern UI built with Streamlit**.
+
+Designed for **real-world HR analytics**, this application performs:
+
+✔ Real-time predictions
+✔ Batch scoring
+✔ Full evaluation metrics
+✔ Explainable ML insights
+✔ Ready for cloud deployment
 
 ---
 
-## 🚀 Features
+# 🚀 Features
 
-### 🔮 Prediction Capabilities
+### 🔮 Prediction System
 
-* **Single employee prediction**
-* **Batch predictions** from CSV uploads
-* **Prediction confidence scores**
+* Single employee attrition prediction
+* Batch predictions via CSV file
+* Leave/Stay probability scores
+* Intelligent preprocessing pipeline built into the model
 
-### 📊 Analytics & Evaluation
+---
 
+### 📊 Analytics Dashboard
+
+* Attrition statistics
+* Department-wise breakdown
 * Confusion Matrix
-* ROC Curve
-* Classification Report
-* Attrition Statistics Dashboard
+* ROC-AUC Curve
+* Classification report
+
+---
 
 ### 🔍 Explainability (SHAP)
 
-* **Global Feature Importance**
-* **Individual Employee Waterfall Plots**
-* **Interactive Explainability Dashboard**
-
-### 🎨 UI & Product Experience
-
-* Fully custom **dark theme**
-* Modern CSS styling
-* Sidebar navigation
-* Metric cards & clean layout
-
-### 🗂️ Deployment Ready
-
-* Google Drive dataset auto-downloader
-* Modular codebase
-* Works instantly on any machine
+* Global feature importance
+* Individual prediction waterfall plots
+* Helps HR understand *why* a prediction happens
 
 ---
 
-## 🏗️ Project Structure
+### 🎨 Modern UI
+
+* Fully customized dark theme
+* Gradient buttons & card layout
+* Sidebar navigation
+* Smooth user experience
+
+---
+
+# 🏗️ Project Structure
 
 ```
 ML_PROJECT/
-│── app.py                     # Main Streamlit App
-│── employee_attrition_pipeline.pkl   # Trained ML Model
-│── retrain_model.py           # Script to retrain the model
-│── requirements.txt           # Dependencies
-│── README.md                 # Documentation
+│── app.py                             # Main Streamlit application
+│── employee_attrition_pipeline.pkl    # Trained ML pipeline (LightGBM + OHE)
+│── Realistic_HR_Attrition_3000.csv    # Realistic training/demo dataset
+│── retrain_model.py                   # Model training script (Pipeline)
+│── requirements.txt                   # Dependencies for deployment
+│── README.md                          # Documentation (this file)
 │── .gitignore
 │── .streamlit/
-│     └── config.toml          # Dark Theme Config
+│     └── config.toml                  # Dark theme configuration
 ```
 
 ---
 
-## 📦 Installation & Setup
+# 📦 Installation & Setup
 
-### 1️⃣ Clone the repository
+## 1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/<your-username>/<your-repo>.git
 cd <your-repo>
 ```
 
-### 2️⃣ Install dependencies
+## 2️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 3️⃣ Run the app
+## 3️⃣ Run locally
 
 ```bash
 streamlit run app.py
 ```
 
-### 4️⃣ Dataset
+---
 
-The dataset **downloads automatically** from Google Drive on first run.
+# 🔥 Training the Model (LightGBM Pipeline)
 
-No manual action needed.
+The entire ML workflow is inside:
+
+```
+retrain_model.py
+```
+
+It uses:
+
+* LightGBM classifier
+* OneHotEncoder inside a ColumnTransformer
+* Full preprocessing + model stored inside one pipeline
+* Saved as:
+
+  ```
+  employee_attrition_pipeline.pkl
+  ```
+
+The dataset used:
+
+```
+Realistic_HR_Attrition_3000.csv
+```
+
+This dataset is **synthetic but highly realistic**, built with actual HR attrition patterns.
 
 ---
 
-## 🧠 Model Details
+# 🌐 Deployment (Render – Easiest & Free)
 
-### Algorithms Used
+### 1️⃣ Push project to GitHub
 
-* Random Forest (or your model)
-* OneHotEncoding + StandardScaler (pipeline)
+Make sure your repo contains:
 
-### Target
+```
+app.py  
+requirements.txt  
+employee_attrition_pipeline.pkl  
+Realistic_HR_Attrition_3000.csv
+```
 
-`Status → Active (0) / Left (1)`
+### 2️⃣ Go to Render.com → New → Web Service
 
-### Core Input Features:
+Choose your GitHub Repo.
 
-* Department
-* Job Title
-* Performance Rating
-* Experience
-* Salary
-* Work Mode
-* Location
+### 3️⃣ Configure Render
 
----
+**Build Command**
 
-## 📊 Screenshots
+```
+pip install -r requirements.txt
+```
 
-Example layout sections you should upload:
+**Start Command**
 
-* Home Dashboard
-* <img width="1900" height="888" alt="Screenshot 2025-11-13 031610" src="https://github.com/user-attachments/assets/047e23ff-0415-473e-b813-6d0a44bc3fa1" />
+```
+streamlit run app.py --server.port $PORT --server.address 0.0.0.0
+```
 
-* Single Prediction
-* <img width="1896" height="885" alt="Screenshot 2025-11-13 031709" src="https://github.com/user-attachments/assets/38810366-17e1-4f6a-9b78-6611d6b99a9d" />
+**Instance Type**
 
-* Batch Upload
-* <img width="1894" height="893" alt="image" src="https://github.com/user-attachments/assets/0bf58979-fb33-4f61-831a-bb0027fbc2e0" />
+```
+Free Tier
+```
 
-* Model Evaluation
-* <img width="1891" height="895" alt="Screenshot 2025-11-13 031924" src="https://github.com/user-attachments/assets/8b201a43-b472-450e-92f4-3e5406d4d761" />
+### 4️⃣ Deploy
 
-* SHAP Global Importance
-* <img width="1905" height="906" alt="image" src="https://github.com/user-attachments/assets/e5866c23-eb25-46f9-8862-ff5980abadc7" />
-* SHAP Waterfall
-* <img width="1886" height="904" alt="image" src="https://github.com/user-attachments/assets/b8162bd8-893b-4493-a9c9-2949375b7e96" />
+Render will give you a public link like:
 
+```
+https://your-project.onrender.com
+```
 
-
----
-
-## 📁 Requirements
-
-Everything is already in `requirements.txt`, including:
-
-* streamlit
-* scikit-learn
-* shap
-* pandas
-* numpy
-* seaborn
-* matplotlib
-* joblib
-* gdown
+You’re live! 🚀
 
 ---
 
-## 🤝 Contributing
+# 📁 Requirements
+
+Your `requirements.txt` should include:
+
+```
+streamlit
+pandas
+numpy
+lightgbm
+scikit-learn
+matplotlib
+seaborn
+shap
+joblib
+```
+
+(Optional but recommended)
+
+```
+pyyaml
+plotly
+```
+
+---
+
+# 📊 Screenshots
+
+
+### 🏠 Home Dashboard
+<img width="1903" height="895" alt="image" src="https://github.com/user-attachments/assets/60e621fa-3b9f-4901-b55e-56d1a97afdd2" />
+
+
+### 🔮 Single Prediction
+<img width="1546" height="843" alt="image" src="https://github.com/user-attachments/assets/b7967ffe-cd96-4e04-b52e-b90d0763ceb6" />
+
+
+### 📂 Batch Prediction
+<img width="1558" height="711" alt="image" src="https://github.com/user-attachments/assets/8bae5f33-da21-409b-9ca4-2babf8e751a7" />
+
+
+### 📊 Evaluation Dashboard
+<img width="1599" height="892" alt="image" src="https://github.com/user-attachments/assets/578be7ab-ba74-4ce8-9420-2c427234a88b" />
+
+
+### 🔍 SHAP Explainability
+
+---
+
+# 🤝 Contributing
 
 Pull requests are welcome.
-For major changes, open an issue first to discuss what you’d like to modify.
+For major changes, open an issue to discuss your ideas.
 
 ---
 
-## 📄 License
+# ⭐ Support
 
-This project is **open-source** and free to use.
-
----
-
-## ⭐ Show Your Support
-
-If this project helped you, **give the repo a star** on GitHub!
+If this project helped you, **please star the repo** on GitHub.
+It motivates further improvements.
 
 ---
 
+# 🔒 License
+
+This project is **100% open-source**.
