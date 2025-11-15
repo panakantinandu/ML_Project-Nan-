@@ -1,108 +1,63 @@
-# =========================
-# Employee Attrition ML App - Dark Pro Version
-# =========================
-import os
+# ==========================================================
+# Employee Attrition ML App - Pro Version (LightGBM Optimized)
+# ==========================================================
 
-import gdown
-import joblib
-import matplotlib.pyplot as plt
-import numpy as np
+import os
 import pandas as pd
+import numpy as np
+import streamlit as st
+import matplotlib.pyplot as plt
 import seaborn as sns
 import shap
-import streamlit as st
-from sklearn.metrics import (
-    auc,
-    classification_report,
-    confusion_matrix,
-    roc_curve,
-)
-from sklearn.model_selection import train_test_split
+import joblib
 
-# =========================
-# Streamlit Page Config  (MUST BE FIRST STREAMLIT CALL)
-# =========================
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import (
+    confusion_matrix,
+    classification_report,
+    roc_curve,
+    auc,
+)
+
+# ==========================================================
+# CONFIG
+# ==========================================================
+
+DATA_PATH = "Realistic_HR_Attrition_3000.csv"   # ✅ NEW realistic dataset
+MODEL_PATH = "employee_attrition_pipeline.pkl"  # saved by your training script
+
 st.set_page_config(
-    page_title="Employee Attrition Prediction",
+    page_title="Employee Attrition Prediction (Pro)",
     page_icon="🤖",
     layout="wide",
-    initial_sidebar_state="expanded",
 )
 
-# =========================
-# CONFIG: DATA & MODEL
-# =========================
-
-# Local Parquet file (you already uploaded this to GitHub)
-DATA_PATH = "HR_Data_SMALL.parquet"
-
-# Model file name
-MODEL_PATH = "employee_attrition_pipeline.pkl"
-MODEL_URL = "https://drive.google.com/uc?id=13ibNfS8n36ItzzDkJBg0pEMCxEYIDmMd"
-
-
-def download_model():
-    """Download model pickle from Google Drive if not present."""
-    if not os.path.exists(MODEL_PATH):
-        gdown.download(MODEL_URL, MODEL_PATH, quiet=False)
-
-
-download_model()
-
-# =========================
-# Load Model & Data
-# =========================
-
-
-@st.cache_resource
-def load_model():
-    return joblib.load(MODEL_PATH)
-
-
-model = load_model()
-
-
-@st.cache_data
-def load_data():
-    # IMPORTANT: Parquet, not CSV
-    df = pd.read_parquet(DATA_PATH)
-
-    # Binary target: 0 = Active, 1 = Not Active (Resigned/Terminated/Retired)
-    df["left"] = df["Status"].apply(
-        lambda x: 0 if str(x).strip().lower() == "active" else 1
-    )
-    return df
-
-
-df = load_data()
-
-# Sanity: model must be a Pipeline with preprocessor + classifier
-preprocessor = model.named_steps.get("preprocessor", None)
-classifier = model.named_steps.get("classifier", None)
-if preprocessor is None or classifier is None:
-    st.error("❌ Model is not a Pipeline with 'preprocessor' and 'classifier' steps.")
-    st.stop()
-
-# =========================
-# Dark AI-style custom CSS
-# =========================
+# ----------------------------------------------------------
+# Custom Dark Theme CSS
+# ----------------------------------------------------------
 st.markdown(
     """
     <style>
-        .main {
+        .main, .stApp {
             background-color: #050816;
         }
-        .stApp {
-            background-color: #050816;
+        .block-container {
+            padding-top: 1.5rem;
+            padding-bottom: 1.5rem;
         }
-        .stSidebar {
-            background-color: #020617 !important;
+        .card {
+            background-color: #020617;
+            padding: 1rem 1.25rem;
+            border-radius: 0.75rem;
+            border: 1px solid #111827;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.6);
         }
-        .stSidebar, .stSidebar div, .stSidebar section {
+        h1, h2, h3, h4, h5, h6, p, label, span, li {
             color: #E5E7EB !important;
         }
-        h1, h2, h3, h4, h5, h6, p, label, span {
-            color: #E5E7EB !important;
+        .divider {
+            border-top: 1px solid #1F2937;
+            margin: 1.5rem 0;
         }
         .stMetric {
             background-color: #020617 !important;
@@ -121,36 +76,56 @@ st.markdown(
             background: linear-gradient(90deg, #4F46E5, #7C3AED);
             transform: scale(1.02);
         }
-        .block-container {
-            padding-top: 1.5rem;
-            padding-bottom: 1.5rem;
-        }
-        .card {
-            background-color: #020617;
-            padding: 1rem 1.25rem;
-            border-radius: 0.75rem;
-            border: 1px solid #111827;
-            box-shadow: 0 10px 40px rgba(0,0,0,0.6);
-        }
-        .divider {
-            border-top: 1px solid #1F2937;
-            margin: 1.5rem 0;
-        }
     </style>
     """,
     unsafe_allow_html=True,
 )
 
-# =========================
-# Sidebar Navigation
-# =========================
+# ==========================================================
+# LOAD MODEL + DATA
+# ==========================================================
 
-st.sidebar.image(
-    "https://cdn-icons-png.flaticon.com/512/4715/4715321.png",
-    width=80,
-)
+
+@st.cache_resource
+def load_model():
+    if not os.path.exists(MODEL_PATH):
+        st.error("❌ Model file not found. Run the training script first.")
+        st.stop()
+
+    model_obj = joblib.load(MODEL_PATH)
+
+    # Expecting dict: {"model": Pipeline, "categorical_cols": [...], "features": [...]}
+    pipeline = model_obj["model"]
+    categorical_cols = model_obj["categorical_cols"]
+    features = model_obj["features"]
+
+    # Decompose pipeline for SHAP
+    preprocessor = pipeline.named_steps["preprocessor"]
+    classifier = pipeline.named_steps["classifier"]
+
+    return pipeline, preprocessor, classifier, categorical_cols, features
+
+
+@st.cache_data
+def load_data():
+    if not os.path.exists(DATA_PATH):
+        st.error("❌ Realistic_HR_Attrition_3000.csv not found.")
+        st.stop()
+    df_ = pd.read_csv(DATA_PATH)
+    df_["left"] = df_["Status"].apply(
+        lambda x: 0 if str(x).lower().strip() == "active" else 1
+    )
+    return df_
+
+
+model, preprocessor, classifier, categorical_cols, FEATURES = load_model()
+df = load_data()
+
+# ==========================================================
+# SIDEBAR NAV
+# ==========================================================
+
 st.sidebar.title("🧭 Navigation")
-
 page = st.sidebar.radio(
     "Go to:",
     [
@@ -162,67 +137,55 @@ page = st.sidebar.radio(
     ],
 )
 
-# =========================
-# 🏠 Home
-# =========================
+# ==========================================================
+# 🏠 HOME
+# ==========================================================
 
 if page == "🏠 Home":
     st.markdown(
         """
         <div class="card">
-            <h2 style="text-align:center;">🤖 AI-Powered Employee Retention Insights</h2>
+            <h2 style="text-align:center;">🤖 Employee Attrition Prediction – Pro Dashboard</h2>
             <p style="text-align:center; color:#9CA3AF;">
-                Predict and explain employee attrition using machine learning & model explainability.
+                Realtime predictions, batch scoring, evaluation metrics, and SHAP-based explainability.
             </p>
         </div>
         """,
         unsafe_allow_html=True,
     )
 
-    st.markdown("<div class='divider'></div>", unsafe_allow_html=True)
+    st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
 
-    col1, col2, col3 = st.columns(3)
-    with col1:
-        st.metric("Active Employees", int((df["Status"] == "Active").sum()))
-    with col2:
-        st.metric("Resigned", int((df["Status"] == "Resigned").sum()))
-    with col3:
-        st.metric("Attrition Rate", f"{df['left'].mean() * 100:.2f}%")
+    col1, col2, col3, col4 = st.columns(4)
+    col1.metric("Employees", len(df))
+    col2.metric("Active", int((df["Status"] == "Active").sum()))
+    col3.metric("Resigned", int((df["Status"] == "Resigned").sum()))
+    col4.metric("Attrition Rate", f"{df['left'].mean()*100:.2f}%")
 
-    st.markdown("<div class='divider'></div>", unsafe_allow_html=True)
+    st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
 
-    st.markdown(
-        """
-        <div class="card">
-            <h3>✨ What this app does</h3>
-            <ul>
-                <li>Predicts whether an employee is likely to <b>Stay</b> or <b>Leave</b></li>
-                <li>Supports <b>single</b> and <b>batch</b> predictions</li>
-                <li>Provides <b>model evaluation</b> (ROC, confusion matrix, metrics)</li>
-                <li>Includes <b>global</b> and <b>individual</b> SHAP explainability</li>
-            </ul>
-            <p style="color:#9CA3AF;">
-                Tech stack: <b>Python · Scikit-learn · Streamlit · SHAP</b>
-            </p>
-        </div>
-        """,
-        unsafe_allow_html=True,
-    )
+    st.markdown("### 📈 Attrition by Department")
 
-# =========================
-# 🧩 Single Prediction
-# =========================
+    dept = df.groupby(["Department", "Status"])["Status"].count().unstack().fillna(0)
+
+    fig, ax = plt.subplots(figsize=(8, 4))
+    dept.plot(kind="bar", ax=ax)
+    st.pyplot(fig)
+
+# ==========================================================
+# 🧩 SINGLE PREDICTION
+# ==========================================================
 
 elif page == "🧩 Single Prediction":
     st.markdown("## 🧩 Single Employee Prediction")
-    st.write("Fill in the employee details to estimate attrition risk.")
+    st.write("Fill the employee details to estimate attrition risk.")
 
-    departments = df["Department"].unique()
-    job_titles = df["Job_Title"].unique()
-    locations = df["Location"].unique()
-    work_modes = df["Work_Mode"].unique()
+    departments = sorted(df["Department"].unique())
+    job_titles = sorted(df["Job_Title"].unique())
+    locations = sorted(df["Location"].unique())
+    work_modes = sorted(df["Work_Mode"].unique())
 
-    with st.form("single_predict_form"):
+    with st.form("predict_form"):
         col1, col2, col3 = st.columns(3)
 
         with col1:
@@ -232,104 +195,92 @@ elif page == "🧩 Single Prediction":
 
         with col2:
             job_title = st.selectbox("Job Title", job_titles)
-            performance_rating = st.slider("Performance Rating", 1, 5, 3)
-            experience_years = st.slider("Years of Experience", 0, 40, 5)
+            performance = st.slider("Performance Rating", 1, 5, 3)
+            experience = st.slider("Years of Experience", 0, 40, 5)
 
         with col3:
-            salary_inr = st.number_input(
+            salary = st.number_input(
                 "Annual Salary (INR)",
                 min_value=100000,
                 max_value=5000000,
                 value=800000,
                 step=50000,
             )
-            submitted = st.form_submit_button("🚀 Predict")
 
-        if submitted:
-            input_data = {
-                "Department": department,
-                "Job_Title": job_title,
-                "Location": location,
-                "Performance_Rating": performance_rating,
-                "Experience_Years": experience_years,
-                "Work_Mode": work_mode,
-                "Salary_INR": salary_inr,
-            }
-            X_input = pd.DataFrame([input_data])
+        btn = st.form_submit_button("🚀 Predict")
 
-            pred = model.predict(X_input)[0]
-            prob = model.predict_proba(X_input)[0][1]
+    if btn:
+        X_input = pd.DataFrame(
+            [
+                {
+                    "Department": department,
+                    "Job_Title": job_title,
+                    "Location": location,
+                    "Performance_Rating": performance,
+                    "Experience_Years": experience,
+                    "Work_Mode": work_mode,
+                    "Salary_INR": salary,
+                }
+            ]
+        )
 
-            st.markdown("<div class='divider'></div>", unsafe_allow_html=True)
-            colA, colB = st.columns([1, 2])
+        pred = int(model.predict(X_input)[0])
+        prob = float(model.predict_proba(X_input)[0][1])
 
-            with colA:
-                st.markdown("### 🔮 Prediction")
-                st.metric("Result", "Leave 😢" if pred == 1 else "Stay 🙂")
-                st.metric("Confidence", f"{prob:.2%}")
+        st.markdown('<div class="divider"></div>', unsafe_allow_html=True)
+        colA, colB = st.columns([1, 2])
 
-            with colB:
-                st.markdown("### 📋 Input Summary")
-                st.dataframe(X_input.T, use_container_width=True)
+        with colA:
+            st.markdown("### 🔮 Prediction")
+            st.metric("Result", "Leave 😢" if pred == 1 else "Stay 🙂")
+            st.metric("Leave Probability", f"{prob:.2%}")
 
-# =========================
-# 📂 Batch Predictions
-# =========================
+        with colB:
+            st.markdown("### 📋 Input Summary")
+            st.dataframe(X_input.T)
+
+# ==========================================================
+# 📂 BATCH PREDICTIONS
+# ==========================================================
 
 elif page == "📂 Batch Predictions":
     st.markdown("## 📂 Batch Predictions")
-    st.write("Upload a CSV file of employees to generate predictions in bulk.")
+    st.info(f"Required columns: {', '.join(FEATURES)}")
 
-    uploaded = st.file_uploader("Upload CSV", type=["csv"])
-    if uploaded:
-        try:
-            new_df = pd.read_csv(uploaded)
+    file = st.file_uploader("Upload CSV", type=["csv"])
 
-            drop_cols = [
-                col
-                for col in [
-                    "Status",
-                    "left",
-                    "Unnamed: 0",
-                    "Employee_ID",
-                    "Full_Name",
-                    "Hire_Date",
-                ]
-                if col in new_df.columns
-            ]
-            new_df_for_pred = new_df.drop(columns=drop_cols, errors="ignore")
+    if file:
+        df_new = pd.read_csv(file)
 
-            preds = model.predict(new_df_for_pred)
-            new_df["Prediction"] = np.where(preds == 1, "Leave", "Stay")
-            st.markdown("### Preview")
-            st.dataframe(new_df.head(15), use_container_width=True)
+        missing = [c for c in FEATURES if c not in df_new.columns]
+        if missing:
+            st.error(f"Missing columns: {missing}")
+        else:
+            preds = model.predict(df_new[FEATURES])
+            probs = model.predict_proba(df_new[FEATURES])[:, 1]
 
-            csv = new_df.to_csv(index=False).encode("utf-8")
+            df_new["Prediction"] = np.where(preds == 1, "Leave", "Stay")
+            df_new["Leave_Probability"] = probs
+
+            st.markdown("### 🔍 Preview")
+            st.dataframe(df_new.head(20))
+
             st.download_button(
-                "⬇️ Download Predictions CSV",
-                csv,
-                "batch_predictions.csv",
+                "⬇️ Download Results",
+                df_new.to_csv(index=False).encode(),
+                "attrition_predictions.csv",
                 "text/csv",
             )
-        except Exception as e:
-            st.error(f"Batch prediction failed: {e}")
-    else:
-        st.info("Please upload a CSV with the same feature columns used for training.")
 
-# =========================
-# 📊 Model Evaluation
-# =========================
+# ==========================================================
+# 📊 MODEL EVALUATION
+# ==========================================================
 
 elif page == "📊 Model Evaluation":
-    st.markdown("## 📊 Model Evaluation & Metrics")
+    st.markdown("## 📊 Model Evaluation")
 
-    df["left"] = df["Status"].apply(
-        lambda x: 0 if str(x).strip().lower() == "active" else 1
-    )
-    X = df.drop(
-        columns=["Status", "left", "Unnamed: 0", "Employee_ID", "Full_Name", "Hire_Date"]
-    )
-    y = df["left"]
+    X = df[FEATURES].copy()
+    y = df["left"].copy()
 
     X_train, X_test, y_train, y_test = train_test_split(
         X, y, test_size=0.2, random_state=42, stratify=y
@@ -340,166 +291,75 @@ elif page == "📊 Model Evaluation":
 
     col1, col2 = st.columns(2)
 
+    # Confusion Matrix
     with col1:
         st.subheader("Confusion Matrix")
         cm = confusion_matrix(y_test, y_pred)
         fig, ax = plt.subplots()
         sns.heatmap(cm, annot=True, fmt="d", cmap="magma", ax=ax)
-        ax.set_xlabel("Predicted")
-        ax.set_ylabel("Actual")
         st.pyplot(fig)
 
+    # ROC Curve
     with col2:
         st.subheader("ROC Curve")
         fpr, tpr, _ = roc_curve(y_test, y_proba)
         roc_auc = auc(fpr, tpr)
+
         fig, ax = plt.subplots()
-        ax.plot(fpr, tpr, label=f"AUC = {roc_auc:.2f}", color="#6366F1")
-        ax.plot([0, 1], [0, 1], linestyle="--", color="gray")
-        ax.set_xlabel("False Positive Rate")
-        ax.set_ylabel("True Positive Rate")
+        ax.plot(fpr, tpr, label=f"AUC = {roc_auc:.2f}")
+        ax.plot([0, 1], [0, 1], "k--")
         ax.legend()
         st.pyplot(fig)
 
     st.subheader("Classification Report")
-    report_df = pd.DataFrame(
-        classification_report(y_test, y_pred, output_dict=True)
-    ).transpose()
-    st.dataframe(report_df, use_container_width=True)
+    st.text(classification_report(y_test, y_pred))
 
-# =========================
-# 🔍 Explainability (Global + Individual)
-# =========================
+# ==========================================================
+# 🔍 EXPLAINABILITY (SHAP)
+# ==========================================================
 
 elif page == "🔍 Explainability":
-    st.markdown("## 🔍 Explainability Dashboard")
-    st.write(
-        "Understand which features drive attrition globally, and why a specific employee gets a prediction."
-    )
+    st.markdown("## 🔍 Explainability (SHAP)")
 
-    tab1, tab2 = st.tabs(["🌍 Global Feature Importance", "👤 Employee-Level Explanation"])
+    X = df[FEATURES].copy()
+    y = df["left"].copy()
 
-    # ---------- GLOBAL ----------
+    st.info("Generating SHAP values (this uses a sample of the dataset for speed)…")
+
+    # Preprocess once
+    X_processed = preprocessor.transform(X)
+    feature_names = preprocessor.get_feature_names_out()
+
+    # Sample for background to keep SHAP fast
+    import numpy as np
+
+    n_samples = min(400, X_processed.shape[0])
+    sample_idx = np.random.choice(X_processed.shape[0], n_samples, replace=False)
+    X_sample = X_processed[sample_idx]
+
+    explainer = shap.Explainer(classifier, X_sample)
+    shap_values = explainer(X_sample)
+
+    tab1, tab2 = st.tabs(["🌍 Global", "👤 Individual"])
+
+    # GLOBAL
     with tab1:
-        st.markdown("### 🌍 Global Feature Importance (SHAP Summary)")
-        try:
-            df["left"] = df["Status"].apply(
-                lambda x: 0 if str(x).strip().lower() == "active" else 1
-            )
-            X = df.drop(
-                columns=[
-                    "Status",
-                    "left",
-                    "Unnamed: 0",
-                    "Employee_ID",
-                    "Full_Name",
-                    "Hire_Date",
-                ]
-            )
-            y = df["left"]
+        st.subheader("🌍 Global SHAP Summary")
+        fig, ax = plt.subplots(figsize=(10, 5))
+        shap.summary_plot(shap_values, X_sample, feature_names=feature_names, show=False)
+        st.pyplot(fig)
 
-            X_train, X_test, y_train, y_test = train_test_split(
-                X, y, test_size=0.2, random_state=42, stratify=y
-            )
-
-            # Preprocess and sample
-            X_processed = preprocessor.transform(X_test)
-            feature_names = preprocessor.get_feature_names_out()
-            X_processed_df = pd.DataFrame(X_processed, columns=feature_names)
-
-            X_sample = X_processed_df.sample(
-                min(300, len(X_processed_df)), random_state=42
-            )
-
-            explainer = shap.Explainer(classifier, X_sample)
-            shap_values = explainer(X_sample)
-
-            fig, ax = plt.subplots(figsize=(9, 5))
-            shap.summary_plot(shap_values, X_sample, show=False)
-            st.pyplot(fig)
-
-            st.markdown(
-                """
-                **How to read this plot:**
-                - Each dot = one employee  
-                - X-axis = impact on prediction (more right = more likely to leave)  
-                - Color = feature value (red = high, blue = low)  
-                """
-            )
-        except Exception as e:
-            st.error(f"Global SHAP failed: {e}")
-
-    # ---------- INDIVIDUAL ----------
+    # INDIVIDUAL
     with tab2:
-        st.markdown("### 👤 Individual Employee SHAP Waterfall")
-        st.write("Pick an employee from the test set to see a breakdown of their prediction.")
+        idx = st.number_input("Select row index:", 0, len(X) - 1, 0)
 
-        try:
-            df["left"] = df["Status"].apply(
-                lambda x: 0 if str(x).strip().lower() == "active" else 1
-            )
-            X = df.drop(
-                columns=[
-                    "Status",
-                    "left",
-                    "Unnamed: 0",
-                    "Employee_ID",
-                    "Full_Name",
-                    "Hire_Date",
-                ]
-            )
-            y = df["left"]
+        st.subheader("👤 SHAP Waterfall")
 
-            X_train, X_test, y_train, y_test = train_test_split(
-                X, y, test_size=0.2, random_state=42, stratify=y
-            )
+        instance = X.iloc[[idx]]
+        instance_processed = preprocessor.transform(instance)
+        instance_sv = explainer(instance_processed)
 
-            # Reset index to keep mapping back to original df
-            X_test_reset = X_test.reset_index().rename(columns={"index": "orig_index"})
+        fig, ax = plt.subplots(figsize=(10, 4))
+        shap.plots.waterfall(instance_sv[0], show=False)
+        st.pyplot(fig)
 
-            X_processed = preprocessor.transform(X_test)
-            feature_names = preprocessor.get_feature_names_out()
-            X_processed_df = pd.DataFrame(X_processed, columns=feature_names)
-
-            # Build dropdown options
-            employee_choices = []
-            for row_idx, row in X_test_reset.iterrows():
-                orig_idx = row["orig_index"]
-                full_name = df.loc[orig_idx, "Full_Name"]
-                dept = df.loc[orig_idx, "Department"]
-                employee_choices.append(f"{row_idx} — {full_name} ({dept})")
-
-            selected = st.selectbox("Select Employee", employee_choices)
-            selected_row_idx = int(selected.split(" — ")[0])
-
-            raw_input = X_test_reset.iloc[[selected_row_idx]].drop(
-                columns=["orig_index"]
-            )
-            processed_input = X_processed_df.iloc[[selected_row_idx]]
-
-            pred = model.predict(raw_input)[0]
-            prob = model.predict_proba(raw_input)[0][1]
-
-            colA, colB = st.columns([1, 2])
-            with colA:
-                st.metric("Prediction", "Leave 😢" if pred == 1 else "Stay 🙂")
-                st.metric("Confidence", f"{prob:.2%}")
-            with colB:
-                st.markdown("#### Employee Feature Snapshot")
-                st.dataframe(raw_input.T, use_container_width=True)
-
-            shap.initjs()
-
-            # Use a small background sample for explainer
-            background = X_processed_df.sample(
-                min(300, len(X_processed_df)), random_state=42
-            )
-            explainer = shap.Explainer(classifier, background)
-            shap_values = explainer(processed_input)
-
-            st.markdown("#### 📊 SHAP Waterfall Explanation")
-            fig, ax = plt.subplots(figsize=(10, 5))
-            shap.plots.waterfall(shap_values[0], max_display=10, show=False)
-            st.pyplot(fig)
-        except Exception as e:
-            st.error(f"Individual SHAP failed: {e}")
