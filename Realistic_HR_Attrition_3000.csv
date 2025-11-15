@@ -1,0 +1,3001 @@
+Employee_ID,Department,Job_Title,Location,Performance_Rating,Experience_Years,Work_Mode,Salary_INR,Status
+E00001,Support,Support Engineer,Kolkata,3,7,Hybrid,2484489,Resigned
+E00002,Finance,Auditor,Chennai,4,7,Hybrid,579365,Active
+E00003,Sales,Sales Manager,Pune,2,20,Hybrid,1646025,Active
+E00004,Sales,Sales Executive,Bangalore,3,9,On-site,777035,Active
+E00005,Marketing,SEO Specialist,Kolkata,3,11,Hybrid,778178,Active
+E00006,IT,Data Analyst,Hyderabad,1,13,Remote,1715689,Resigned
+E00007,Sales,BD Associate,Hyderabad,4,7,On-site,854365,Active
+E00008,HR,HR Manager,Pune,2,3,On-site,2345505,Active
+E00009,HR,HR Manager,Pune,4,13,Hybrid,1834398,Active
+E00010,Support,Support Engineer,Pune,5,15,Hybrid,1572905,Active
+E00011,Sales,Sales Executive,Bangalore,5,14,On-site,298984,Active
+E00012,IT,ML Engineer,Kolkata,3,18,Hybrid,2361138,Active
+E00013,Finance,Accountant,Mumbai,2,8,Remote,2093400,Active
+E00014,HR,HR Assistant,Kolkata,5,2,Hybrid,1571685,Active
+E00015,IT,System Admin,Chennai,3,0,Hybrid,2222990,Active
+E00016,Finance,Accountant,Kolkata,2,9,On-site,1019598,Active
+E00017,IT,ML Engineer,Chennai,4,4,On-site,1223548,Active
+E00018,Operations,Operations Executive,Kolkata,3,18,On-site,293585,Active
+E00019,Marketing,Marketing Executive,Chennai,4,11,On-site,2259021,Active
+E00020,HR,Recruiter,Hyderabad,1,6,Remote,1951240,Active
+E00021,IT,ML Engineer,Chennai,1,2,On-site,271959,Resigned
+E00022,Marketing,Marketing Executive,Bangalore,3,9,On-site,1634250,Active
+E00023,IT,ML Engineer,Bangalore,1,19,On-site,315318,Resigned
+E00024,IT,DevOps Engineer,Bangalore,1,16,Remote,1650804,Active
+E00025,IT,System Admin,Pune,2,20,On-site,1533743,Active
+E00026,Support,Tech Support,Delhi,3,16,Hybrid,2268163,Active
+E00027,Marketing,Content Strategist,Kolkata,1,8,On-site,2398815,Resigned
+E00028,Sales,BD Associate,Hyderabad,3,2,Remote,392483,Active
+E00029,Sales,Sales Executive,Bangalore,2,7,On-site,1306731,Active
+E00030,HR,Recruiter,Kolkata,2,2,On-site,895263,Active
+E00031,IT,ML Engineer,Hyderabad,1,1,Remote,367796,Active
+E00032,Support,Support Engineer,Bangalore,3,18,Hybrid,1829159,Active
+E00033,IT,ML Engineer,Delhi,1,7,Hybrid,434423,Active
+E00034,Finance,Financial Analyst,Bangalore,3,17,On-site,1376081,Active
+E00035,Operations,Operations Executive,Hyderabad,1,3,On-site,1127844,Resigned
+E00036,Support,Tech Support,Bangalore,1,15,On-site,2233509,Resigned
+E00037,Marketing,SEO Specialist,Chennai,3,7,Hybrid,2264484,Active
+E00038,Sales,BD Associate,Bangalore,5,15,On-site,1765536,Active
+E00039,Marketing,Marketing Executive,Pune,5,5,On-site,2181760,Active
+E00040,Support,Tech Support,Hyderabad,1,19,On-site,1676388,Resigned
+E00041,IT,System Admin,Mumbai,1,9,Remote,1664466,Active
+E00042,HR,Recruiter,Pune,2,9,Remote,408823,Active
+E00043,Finance,Financial Analyst,Kolkata,5,9,Remote,1742785,Active
+E00044,Operations,Operations Manager,Kolkata,1,3,Hybrid,1536125,Active
+E00045,Sales,BD Associate,Kolkata,4,1,On-site,916326,Active
+E00046,Finance,Accountant,Mumbai,5,16,On-site,1688533,Active
+E00047,Finance,Accountant,Bangalore,5,11,Remote,1254646,Active
+E00048,Operations,Operations Manager,Kolkata,3,7,Hybrid,1393052,Active
+E00049,HR,HR Manager,Delhi,1,18,On-site,1673286,Resigned
+E00050,HR,HR Assistant,Pune,1,11,On-site,2151625,Active
+E00051,Support,Customer Support,Pune,1,7,Remote,656716,Active
+E00052,Support,Support Engineer,Pune,5,2,On-site,2414367,Resigned
+E00053,Marketing,Marketing Executive,Chennai,4,4,On-site,328781,Active
+E00054,Sales,Sales Manager,Mumbai,5,6,On-site,1357677,Active
+E00055,HR,HR Manager,Pune,5,3,On-site,1137225,Active
+E00056,Operations,Operations Executive,Hyderabad,2,16,Remote,971747,Active
+E00057,HR,Recruiter,Hyderabad,1,0,Remote,1654330,Active
+E00058,Finance,Accountant,Bangalore,2,10,On-site,358940,Resigned
+E00059,Marketing,SEO Specialist,Chennai,3,17,Hybrid,2179305,Active
+E00060,HR,HR Manager,Mumbai,2,18,On-site,253267,Resigned
+E00061,HR,HR Assistant,Delhi,5,3,On-site,766771,Resigned
+E00062,IT,System Admin,Bangalore,3,15,On-site,320640,Active
+E00063,Support,Customer Support,Chennai,4,16,Hybrid,1148320,Active
+E00064,Sales,Sales Executive,Pune,5,18,On-site,659995,Active
+E00065,Finance,Accountant,Kolkata,4,13,Hybrid,675523,Active
+E00066,Support,Support Engineer,Chennai,3,11,On-site,2059891,Active
+E00067,IT,DevOps Engineer,Chennai,2,6,Remote,1139465,Active
+E00068,Support,Support Engineer,Delhi,3,17,Remote,463945,Active
+E00069,Operations,Operations Manager,Kolkata,5,7,On-site,1518506,Active
+E00070,Operations,Operations Executive,Chennai,3,7,On-site,2299365,Active
+E00071,Support,Tech Support,Bangalore,5,3,On-site,994699,Resigned
+E00072,Operations,Operations Manager,Kolkata,3,9,Remote,2129490,Active
+E00073,HR,HR Manager,Mumbai,4,7,On-site,555062,Active
+E00074,Operations,Operations Manager,Bangalore,4,16,On-site,463920,Resigned
+E00075,Marketing,SEO Specialist,Hyderabad,5,12,On-site,2475300,Resigned
+E00076,Operations,Logistics Coordinator,Hyderabad,5,3,Hybrid,1277512,Active
+E00077,IT,Software Engineer,Pune,1,20,Hybrid,2022802,Active
+E00078,IT,System Admin,Hyderabad,2,15,Remote,1584679,Active
+E00079,HR,HR Manager,Mumbai,4,17,On-site,1041267,Active
+E00080,Marketing,Content Strategist,Bangalore,1,0,On-site,1292892,Active
+E00081,Operations,Operations Executive,Pune,3,5,Remote,823695,Active
+E00082,IT,Data Analyst,Mumbai,2,12,On-site,775303,Resigned
+E00083,IT,Data Analyst,Kolkata,1,10,Hybrid,385230,Resigned
+E00084,Finance,Auditor,Bangalore,5,0,On-site,520846,Resigned
+E00085,Support,Customer Support,Hyderabad,1,4,Remote,592786,Active
+E00086,Operations,Operations Executive,Chennai,2,9,On-site,1748189,Resigned
+E00087,IT,System Admin,Chennai,5,3,On-site,950903,Active
+E00088,Sales,BD Associate,Kolkata,2,1,On-site,1610642,Resigned
+E00089,Sales,Sales Executive,Pune,4,4,On-site,948168,Active
+E00090,Support,Tech Support,Kolkata,5,20,Hybrid,1784026,Active
+E00091,Marketing,SEO Specialist,Pune,2,1,Hybrid,800222,Active
+E00092,Support,Customer Support,Hyderabad,1,5,On-site,1603038,Resigned
+E00093,Support,Customer Support,Delhi,1,4,Hybrid,1806617,Active
+E00094,HR,HR Assistant,Hyderabad,4,4,Remote,2099396,Active
+E00095,Marketing,Content Strategist,Delhi,3,18,Hybrid,929574,Active
+E00096,Support,Tech Support,Pune,4,7,Hybrid,1555794,Active
+E00097,Finance,Accountant,Mumbai,5,18,On-site,1779297,Active
+E00098,Operations,Operations Manager,Chennai,1,4,On-site,1448425,Active
+E00099,IT,Data Analyst,Chennai,3,8,On-site,1472869,Resigned
+E00100,Marketing,Content Strategist,Kolkata,5,16,On-site,1164032,Active
+E00101,Sales,BD Associate,Kolkata,2,13,On-site,1970684,Resigned
+E00102,Finance,Auditor,Kolkata,3,14,Remote,1103499,Active
+E00103,HR,HR Manager,Delhi,3,14,On-site,681734,Active
+E00104,HR,Recruiter,Bangalore,1,6,On-site,1020173,Resigned
+E00105,IT,DevOps Engineer,Hyderabad,1,3,On-site,1905016,Active
+E00106,Support,Tech Support,Pune,2,14,Hybrid,331264,Resigned
+E00107,HR,HR Assistant,Chennai,4,1,On-site,1112522,Active
+E00108,Operations,Operations Executive,Bangalore,5,20,On-site,2419455,Resigned
+E00109,Finance,Financial Analyst,Pune,1,2,Hybrid,1283255,Active
+E00110,Support,Customer Support,Mumbai,4,10,Remote,2216197,Resigned
+E00111,Marketing,Content Strategist,Pune,1,1,Hybrid,1639959,Active
+E00112,Operations,Operations Executive,Pune,2,3,On-site,1204480,Resigned
+E00113,IT,Data Analyst,Pune,5,10,Remote,1666012,Active
+E00114,IT,Data Analyst,Mumbai,5,9,Remote,628892,Active
+E00115,Sales,Sales Executive,Kolkata,5,8,Hybrid,2440222,Active
+E00116,Support,Tech Support,Pune,1,4,Remote,1036667,Resigned
+E00117,Operations,Logistics Coordinator,Bangalore,2,11,On-site,1342501,Resigned
+E00118,Operations,Logistics Coordinator,Bangalore,5,13,Hybrid,1123172,Resigned
+E00119,Finance,Auditor,Pune,2,3,On-site,2036921,Resigned
+E00120,Support,Customer Support,Delhi,5,5,Hybrid,1401550,Active
+E00121,IT,Software Engineer,Bangalore,2,13,On-site,2439415,Active
+E00122,Finance,Financial Analyst,Pune,3,6,Hybrid,1788601,Active
+E00123,Support,Tech Support,Chennai,1,19,Hybrid,2445875,Active
+E00124,IT,Software Engineer,Chennai,5,0,On-site,1095633,Active
+E00125,Finance,Financial Analyst,Bangalore,5,14,Remote,2149443,Active
+E00126,Operations,Operations Executive,Chennai,4,11,Hybrid,2330154,Active
+E00127,Finance,Financial Analyst,Delhi,3,4,Remote,638349,Active
+E00128,Marketing,SEO Specialist,Kolkata,2,13,Hybrid,1505564,Resigned
+E00129,HR,HR Assistant,Bangalore,4,10,Remote,1803731,Active
+E00130,Operations,Logistics Coordinator,Mumbai,1,8,On-site,748716,Resigned
+E00131,IT,System Admin,Kolkata,1,13,On-site,2317801,Active
+E00132,Marketing,Content Strategist,Bangalore,1,18,Hybrid,1965630,Resigned
+E00133,IT,Data Analyst,Hyderabad,1,20,Hybrid,290738,Resigned
+E00134,IT,Data Analyst,Delhi,2,6,On-site,1094193,Active
+E00135,Finance,Auditor,Hyderabad,3,18,On-site,2326696,Active
+E00136,Marketing,Marketing Executive,Bangalore,1,10,Hybrid,1964331,Resigned
+E00137,IT,Software Engineer,Hyderabad,1,16,Hybrid,1454565,Resigned
+E00138,Operations,Operations Executive,Kolkata,1,12,On-site,383554,Resigned
+E00139,Finance,Financial Analyst,Pune,5,16,On-site,1913261,Active
+E00140,Finance,Financial Analyst,Bangalore,3,14,Hybrid,1436293,Active
+E00141,HR,HR Manager,Pune,3,3,On-site,2214956,Resigned
+E00142,Finance,Financial Analyst,Mumbai,3,13,Hybrid,2035910,Active
+E00143,HR,Recruiter,Chennai,1,2,On-site,326218,Resigned
+E00144,Marketing,Marketing Executive,Kolkata,5,2,Remote,597739,Active
+E00145,HR,Recruiter,Pune,3,15,On-site,749876,Resigned
+E00146,Marketing,Content Strategist,Kolkata,2,6,Hybrid,2276580,Resigned
+E00147,Operations,Logistics Coordinator,Hyderabad,5,17,Remote,510910,Active
+E00148,Finance,Financial Analyst,Kolkata,2,2,Hybrid,2335259,Active
+E00149,Operations,Operations Manager,Pune,1,1,Remote,1156739,Active
+E00150,Sales,Sales Executive,Mumbai,3,13,On-site,2253679,Resigned
+E00151,Finance,Accountant,Pune,1,7,Hybrid,1136040,Active
+E00152,Marketing,SEO Specialist,Delhi,4,12,Hybrid,1616853,Active
+E00153,Operations,Operations Manager,Hyderabad,1,5,On-site,478504,Resigned
+E00154,Sales,BD Associate,Chennai,2,20,On-site,1476476,Active
+E00155,Support,Customer Support,Chennai,1,20,On-site,1809161,Resigned
+E00156,HR,HR Manager,Delhi,1,18,On-site,2303490,Resigned
+E00157,Operations,Logistics Coordinator,Delhi,4,16,Hybrid,478071,Active
+E00158,HR,Recruiter,Kolkata,5,0,On-site,1759090,Active
+E00159,IT,System Admin,Chennai,3,1,Hybrid,906884,Active
+E00160,IT,Software Engineer,Bangalore,5,10,Hybrid,1574070,Active
+E00161,HR,HR Assistant,Hyderabad,4,18,On-site,1911793,Resigned
+E00162,Operations,Logistics Coordinator,Delhi,1,16,Remote,949983,Active
+E00163,Support,Support Engineer,Bangalore,5,15,Remote,436833,Active
+E00164,Support,Tech Support,Mumbai,1,12,Hybrid,1195439,Active
+E00165,Support,Support Engineer,Kolkata,2,20,On-site,1774102,Resigned
+E00166,Operations,Logistics Coordinator,Bangalore,3,15,On-site,2053740,Active
+E00167,Marketing,Content Strategist,Delhi,2,9,Hybrid,2137383,Resigned
+E00168,Sales,Sales Executive,Mumbai,3,4,Hybrid,926022,Active
+E00169,Support,Tech Support,Bangalore,4,12,Hybrid,1261727,Active
+E00170,Sales,Sales Manager,Mumbai,3,9,Remote,1270154,Active
+E00171,Operations,Operations Manager,Delhi,3,6,On-site,2343373,Active
+E00172,IT,ML Engineer,Kolkata,1,9,On-site,2109582,Active
+E00173,Operations,Operations Executive,Pune,1,2,On-site,799239,Resigned
+E00174,Sales,Sales Manager,Pune,5,15,On-site,2044029,Resigned
+E00175,Support,Support Engineer,Bangalore,4,11,Remote,841652,Active
+E00176,Finance,Financial Analyst,Kolkata,3,12,Remote,1060694,Active
+E00177,Finance,Accountant,Kolkata,5,18,Hybrid,1113561,Active
+E00178,IT,Data Analyst,Bangalore,1,2,Remote,1218452,Active
+E00179,Support,Support Engineer,Bangalore,3,19,Remote,538316,Active
+E00180,Finance,Financial Analyst,Mumbai,1,2,Remote,1043719,Active
+E00181,IT,Software Engineer,Hyderabad,5,1,On-site,2390794,Resigned
+E00182,IT,System Admin,Bangalore,2,11,On-site,576916,Active
+E00183,HR,Recruiter,Pune,3,4,On-site,1864737,Resigned
+E00184,Sales,Sales Executive,Hyderabad,5,12,Remote,375991,Active
+E00185,Marketing,Marketing Executive,Delhi,2,2,On-site,1460209,Resigned
+E00186,Operations,Operations Executive,Bangalore,3,15,Hybrid,740042,Active
+E00187,IT,DevOps Engineer,Delhi,5,20,Hybrid,2171214,Active
+E00188,Sales,BD Associate,Chennai,3,12,Remote,959662,Active
+E00189,HR,Recruiter,Chennai,2,3,Hybrid,738972,Active
+E00190,IT,Software Engineer,Bangalore,2,12,Hybrid,850530,Active
+E00191,HR,HR Assistant,Mumbai,4,14,Remote,1906671,Active
+E00192,Sales,BD Associate,Bangalore,4,16,Hybrid,1022800,Resigned
+E00193,Finance,Financial Analyst,Mumbai,5,11,Hybrid,1123698,Active
+E00194,Sales,BD Associate,Chennai,3,0,On-site,1804510,Active
+E00195,Finance,Financial Analyst,Kolkata,2,1,On-site,482732,Active
+E00196,Finance,Accountant,Bangalore,5,10,On-site,1752337,Active
+E00197,Sales,Sales Manager,Delhi,3,2,Remote,474695,Resigned
+E00198,Operations,Logistics Coordinator,Chennai,3,19,On-site,2090634,Active
+E00199,Sales,Sales Manager,Kolkata,2,2,On-site,1536936,Resigned
+E00200,HR,Recruiter,Hyderabad,3,7,On-site,2221856,Resigned
+E00201,Support,Tech Support,Pune,2,19,On-site,1905743,Resigned
+E00202,Sales,Sales Manager,Delhi,4,13,On-site,1346413,Resigned
+E00203,IT,ML Engineer,Hyderabad,4,8,On-site,1897608,Active
+E00204,Marketing,SEO Specialist,Chennai,5,1,Hybrid,859996,Resigned
+E00205,Operations,Operations Manager,Pune,2,13,Remote,1143093,Resigned
+E00206,Operations,Operations Executive,Bangalore,4,5,Remote,414053,Active
+E00207,IT,Software Engineer,Hyderabad,1,13,On-site,1919211,Active
+E00208,HR,HR Manager,Hyderabad,1,1,Hybrid,426076,Resigned
+E00209,Operations,Operations Manager,Pune,2,5,Hybrid,300861,Active
+E00210,Support,Customer Support,Mumbai,4,16,Remote,1094092,Active
+E00211,Marketing,Marketing Executive,Pune,1,6,Hybrid,283320,Active
+E00212,HR,HR Manager,Hyderabad,3,6,Hybrid,1397087,Active
+E00213,HR,HR Manager,Mumbai,3,8,On-site,811165,Resigned
+E00214,Marketing,Content Strategist,Hyderabad,5,12,Hybrid,1449670,Active
+E00215,Operations,Operations Executive,Kolkata,5,18,On-site,1767509,Active
+E00216,Marketing,Marketing Executive,Bangalore,3,2,On-site,2101317,Resigned
+E00217,IT,ML Engineer,Bangalore,5,19,Hybrid,876045,Active
+E00218,HR,HR Assistant,Delhi,1,3,On-site,281585,Resigned
+E00219,HR,Recruiter,Mumbai,4,5,Hybrid,1340805,Active
+E00220,Finance,Accountant,Mumbai,5,14,On-site,269975,Resigned
+E00221,Marketing,Content Strategist,Mumbai,4,13,Remote,1593862,Active
+E00222,Marketing,Marketing Executive,Bangalore,4,14,Hybrid,1595766,Active
+E00223,HR,Recruiter,Pune,1,1,Remote,1286548,Resigned
+E00224,Sales,Sales Executive,Kolkata,3,9,On-site,1292377,Active
+E00225,Sales,Sales Manager,Bangalore,1,4,On-site,1715291,Active
+E00226,Marketing,Marketing Executive,Delhi,5,14,Hybrid,342324,Active
+E00227,Sales,BD Associate,Kolkata,4,19,On-site,2166545,Resigned
+E00228,Operations,Operations Manager,Chennai,1,2,On-site,1458052,Resigned
+E00229,IT,Software Engineer,Delhi,4,9,On-site,1988993,Active
+E00230,Finance,Financial Analyst,Mumbai,1,17,Remote,396470,Resigned
+E00231,Support,Tech Support,Mumbai,4,5,On-site,1593276,Resigned
+E00232,HR,HR Manager,Hyderabad,2,20,On-site,1928687,Resigned
+E00233,Support,Customer Support,Kolkata,2,0,Remote,1445225,Resigned
+E00234,Marketing,SEO Specialist,Mumbai,1,7,Remote,738011,Resigned
+E00235,IT,ML Engineer,Bangalore,1,18,Remote,1580228,Active
+E00236,IT,Data Analyst,Pune,4,1,Remote,1798229,Active
+E00237,IT,Software Engineer,Bangalore,5,8,On-site,971384,Resigned
+E00238,HR,HR Assistant,Pune,4,5,On-site,286321,Active
+E00239,IT,System Admin,Chennai,3,0,On-site,1350500,Active
+E00240,Sales,Sales Manager,Kolkata,5,18,On-site,2188904,Active
+E00241,IT,System Admin,Hyderabad,2,10,Hybrid,1298173,Active
+E00242,HR,HR Manager,Bangalore,3,20,Remote,2344529,Active
+E00243,Operations,Operations Executive,Mumbai,1,11,On-site,1352127,Resigned
+E00244,Sales,BD Associate,Delhi,2,11,Remote,798884,Resigned
+E00245,Support,Tech Support,Chennai,4,14,On-site,1438554,Active
+E00246,Sales,Sales Executive,Chennai,3,1,On-site,955475,Resigned
+E00247,Sales,Sales Manager,Delhi,5,14,Hybrid,1668897,Active
+E00248,Operations,Operations Manager,Bangalore,3,6,Hybrid,313646,Active
+E00249,IT,Data Analyst,Chennai,2,3,On-site,786437,Active
+E00250,IT,ML Engineer,Chennai,2,14,Remote,461830,Active
+E00251,Operations,Operations Manager,Hyderabad,1,8,Hybrid,2057992,Active
+E00252,IT,Data Analyst,Delhi,5,3,On-site,1747618,Active
+E00253,Support,Customer Support,Bangalore,2,18,Hybrid,751174,Active
+E00254,Support,Support Engineer,Delhi,4,1,On-site,1116964,Resigned
+E00255,Operations,Logistics Coordinator,Delhi,4,6,Hybrid,2405145,Resigned
+E00256,Operations,Operations Executive,Bangalore,1,1,On-site,1827222,Resigned
+E00257,Finance,Financial Analyst,Pune,5,6,Hybrid,1092186,Active
+E00258,Sales,Sales Manager,Delhi,4,5,Hybrid,944892,Resigned
+E00259,Operations,Operations Executive,Hyderabad,3,8,On-site,653322,Resigned
+E00260,Support,Support Engineer,Bangalore,4,1,Hybrid,1597098,Active
+E00261,Marketing,SEO Specialist,Delhi,4,2,On-site,963936,Active
+E00262,Support,Customer Support,Hyderabad,4,3,Remote,1085036,Active
+E00263,IT,Data Analyst,Pune,1,15,On-site,558623,Active
+E00264,Sales,BD Associate,Pune,5,18,On-site,1521300,Active
+E00265,Sales,Sales Executive,Bangalore,5,19,Hybrid,1354849,Active
+E00266,IT,DevOps Engineer,Hyderabad,4,1,On-site,2232243,Active
+E00267,HR,HR Assistant,Mumbai,1,20,On-site,642136,Active
+E00268,Finance,Financial Analyst,Kolkata,2,3,Remote,2168370,Active
+E00269,Support,Customer Support,Hyderabad,5,19,On-site,917689,Active
+E00270,Operations,Logistics Coordinator,Pune,2,13,Remote,543894,Resigned
+E00271,IT,DevOps Engineer,Delhi,2,1,On-site,1502557,Active
+E00272,HR,HR Assistant,Mumbai,1,0,Remote,943045,Active
+E00273,Sales,BD Associate,Delhi,1,5,On-site,1740036,Resigned
+E00274,Operations,Operations Manager,Hyderabad,1,14,Remote,1780891,Active
+E00275,Sales,Sales Executive,Kolkata,4,17,On-site,1114645,Resigned
+E00276,Finance,Financial Analyst,Mumbai,4,18,On-site,2346594,Resigned
+E00277,IT,Data Analyst,Pune,3,17,On-site,2311774,Active
+E00278,Finance,Accountant,Delhi,5,8,Hybrid,2225154,Active
+E00279,Sales,Sales Executive,Hyderabad,4,6,On-site,1210612,Active
+E00280,Sales,Sales Executive,Hyderabad,4,5,On-site,685684,Active
+E00281,Marketing,Marketing Executive,Delhi,3,13,On-site,1796236,Active
+E00282,Marketing,Content Strategist,Mumbai,3,20,On-site,454366,Active
+E00283,Support,Customer Support,Kolkata,5,0,On-site,1620073,Resigned
+E00284,Operations,Operations Executive,Mumbai,5,12,On-site,1602144,Resigned
+E00285,Sales,BD Associate,Kolkata,5,19,On-site,1309325,Resigned
+E00286,Sales,Sales Manager,Delhi,1,19,Remote,969401,Active
+E00287,IT,Software Engineer,Bangalore,1,0,Remote,1302207,Resigned
+E00288,HR,HR Manager,Mumbai,4,7,On-site,2323290,Active
+E00289,Finance,Financial Analyst,Bangalore,1,12,On-site,804399,Active
+E00290,Support,Support Engineer,Chennai,1,10,Hybrid,1850946,Resigned
+E00291,IT,DevOps Engineer,Hyderabad,5,7,On-site,1871219,Active
+E00292,Support,Tech Support,Kolkata,3,18,On-site,879085,Active
+E00293,HR,HR Manager,Kolkata,4,16,On-site,1552887,Active
+E00294,HR,Recruiter,Mumbai,3,16,On-site,1193693,Resigned
+E00295,IT,Data Analyst,Kolkata,2,9,Hybrid,2303607,Resigned
+E00296,Operations,Operations Executive,Kolkata,4,1,On-site,1868702,Resigned
+E00297,HR,Recruiter,Bangalore,1,7,On-site,1769603,Resigned
+E00298,Operations,Logistics Coordinator,Pune,1,20,On-site,2471599,Resigned
+E00299,Support,Support Engineer,Hyderabad,1,14,On-site,933404,Resigned
+E00300,Marketing,SEO Specialist,Pune,4,10,On-site,1356581,Active
+E00301,Marketing,Marketing Executive,Chennai,2,1,On-site,1942110,Resigned
+E00302,HR,Recruiter,Kolkata,3,11,Hybrid,1302330,Active
+E00303,IT,System Admin,Kolkata,3,6,Hybrid,1045928,Active
+E00304,Support,Customer Support,Mumbai,1,11,Hybrid,796015,Active
+E00305,HR,Recruiter,Bangalore,2,20,Hybrid,1899729,Active
+E00306,Operations,Operations Executive,Hyderabad,4,9,Hybrid,916165,Active
+E00307,Marketing,SEO Specialist,Bangalore,2,20,On-site,1990687,Resigned
+E00308,Support,Customer Support,Delhi,5,3,On-site,1930403,Active
+E00309,Marketing,Content Strategist,Mumbai,5,5,On-site,1562743,Resigned
+E00310,HR,HR Manager,Pune,4,12,On-site,1588486,Active
+E00311,Operations,Operations Manager,Delhi,5,15,On-site,736275,Resigned
+E00312,HR,HR Manager,Mumbai,3,18,On-site,693031,Active
+E00313,Marketing,SEO Specialist,Pune,5,3,Hybrid,2035516,Active
+E00314,Support,Support Engineer,Kolkata,1,17,On-site,431360,Resigned
+E00315,Finance,Auditor,Delhi,1,12,On-site,2119059,Resigned
+E00316,Support,Tech Support,Kolkata,4,10,Hybrid,754409,Active
+E00317,IT,ML Engineer,Chennai,2,17,On-site,493306,Resigned
+E00318,Marketing,SEO Specialist,Chennai,1,12,Hybrid,2277410,Active
+E00319,Marketing,SEO Specialist,Delhi,5,4,On-site,1019097,Active
+E00320,Sales,Sales Manager,Mumbai,4,6,Remote,1154098,Active
+E00321,IT,ML Engineer,Pune,1,13,Hybrid,1961672,Active
+E00322,IT,ML Engineer,Chennai,4,9,On-site,1664022,Active
+E00323,Sales,Sales Manager,Mumbai,2,12,On-site,816088,Resigned
+E00324,Finance,Financial Analyst,Mumbai,3,20,Hybrid,1853546,Active
+E00325,Support,Tech Support,Mumbai,3,19,On-site,1537087,Active
+E00326,HR,HR Manager,Hyderabad,1,4,Remote,2113236,Active
+E00327,HR,HR Assistant,Bangalore,3,18,Remote,803343,Active
+E00328,Operations,Operations Executive,Bangalore,2,20,On-site,379350,Resigned
+E00329,IT,Software Engineer,Chennai,5,1,On-site,1476408,Active
+E00330,IT,Software Engineer,Mumbai,2,0,On-site,1687188,Active
+E00331,IT,Data Analyst,Mumbai,2,15,On-site,1367862,Active
+E00332,Support,Customer Support,Hyderabad,3,9,Remote,440706,Active
+E00333,Support,Support Engineer,Hyderabad,2,3,Hybrid,1828638,Resigned
+E00334,Operations,Logistics Coordinator,Pune,4,13,On-site,539768,Active
+E00335,Sales,Sales Manager,Bangalore,2,2,Remote,693945,Resigned
+E00336,Marketing,Content Strategist,Hyderabad,1,17,On-site,1524634,Resigned
+E00337,HR,HR Assistant,Hyderabad,5,20,On-site,664600,Active
+E00338,Marketing,SEO Specialist,Mumbai,4,19,Hybrid,330257,Active
+E00339,Finance,Accountant,Delhi,3,17,On-site,1174133,Resigned
+E00340,IT,DevOps Engineer,Hyderabad,3,4,On-site,523349,Active
+E00341,Finance,Accountant,Hyderabad,3,13,On-site,828688,Active
+E00342,Support,Support Engineer,Chennai,5,1,On-site,644341,Active
+E00343,Finance,Auditor,Delhi,5,2,Hybrid,1560077,Active
+E00344,Finance,Accountant,Hyderabad,5,8,Remote,1954581,Active
+E00345,Sales,Sales Executive,Delhi,2,14,Hybrid,1866596,Resigned
+E00346,Marketing,Content Strategist,Hyderabad,4,15,Hybrid,1389929,Active
+E00347,Operations,Logistics Coordinator,Hyderabad,2,8,Hybrid,2381018,Active
+E00348,Marketing,Marketing Executive,Chennai,4,10,Remote,544746,Active
+E00349,Sales,Sales Executive,Mumbai,2,2,Hybrid,1560875,Resigned
+E00350,Marketing,Marketing Executive,Hyderabad,4,0,Remote,1554766,Active
+E00351,HR,HR Assistant,Kolkata,5,2,Hybrid,693316,Active
+E00352,Marketing,Marketing Executive,Kolkata,1,2,On-site,2010462,Resigned
+E00353,IT,System Admin,Delhi,3,1,On-site,1956533,Resigned
+E00354,Operations,Operations Manager,Delhi,3,13,On-site,2062336,Resigned
+E00355,Marketing,SEO Specialist,Pune,1,18,Remote,489017,Active
+E00356,Sales,Sales Executive,Kolkata,1,18,Remote,1434141,Resigned
+E00357,Operations,Operations Executive,Hyderabad,1,8,On-site,327175,Resigned
+E00358,Marketing,Content Strategist,Chennai,3,8,On-site,375149,Active
+E00359,Finance,Financial Analyst,Bangalore,5,13,On-site,1107342,Resigned
+E00360,Operations,Operations Manager,Bangalore,4,2,On-site,672381,Active
+E00361,Support,Support Engineer,Chennai,4,4,Hybrid,1371268,Resigned
+E00362,Operations,Operations Executive,Hyderabad,3,16,On-site,2325712,Resigned
+E00363,Support,Tech Support,Hyderabad,4,13,Hybrid,1800184,Active
+E00364,Sales,Sales Executive,Pune,5,18,On-site,2334508,Active
+E00365,Support,Tech Support,Hyderabad,4,3,On-site,1806396,Active
+E00366,Sales,Sales Manager,Mumbai,3,8,Hybrid,1602790,Active
+E00367,Marketing,Marketing Executive,Mumbai,1,11,Hybrid,909738,Resigned
+E00368,Sales,Sales Manager,Bangalore,1,12,On-site,323869,Resigned
+E00369,Operations,Operations Executive,Chennai,5,5,Remote,1619277,Active
+E00370,Sales,Sales Executive,Mumbai,5,20,Hybrid,1592057,Resigned
+E00371,Marketing,Marketing Executive,Bangalore,5,16,Hybrid,1750948,Active
+E00372,Support,Tech Support,Bangalore,5,10,On-site,1975322,Resigned
+E00373,Marketing,Marketing Executive,Bangalore,4,18,On-site,1901143,Active
+E00374,Operations,Operations Executive,Bangalore,5,6,Remote,897341,Resigned
+E00375,Operations,Logistics Coordinator,Kolkata,1,14,Remote,1237073,Active
+E00376,IT,ML Engineer,Mumbai,5,18,Hybrid,1115363,Active
+E00377,Sales,Sales Manager,Delhi,1,6,On-site,1726402,Resigned
+E00378,HR,HR Manager,Mumbai,3,8,Hybrid,1711331,Active
+E00379,Operations,Operations Manager,Chennai,3,15,Remote,934029,Active
+E00380,Finance,Accountant,Kolkata,5,14,On-site,1991373,Active
+E00381,Support,Support Engineer,Kolkata,1,5,Remote,722501,Active
+E00382,Sales,BD Associate,Chennai,1,20,Remote,2147501,Resigned
+E00383,HR,Recruiter,Delhi,4,11,Remote,1629390,Resigned
+E00384,Finance,Financial Analyst,Delhi,1,3,On-site,2062375,Resigned
+E00385,Sales,Sales Executive,Kolkata,4,4,Remote,998736,Active
+E00386,Finance,Accountant,Mumbai,4,17,Hybrid,818302,Resigned
+E00387,Marketing,Content Strategist,Bangalore,1,5,Remote,1692721,Active
+E00388,Sales,Sales Manager,Bangalore,4,16,On-site,1272788,Resigned
+E00389,Finance,Auditor,Delhi,5,3,On-site,1501775,Active
+E00390,Finance,Financial Analyst,Pune,3,14,On-site,958521,Active
+E00391,Operations,Operations Executive,Mumbai,4,4,On-site,1984339,Active
+E00392,IT,Software Engineer,Chennai,5,14,On-site,417647,Resigned
+E00393,Sales,Sales Executive,Chennai,1,16,Hybrid,1831420,Active
+E00394,Finance,Auditor,Delhi,3,9,Remote,376060,Resigned
+E00395,IT,DevOps Engineer,Pune,4,20,Remote,643574,Active
+E00396,IT,ML Engineer,Kolkata,5,2,On-site,1756145,Active
+E00397,Finance,Accountant,Bangalore,3,17,Hybrid,427912,Active
+E00398,Finance,Accountant,Kolkata,5,7,On-site,489779,Active
+E00399,Support,Tech Support,Chennai,2,10,On-site,2219710,Active
+E00400,Operations,Operations Manager,Delhi,4,4,Hybrid,1868963,Active
+E00401,HR,HR Manager,Bangalore,3,18,Hybrid,288635,Active
+E00402,Marketing,Content Strategist,Kolkata,2,3,On-site,671280,Active
+E00403,Support,Tech Support,Delhi,3,18,Hybrid,1722178,Active
+E00404,Finance,Financial Analyst,Hyderabad,3,14,Hybrid,1481619,Active
+E00405,Finance,Auditor,Bangalore,4,12,On-site,1491968,Active
+E00406,Finance,Auditor,Pune,3,4,Hybrid,431948,Active
+E00407,HR,HR Manager,Chennai,3,2,Hybrid,1611871,Active
+E00408,IT,System Admin,Pune,1,14,Remote,2207233,Active
+E00409,IT,System Admin,Bangalore,4,4,Hybrid,1418932,Active
+E00410,Operations,Operations Executive,Kolkata,1,3,Hybrid,1637784,Active
+E00411,Marketing,SEO Specialist,Kolkata,3,2,Hybrid,1340445,Active
+E00412,Operations,Operations Manager,Chennai,5,18,Hybrid,713937,Resigned
+E00413,Support,Customer Support,Mumbai,4,15,On-site,890473,Resigned
+E00414,Support,Tech Support,Hyderabad,2,6,On-site,2495846,Active
+E00415,Marketing,Content Strategist,Delhi,5,6,On-site,2152912,Active
+E00416,Marketing,Marketing Executive,Chennai,5,18,On-site,1781192,Active
+E00417,Support,Support Engineer,Kolkata,2,9,Remote,2340547,Active
+E00418,HR,HR Manager,Mumbai,4,13,Remote,1313319,Active
+E00419,Marketing,Content Strategist,Hyderabad,5,7,On-site,2058286,Active
+E00420,HR,HR Manager,Kolkata,3,8,Hybrid,1126110,Active
+E00421,IT,Data Analyst,Chennai,2,17,On-site,1190240,Resigned
+E00422,HR,HR Assistant,Pune,5,11,Hybrid,1209131,Active
+E00423,IT,System Admin,Delhi,1,1,On-site,1412126,Active
+E00424,Finance,Accountant,Pune,4,18,On-site,2379593,Resigned
+E00425,Operations,Operations Executive,Hyderabad,3,9,On-site,1646436,Active
+E00426,Operations,Operations Executive,Bangalore,4,10,Remote,1933886,Active
+E00427,IT,DevOps Engineer,Hyderabad,3,18,Hybrid,1686457,Active
+E00428,Marketing,Content Strategist,Hyderabad,1,2,On-site,1421682,Resigned
+E00429,Sales,BD Associate,Bangalore,5,17,Hybrid,593567,Active
+E00430,Marketing,Content Strategist,Pune,1,3,Hybrid,1668412,Resigned
+E00431,IT,ML Engineer,Mumbai,3,5,Hybrid,1608311,Active
+E00432,IT,ML Engineer,Chennai,4,10,On-site,2289096,Active
+E00433,Marketing,SEO Specialist,Chennai,4,14,Remote,443069,Active
+E00434,Marketing,SEO Specialist,Pune,1,3,Remote,987954,Active
+E00435,Support,Customer Support,Bangalore,4,19,On-site,1229114,Active
+E00436,HR,HR Manager,Pune,1,19,On-site,2228030,Resigned
+E00437,Sales,Sales Manager,Hyderabad,3,20,On-site,2461549,Active
+E00438,Operations,Operations Manager,Kolkata,5,0,Hybrid,2136963,Active
+E00439,Sales,BD Associate,Chennai,4,12,Remote,1886974,Active
+E00440,Finance,Accountant,Kolkata,1,7,On-site,1028883,Active
+E00441,Operations,Operations Executive,Chennai,2,1,On-site,1856734,Resigned
+E00442,Sales,Sales Manager,Hyderabad,2,7,Remote,392980,Resigned
+E00443,Sales,Sales Manager,Delhi,4,8,On-site,427241,Resigned
+E00444,HR,HR Assistant,Mumbai,1,9,On-site,2304410,Active
+E00445,Sales,BD Associate,Kolkata,4,10,On-site,2249920,Active
+E00446,Marketing,SEO Specialist,Hyderabad,1,14,On-site,374932,Resigned
+E00447,IT,System Admin,Pune,1,17,On-site,1736561,Resigned
+E00448,Operations,Operations Manager,Chennai,5,5,On-site,1645285,Active
+E00449,Marketing,SEO Specialist,Pune,5,2,On-site,1234156,Active
+E00450,Operations,Logistics Coordinator,Hyderabad,1,16,Remote,997852,Active
+E00451,Support,Customer Support,Bangalore,4,2,On-site,2071367,Active
+E00452,HR,HR Manager,Bangalore,4,10,On-site,2148769,Active
+E00453,Support,Customer Support,Pune,2,5,On-site,1719793,Active
+E00454,Finance,Accountant,Mumbai,2,7,On-site,1699991,Active
+E00455,Sales,BD Associate,Pune,1,10,Hybrid,1138403,Active
+E00456,Marketing,Marketing Executive,Pune,4,8,Remote,1285811,Active
+E00457,Sales,Sales Manager,Kolkata,3,20,On-site,1886091,Resigned
+E00458,Support,Tech Support,Pune,5,2,Remote,2151740,Resigned
+E00459,IT,System Admin,Mumbai,3,0,On-site,1391340,Active
+E00460,Finance,Accountant,Pune,3,2,Remote,925673,Active
+E00461,HR,HR Assistant,Hyderabad,5,19,Hybrid,1886675,Active
+E00462,IT,Data Analyst,Mumbai,5,19,On-site,673177,Active
+E00463,IT,Software Engineer,Chennai,2,0,On-site,1333116,Resigned
+E00464,Sales,Sales Executive,Delhi,3,20,Hybrid,1407522,Resigned
+E00465,Support,Tech Support,Kolkata,2,7,On-site,2024029,Active
+E00466,HR,Recruiter,Mumbai,4,12,Hybrid,2440482,Active
+E00467,Marketing,SEO Specialist,Bangalore,3,3,On-site,612916,Active
+E00468,Support,Tech Support,Kolkata,5,3,Hybrid,522919,Active
+E00469,Finance,Financial Analyst,Bangalore,1,20,On-site,2068902,Active
+E00470,Support,Customer Support,Chennai,1,5,On-site,2062105,Resigned
+E00471,Support,Customer Support,Chennai,5,19,On-site,2385730,Resigned
+E00472,Sales,Sales Manager,Delhi,4,14,On-site,1452060,Resigned
+E00473,HR,HR Manager,Pune,5,15,Remote,1781064,Active
+E00474,Finance,Auditor,Pune,4,6,On-site,2306501,Active
+E00475,IT,System Admin,Kolkata,2,9,On-site,2246961,Active
+E00476,IT,Software Engineer,Delhi,2,16,Hybrid,1639678,Active
+E00477,Operations,Operations Executive,Pune,1,0,Hybrid,1170114,Resigned
+E00478,IT,Data Analyst,Kolkata,3,5,Remote,1364518,Active
+E00479,Operations,Operations Manager,Bangalore,1,1,Remote,2409173,Resigned
+E00480,Sales,Sales Executive,Delhi,1,16,Hybrid,2318671,Resigned
+E00481,Finance,Financial Analyst,Kolkata,4,3,On-site,808963,Resigned
+E00482,Marketing,SEO Specialist,Bangalore,2,3,Hybrid,728108,Active
+E00483,IT,Software Engineer,Bangalore,3,20,Hybrid,1692181,Active
+E00484,Marketing,Content Strategist,Delhi,4,15,On-site,513625,Active
+E00485,Support,Tech Support,Mumbai,3,4,On-site,1809757,Active
+E00486,Finance,Financial Analyst,Kolkata,3,18,On-site,1073759,Active
+E00487,IT,Software Engineer,Hyderabad,5,10,On-site,2494747,Active
+E00488,IT,DevOps Engineer,Bangalore,4,13,Hybrid,513031,Active
+E00489,Marketing,SEO Specialist,Bangalore,3,4,On-site,1638509,Active
+E00490,Sales,Sales Executive,Chennai,4,6,Hybrid,1818146,Active
+E00491,Operations,Operations Executive,Mumbai,2,8,Remote,764265,Resigned
+E00492,HR,HR Assistant,Mumbai,2,4,Remote,1805537,Active
+E00493,IT,Software Engineer,Delhi,1,11,On-site,309778,Resigned
+E00494,IT,System Admin,Mumbai,4,9,Hybrid,1913129,Active
+E00495,Support,Tech Support,Chennai,4,8,On-site,2018555,Active
+E00496,Finance,Auditor,Mumbai,5,1,Hybrid,1164565,Active
+E00497,HR,HR Assistant,Bangalore,1,3,On-site,530833,Active
+E00498,IT,System Admin,Mumbai,1,9,Hybrid,1084874,Active
+E00499,Operations,Logistics Coordinator,Pune,4,1,On-site,988096,Active
+E00500,Finance,Accountant,Mumbai,4,8,Remote,525049,Active
+E00501,Marketing,SEO Specialist,Bangalore,2,17,Hybrid,2004867,Active
+E00502,Support,Support Engineer,Hyderabad,4,8,On-site,973858,Active
+E00503,IT,System Admin,Bangalore,1,9,Hybrid,471552,Active
+E00504,Support,Tech Support,Kolkata,1,13,On-site,2352191,Active
+E00505,Finance,Accountant,Mumbai,3,0,Hybrid,655841,Active
+E00506,Support,Customer Support,Mumbai,3,3,Remote,1575644,Active
+E00507,Finance,Financial Analyst,Pune,1,13,On-site,1258109,Resigned
+E00508,IT,DevOps Engineer,Pune,3,6,On-site,1473451,Active
+E00509,Operations,Operations Executive,Mumbai,3,20,On-site,1696250,Active
+E00510,Marketing,SEO Specialist,Hyderabad,2,10,Remote,2158241,Active
+E00511,Marketing,Content Strategist,Mumbai,1,12,On-site,1995030,Resigned
+E00512,Marketing,Content Strategist,Bangalore,3,13,On-site,2272784,Active
+E00513,Operations,Operations Executive,Chennai,1,9,Remote,1608126,Active
+E00514,Finance,Accountant,Bangalore,4,11,On-site,1784263,Active
+E00515,IT,DevOps Engineer,Chennai,2,19,Remote,1017286,Resigned
+E00516,Support,Support Engineer,Hyderabad,2,16,Hybrid,1702879,Active
+E00517,Operations,Operations Executive,Bangalore,3,12,Hybrid,2413349,Active
+E00518,Operations,Operations Manager,Kolkata,1,11,Remote,1577042,Resigned
+E00519,Support,Customer Support,Bangalore,5,14,Hybrid,1321775,Active
+E00520,Support,Tech Support,Chennai,1,7,Remote,1837819,Active
+E00521,Marketing,SEO Specialist,Bangalore,1,10,Hybrid,1649757,Resigned
+E00522,Support,Tech Support,Hyderabad,2,8,On-site,2206874,Resigned
+E00523,Support,Tech Support,Pune,3,14,Hybrid,634583,Active
+E00524,IT,Software Engineer,Pune,1,18,Hybrid,734273,Active
+E00525,Operations,Operations Manager,Bangalore,2,15,Remote,1702591,Active
+E00526,Operations,Operations Executive,Kolkata,2,16,On-site,1357268,Active
+E00527,Finance,Auditor,Mumbai,1,6,On-site,286413,Active
+E00528,IT,System Admin,Chennai,3,14,Remote,1198202,Active
+E00529,Sales,Sales Executive,Pune,4,8,Hybrid,1023952,Active
+E00530,Marketing,Marketing Executive,Delhi,4,18,On-site,1656150,Active
+E00531,Finance,Auditor,Mumbai,1,12,On-site,2416452,Resigned
+E00532,IT,Data Analyst,Delhi,2,7,Remote,605054,Active
+E00533,Sales,BD Associate,Hyderabad,4,16,On-site,2264017,Active
+E00534,Marketing,Content Strategist,Hyderabad,5,9,On-site,1902562,Resigned
+E00535,Marketing,Content Strategist,Kolkata,4,19,On-site,1691246,Active
+E00536,Finance,Financial Analyst,Delhi,2,16,On-site,906030,Active
+E00537,Operations,Logistics Coordinator,Bangalore,4,7,On-site,1026505,Active
+E00538,Operations,Operations Manager,Kolkata,2,19,On-site,1362548,Resigned
+E00539,Sales,Sales Executive,Delhi,4,8,On-site,808981,Active
+E00540,IT,System Admin,Chennai,2,3,Remote,2203341,Resigned
+E00541,HR,HR Assistant,Chennai,3,15,On-site,1754314,Active
+E00542,Operations,Logistics Coordinator,Mumbai,4,9,Hybrid,2055518,Active
+E00543,HR,HR Manager,Mumbai,4,18,Remote,1671969,Active
+E00544,IT,Software Engineer,Kolkata,3,5,Hybrid,2107596,Active
+E00545,Operations,Operations Executive,Mumbai,5,3,Remote,2068036,Active
+E00546,Sales,BD Associate,Kolkata,4,4,Hybrid,1184048,Active
+E00547,IT,DevOps Engineer,Kolkata,5,20,Remote,714462,Active
+E00548,Marketing,SEO Specialist,Pune,1,13,Remote,659319,Active
+E00549,Support,Support Engineer,Pune,2,1,Hybrid,1167472,Resigned
+E00550,Marketing,Content Strategist,Hyderabad,4,10,Remote,354927,Active
+E00551,Finance,Accountant,Delhi,3,14,On-site,1099776,Active
+E00552,Finance,Auditor,Chennai,3,10,On-site,869003,Active
+E00553,Finance,Financial Analyst,Pune,2,16,Hybrid,1132894,Active
+E00554,HR,Recruiter,Delhi,5,20,On-site,2160332,Active
+E00555,Finance,Auditor,Mumbai,2,10,Hybrid,887999,Active
+E00556,Finance,Financial Analyst,Mumbai,4,4,Hybrid,2457282,Active
+E00557,HR,HR Manager,Bangalore,2,19,Remote,668829,Resigned
+E00558,Finance,Accountant,Mumbai,3,17,On-site,1291482,Resigned
+E00559,Operations,Logistics Coordinator,Bangalore,3,8,On-site,250917,Resigned
+E00560,Support,Support Engineer,Kolkata,4,17,Hybrid,2195692,Active
+E00561,HR,HR Manager,Bangalore,3,10,On-site,578821,Active
+E00562,Marketing,Content Strategist,Hyderabad,2,12,On-site,1717172,Active
+E00563,HR,HR Manager,Mumbai,3,7,On-site,1679290,Resigned
+E00564,Operations,Operations Manager,Pune,1,19,Remote,689439,Active
+E00565,Finance,Auditor,Chennai,3,14,Hybrid,2144554,Active
+E00566,Support,Support Engineer,Delhi,3,19,On-site,2399598,Active
+E00567,Support,Tech Support,Chennai,4,6,On-site,2198939,Active
+E00568,HR,HR Manager,Chennai,3,13,On-site,1119446,Active
+E00569,HR,Recruiter,Hyderabad,2,5,Remote,2392771,Active
+E00570,Sales,BD Associate,Chennai,1,7,On-site,456903,Resigned
+E00571,Finance,Financial Analyst,Chennai,4,9,On-site,1027635,Active
+E00572,Sales,Sales Executive,Mumbai,4,17,On-site,1972750,Active
+E00573,Support,Customer Support,Mumbai,3,13,Remote,2095700,Active
+E00574,HR,HR Manager,Delhi,4,15,On-site,1992166,Resigned
+E00575,Support,Tech Support,Kolkata,2,9,On-site,2069400,Resigned
+E00576,IT,Data Analyst,Delhi,4,7,Hybrid,366841,Active
+E00577,Support,Tech Support,Kolkata,5,16,Hybrid,1854243,Resigned
+E00578,Operations,Operations Manager,Chennai,1,11,On-site,1709410,Active
+E00579,IT,System Admin,Mumbai,4,7,On-site,1422304,Active
+E00580,Marketing,Content Strategist,Chennai,1,13,Hybrid,1686803,Active
+E00581,IT,DevOps Engineer,Delhi,4,20,On-site,1197436,Active
+E00582,Marketing,Marketing Executive,Pune,1,5,On-site,2047001,Resigned
+E00583,Finance,Accountant,Delhi,5,4,On-site,2114445,Active
+E00584,Sales,BD Associate,Kolkata,4,12,Hybrid,1864099,Active
+E00585,IT,ML Engineer,Bangalore,1,14,On-site,266279,Resigned
+E00586,HR,Recruiter,Chennai,3,14,Remote,1519670,Active
+E00587,Sales,Sales Executive,Chennai,2,17,Hybrid,1988460,Active
+E00588,HR,HR Assistant,Delhi,5,20,On-site,748512,Active
+E00589,Sales,BD Associate,Bangalore,4,9,Hybrid,1770180,Resigned
+E00590,Sales,Sales Manager,Bangalore,1,19,Remote,1558014,Resigned
+E00591,Finance,Auditor,Mumbai,1,14,On-site,1387613,Active
+E00592,Finance,Financial Analyst,Hyderabad,1,10,Remote,2363213,Resigned
+E00593,Support,Tech Support,Kolkata,1,0,On-site,456548,Resigned
+E00594,Support,Customer Support,Pune,2,5,On-site,2175618,Resigned
+E00595,IT,Software Engineer,Delhi,3,10,On-site,998692,Active
+E00596,Support,Tech Support,Kolkata,4,16,Hybrid,966773,Active
+E00597,Marketing,Content Strategist,Chennai,3,19,Hybrid,769385,Active
+E00598,Sales,Sales Manager,Chennai,4,16,Hybrid,670539,Active
+E00599,HR,Recruiter,Pune,3,0,On-site,2333631,Active
+E00600,Support,Customer Support,Hyderabad,4,8,On-site,987463,Active
+E00601,Support,Customer Support,Chennai,1,1,On-site,867367,Resigned
+E00602,HR,HR Assistant,Mumbai,4,7,Hybrid,520146,Active
+E00603,Finance,Financial Analyst,Delhi,1,14,On-site,2129732,Resigned
+E00604,Support,Customer Support,Kolkata,2,19,Hybrid,896275,Resigned
+E00605,Support,Support Engineer,Pune,1,1,On-site,1584649,Resigned
+E00606,Sales,Sales Executive,Hyderabad,5,0,On-site,2451340,Resigned
+E00607,HR,HR Manager,Hyderabad,1,20,Hybrid,2276361,Active
+E00608,IT,System Admin,Hyderabad,4,17,On-site,1104741,Active
+E00609,Finance,Financial Analyst,Mumbai,1,19,On-site,1878662,Resigned
+E00610,Operations,Operations Manager,Chennai,5,4,On-site,677244,Active
+E00611,Operations,Operations Executive,Delhi,2,0,Hybrid,2459821,Active
+E00612,Sales,BD Associate,Mumbai,5,7,On-site,896012,Active
+E00613,HR,HR Manager,Bangalore,2,20,On-site,2255534,Resigned
+E00614,Sales,Sales Executive,Kolkata,5,14,Hybrid,1065864,Active
+E00615,Marketing,SEO Specialist,Chennai,1,5,Remote,1345687,Resigned
+E00616,IT,Software Engineer,Pune,2,12,On-site,629653,Active
+E00617,Marketing,Content Strategist,Chennai,5,12,On-site,873607,Active
+E00618,Marketing,Marketing Executive,Pune,2,16,On-site,763953,Resigned
+E00619,Operations,Operations Manager,Hyderabad,3,17,Remote,1828232,Active
+E00620,Operations,Logistics Coordinator,Hyderabad,3,10,On-site,997410,Resigned
+E00621,Finance,Financial Analyst,Hyderabad,5,16,Remote,1742017,Active
+E00622,Sales,Sales Executive,Pune,2,13,On-site,934494,Resigned
+E00623,Sales,BD Associate,Hyderabad,4,12,On-site,2070908,Active
+E00624,Finance,Financial Analyst,Kolkata,3,8,On-site,2138007,Resigned
+E00625,Sales,BD Associate,Kolkata,2,15,On-site,2160217,Resigned
+E00626,HR,HR Assistant,Chennai,5,6,Hybrid,1335610,Active
+E00627,Support,Support Engineer,Pune,2,13,On-site,343078,Resigned
+E00628,HR,HR Manager,Kolkata,2,8,On-site,1799317,Resigned
+E00629,Finance,Auditor,Delhi,2,10,Hybrid,1993967,Active
+E00630,Sales,Sales Executive,Bangalore,3,4,Remote,740999,Active
+E00631,Marketing,Marketing Executive,Hyderabad,3,12,Remote,1877650,Active
+E00632,Sales,BD Associate,Pune,1,17,On-site,478584,Resigned
+E00633,HR,Recruiter,Chennai,5,14,On-site,1114285,Active
+E00634,HR,HR Assistant,Kolkata,1,9,Remote,865416,Active
+E00635,Marketing,Content Strategist,Kolkata,1,13,On-site,2029810,Resigned
+E00636,Operations,Operations Executive,Pune,5,6,On-site,378447,Resigned
+E00637,HR,HR Assistant,Mumbai,2,10,On-site,1611425,Active
+E00638,Finance,Financial Analyst,Pune,1,11,On-site,1190335,Active
+E00639,Sales,Sales Executive,Hyderabad,2,14,On-site,805710,Resigned
+E00640,Marketing,Content Strategist,Hyderabad,4,12,Remote,689358,Active
+E00641,Sales,Sales Executive,Chennai,2,15,On-site,2313534,Active
+E00642,Marketing,Content Strategist,Pune,2,6,On-site,1744139,Active
+E00643,Operations,Logistics Coordinator,Kolkata,4,14,Hybrid,1257378,Active
+E00644,Operations,Operations Executive,Delhi,4,19,Hybrid,2351121,Active
+E00645,HR,HR Assistant,Pune,4,12,On-site,751793,Active
+E00646,Marketing,SEO Specialist,Chennai,4,19,Remote,2020403,Active
+E00647,Finance,Auditor,Pune,4,14,Hybrid,2322723,Active
+E00648,Sales,Sales Manager,Mumbai,5,19,Hybrid,778036,Resigned
+E00649,Sales,Sales Executive,Hyderabad,2,12,Remote,850198,Resigned
+E00650,HR,HR Manager,Kolkata,3,20,Remote,1869282,Active
+E00651,HR,Recruiter,Hyderabad,2,1,Hybrid,1650791,Active
+E00652,Marketing,Content Strategist,Chennai,3,0,On-site,1194131,Active
+E00653,Support,Customer Support,Hyderabad,1,0,On-site,774608,Resigned
+E00654,Operations,Operations Manager,Kolkata,2,9,Remote,1553659,Resigned
+E00655,Finance,Financial Analyst,Delhi,3,12,On-site,2003282,Active
+E00656,IT,Data Analyst,Bangalore,2,19,On-site,364456,Resigned
+E00657,HR,HR Manager,Bangalore,5,8,Hybrid,694718,Active
+E00658,Operations,Operations Manager,Bangalore,4,17,On-site,2390321,Resigned
+E00659,IT,Data Analyst,Hyderabad,1,11,On-site,752264,Resigned
+E00660,Sales,BD Associate,Hyderabad,2,0,Hybrid,2017413,Resigned
+E00661,Support,Support Engineer,Pune,2,14,Remote,2152716,Resigned
+E00662,Operations,Operations Manager,Pune,5,17,On-site,1975089,Active
+E00663,Sales,Sales Manager,Pune,4,12,On-site,592221,Active
+E00664,Operations,Operations Executive,Bangalore,5,3,Hybrid,854453,Active
+E00665,Operations,Logistics Coordinator,Delhi,5,3,On-site,2301789,Active
+E00666,IT,DevOps Engineer,Kolkata,5,6,On-site,2080288,Active
+E00667,Support,Customer Support,Chennai,5,19,Hybrid,961423,Active
+E00668,Support,Tech Support,Bangalore,5,2,On-site,1118277,Resigned
+E00669,Operations,Logistics Coordinator,Hyderabad,3,4,Hybrid,659925,Active
+E00670,Support,Customer Support,Mumbai,5,4,On-site,528104,Resigned
+E00671,IT,ML Engineer,Hyderabad,3,6,Remote,2089050,Active
+E00672,HR,Recruiter,Hyderabad,3,0,On-site,593150,Active
+E00673,HR,HR Assistant,Hyderabad,5,15,On-site,1214795,Resigned
+E00674,Finance,Accountant,Hyderabad,1,6,Remote,387900,Active
+E00675,Operations,Operations Executive,Pune,4,19,On-site,1753061,Resigned
+E00676,Sales,Sales Manager,Mumbai,3,10,On-site,368920,Resigned
+E00677,Finance,Auditor,Delhi,4,14,Hybrid,1720413,Resigned
+E00678,HR,Recruiter,Delhi,2,10,On-site,1791037,Active
+E00679,IT,Data Analyst,Hyderabad,1,2,Remote,775754,Resigned
+E00680,Support,Tech Support,Delhi,5,3,On-site,1919771,Resigned
+E00681,Operations,Operations Executive,Pune,5,15,On-site,1094156,Active
+E00682,IT,ML Engineer,Pune,4,10,Remote,1640598,Active
+E00683,Finance,Financial Analyst,Bangalore,5,17,Hybrid,1709096,Active
+E00684,Finance,Accountant,Hyderabad,3,16,On-site,1265197,Active
+E00685,Operations,Logistics Coordinator,Pune,1,18,On-site,2442942,Active
+E00686,Marketing,SEO Specialist,Pune,1,9,Hybrid,2244449,Resigned
+E00687,HR,HR Manager,Bangalore,5,17,On-site,1082307,Active
+E00688,Sales,Sales Executive,Hyderabad,2,3,Hybrid,562579,Active
+E00689,Marketing,SEO Specialist,Bangalore,5,2,On-site,1774631,Active
+E00690,HR,Recruiter,Delhi,3,13,On-site,1156395,Active
+E00691,Finance,Auditor,Delhi,3,3,Hybrid,1220278,Active
+E00692,HR,Recruiter,Bangalore,4,10,Hybrid,2049971,Active
+E00693,Operations,Logistics Coordinator,Kolkata,5,0,On-site,2160617,Active
+E00694,Operations,Operations Manager,Pune,4,7,Remote,2486157,Active
+E00695,IT,Data Analyst,Bangalore,2,4,Hybrid,466486,Active
+E00696,Operations,Logistics Coordinator,Chennai,1,10,On-site,1978782,Active
+E00697,Support,Support Engineer,Hyderabad,2,2,On-site,1740641,Resigned
+E00698,Operations,Operations Manager,Bangalore,4,10,Remote,721761,Active
+E00699,HR,HR Assistant,Pune,2,11,Remote,1521209,Active
+E00700,IT,DevOps Engineer,Kolkata,3,15,Remote,618863,Active
+E00701,Support,Support Engineer,Bangalore,2,12,Remote,337593,Resigned
+E00702,Finance,Financial Analyst,Delhi,2,14,Hybrid,1456126,Resigned
+E00703,HR,HR Assistant,Kolkata,3,5,On-site,1596853,Active
+E00704,Finance,Auditor,Kolkata,2,19,On-site,2389826,Resigned
+E00705,Operations,Logistics Coordinator,Chennai,3,15,On-site,1501661,Active
+E00706,IT,Data Analyst,Bangalore,1,4,On-site,1595801,Active
+E00707,Marketing,Marketing Executive,Bangalore,2,11,Remote,1267497,Active
+E00708,Marketing,Marketing Executive,Hyderabad,1,10,Hybrid,1412180,Active
+E00709,HR,HR Manager,Chennai,3,13,On-site,2461130,Resigned
+E00710,IT,ML Engineer,Delhi,3,14,On-site,2472811,Active
+E00711,Marketing,Marketing Executive,Mumbai,3,7,Hybrid,1402791,Active
+E00712,Marketing,Marketing Executive,Chennai,5,19,On-site,481414,Resigned
+E00713,Support,Tech Support,Hyderabad,5,17,Hybrid,1105754,Active
+E00714,Support,Support Engineer,Mumbai,5,11,On-site,2368194,Active
+E00715,Marketing,Content Strategist,Pune,3,17,Remote,1064811,Active
+E00716,Finance,Accountant,Delhi,4,19,Remote,451904,Active
+E00717,Finance,Financial Analyst,Kolkata,3,7,Hybrid,1949660,Active
+E00718,Sales,Sales Manager,Pune,4,15,Hybrid,1097405,Resigned
+E00719,Support,Tech Support,Pune,5,7,On-site,1571024,Active
+E00720,Finance,Auditor,Delhi,3,12,Hybrid,1959910,Active
+E00721,Operations,Operations Executive,Kolkata,3,12,On-site,610306,Active
+E00722,Finance,Financial Analyst,Kolkata,2,15,Hybrid,2054933,Active
+E00723,Operations,Operations Executive,Bangalore,5,7,Hybrid,720192,Resigned
+E00724,Operations,Operations Manager,Chennai,4,16,Hybrid,825425,Active
+E00725,HR,HR Assistant,Pune,3,5,On-site,1668314,Active
+E00726,Finance,Auditor,Chennai,3,0,On-site,1619971,Active
+E00727,Operations,Logistics Coordinator,Pune,1,3,On-site,1884224,Active
+E00728,Finance,Financial Analyst,Bangalore,2,18,Remote,1617064,Active
+E00729,Finance,Accountant,Bangalore,2,18,On-site,2430943,Resigned
+E00730,Support,Customer Support,Mumbai,1,12,Hybrid,1050607,Active
+E00731,Finance,Auditor,Kolkata,2,9,Hybrid,797571,Active
+E00732,Sales,Sales Executive,Bangalore,4,7,Hybrid,833043,Active
+E00733,Support,Tech Support,Bangalore,4,4,On-site,840611,Active
+E00734,Support,Customer Support,Chennai,5,3,Remote,2100697,Active
+E00735,IT,System Admin,Kolkata,1,20,On-site,2096780,Resigned
+E00736,Sales,Sales Executive,Hyderabad,5,9,Remote,1323224,Active
+E00737,HR,HR Manager,Hyderabad,5,13,On-site,1253510,Active
+E00738,Support,Customer Support,Hyderabad,4,16,On-site,1821480,Active
+E00739,Support,Customer Support,Kolkata,3,2,On-site,669007,Active
+E00740,Marketing,Content Strategist,Hyderabad,3,14,Remote,563559,Active
+E00741,Support,Support Engineer,Hyderabad,3,13,On-site,1268725,Active
+E00742,Marketing,Content Strategist,Bangalore,1,15,On-site,2367191,Resigned
+E00743,Sales,BD Associate,Mumbai,1,12,Remote,260785,Resigned
+E00744,Marketing,SEO Specialist,Kolkata,5,16,Hybrid,1998350,Active
+E00745,HR,Recruiter,Delhi,5,13,On-site,1413951,Active
+E00746,Support,Customer Support,Delhi,3,19,On-site,302949,Active
+E00747,IT,DevOps Engineer,Bangalore,5,7,Hybrid,1803091,Active
+E00748,Finance,Financial Analyst,Chennai,3,0,On-site,2248053,Resigned
+E00749,Support,Support Engineer,Delhi,3,9,Hybrid,2079438,Active
+E00750,IT,System Admin,Kolkata,1,2,Hybrid,2230639,Active
+E00751,Support,Customer Support,Delhi,4,13,Hybrid,1611212,Active
+E00752,IT,ML Engineer,Hyderabad,2,17,On-site,1631710,Resigned
+E00753,Finance,Auditor,Mumbai,4,7,Hybrid,1123420,Active
+E00754,Operations,Operations Manager,Hyderabad,1,12,Remote,1194461,Resigned
+E00755,HR,HR Manager,Pune,5,5,On-site,1412586,Active
+E00756,IT,DevOps Engineer,Pune,1,19,On-site,1283237,Resigned
+E00757,HR,HR Manager,Bangalore,3,16,On-site,957062,Active
+E00758,Operations,Logistics Coordinator,Mumbai,1,6,Remote,1496735,Resigned
+E00759,Operations,Operations Executive,Chennai,2,1,On-site,1469925,Active
+E00760,Marketing,SEO Specialist,Kolkata,5,5,Hybrid,1177328,Active
+E00761,IT,Software Engineer,Bangalore,4,3,On-site,1267375,Active
+E00762,HR,HR Assistant,Kolkata,4,5,On-site,1172401,Resigned
+E00763,HR,HR Assistant,Chennai,2,12,Hybrid,700985,Active
+E00764,HR,Recruiter,Pune,3,1,On-site,2185430,Active
+E00765,HR,Recruiter,Pune,2,0,Remote,1130432,Active
+E00766,Finance,Accountant,Chennai,2,13,Remote,939995,Active
+E00767,Finance,Financial Analyst,Hyderabad,3,5,Remote,1216325,Active
+E00768,Support,Tech Support,Delhi,1,2,On-site,984172,Active
+E00769,Sales,Sales Manager,Chennai,3,8,Hybrid,911440,Active
+E00770,HR,Recruiter,Mumbai,1,5,On-site,1213544,Active
+E00771,Marketing,Content Strategist,Kolkata,3,11,On-site,867585,Active
+E00772,Sales,Sales Executive,Chennai,5,0,Remote,1411140,Resigned
+E00773,Finance,Accountant,Pune,2,15,On-site,2326259,Active
+E00774,Finance,Accountant,Bangalore,3,6,On-site,269782,Active
+E00775,HR,HR Manager,Chennai,4,13,Hybrid,2073327,Active
+E00776,HR,HR Manager,Chennai,1,4,Remote,2090277,Active
+E00777,Sales,Sales Executive,Pune,5,5,Hybrid,2099388,Resigned
+E00778,Support,Customer Support,Chennai,4,0,On-site,1899260,Active
+E00779,Finance,Accountant,Chennai,5,1,Hybrid,1470192,Active
+E00780,Marketing,Content Strategist,Pune,5,2,Hybrid,2185772,Resigned
+E00781,IT,Software Engineer,Kolkata,3,17,Remote,299768,Active
+E00782,Marketing,SEO Specialist,Kolkata,2,6,Remote,1684269,Active
+E00783,Marketing,Marketing Executive,Bangalore,2,18,On-site,649017,Active
+E00784,Sales,Sales Executive,Kolkata,3,16,On-site,926337,Active
+E00785,Support,Customer Support,Kolkata,5,14,On-site,1354315,Resigned
+E00786,Support,Customer Support,Bangalore,3,9,Hybrid,432447,Resigned
+E00787,Marketing,Marketing Executive,Chennai,1,16,On-site,1500104,Resigned
+E00788,IT,ML Engineer,Pune,1,3,Remote,666561,Active
+E00789,HR,Recruiter,Chennai,5,17,Remote,1462567,Active
+E00790,IT,Data Analyst,Mumbai,4,4,Hybrid,644768,Active
+E00791,IT,DevOps Engineer,Kolkata,4,17,Hybrid,765447,Active
+E00792,Finance,Accountant,Chennai,3,14,On-site,1088489,Active
+E00793,IT,Data Analyst,Mumbai,4,16,On-site,625233,Active
+E00794,Finance,Accountant,Hyderabad,1,11,Remote,474062,Active
+E00795,IT,Data Analyst,Delhi,4,3,Remote,952214,Active
+E00796,Sales,Sales Executive,Pune,1,16,On-site,279813,Resigned
+E00797,HR,HR Assistant,Kolkata,4,5,Hybrid,1736056,Active
+E00798,HR,HR Manager,Pune,1,12,On-site,2287171,Active
+E00799,HR,Recruiter,Mumbai,4,16,Remote,2304048,Active
+E00800,Marketing,SEO Specialist,Hyderabad,2,20,On-site,555063,Resigned
+E00801,IT,DevOps Engineer,Kolkata,1,15,Hybrid,2479523,Active
+E00802,Finance,Auditor,Hyderabad,2,3,On-site,1113787,Active
+E00803,Marketing,Marketing Executive,Hyderabad,2,11,Remote,597186,Resigned
+E00804,Finance,Financial Analyst,Hyderabad,3,20,On-site,2102207,Active
+E00805,Operations,Logistics Coordinator,Kolkata,3,4,Hybrid,1072564,Resigned
+E00806,Finance,Accountant,Pune,1,20,Hybrid,998810,Active
+E00807,HR,HR Assistant,Delhi,2,11,On-site,744829,Active
+E00808,HR,HR Manager,Bangalore,1,2,On-site,1299458,Resigned
+E00809,Support,Customer Support,Chennai,2,9,Hybrid,646419,Active
+E00810,Finance,Financial Analyst,Hyderabad,1,9,Hybrid,1368844,Active
+E00811,Support,Support Engineer,Kolkata,4,8,On-site,1707913,Resigned
+E00812,Operations,Operations Manager,Chennai,4,15,On-site,273004,Resigned
+E00813,Operations,Operations Manager,Pune,2,20,Remote,792955,Resigned
+E00814,Support,Tech Support,Kolkata,1,0,Hybrid,2303413,Resigned
+E00815,Sales,Sales Manager,Hyderabad,2,5,Hybrid,2093441,Resigned
+E00816,Finance,Financial Analyst,Chennai,5,6,On-site,2133578,Active
+E00817,Sales,Sales Executive,Hyderabad,4,15,On-site,2270937,Active
+E00818,Sales,Sales Manager,Mumbai,2,10,Hybrid,291139,Resigned
+E00819,Support,Support Engineer,Kolkata,1,20,On-site,2405091,Resigned
+E00820,HR,HR Assistant,Pune,2,13,On-site,387799,Resigned
+E00821,Sales,Sales Executive,Mumbai,4,16,Remote,1744201,Active
+E00822,IT,DevOps Engineer,Bangalore,4,9,Hybrid,271341,Active
+E00823,Support,Tech Support,Pune,1,11,Remote,328840,Resigned
+E00824,IT,DevOps Engineer,Mumbai,5,18,On-site,2337001,Active
+E00825,HR,HR Manager,Kolkata,4,1,On-site,391900,Active
+E00826,Sales,Sales Manager,Kolkata,5,6,Remote,2268391,Active
+E00827,Support,Customer Support,Hyderabad,1,14,Remote,1304212,Resigned
+E00828,Sales,Sales Executive,Bangalore,5,13,On-site,375851,Active
+E00829,Support,Tech Support,Hyderabad,5,5,On-site,1124506,Active
+E00830,Operations,Operations Executive,Kolkata,5,20,On-site,2386300,Active
+E00831,Support,Support Engineer,Kolkata,3,15,On-site,2191758,Active
+E00832,Support,Support Engineer,Mumbai,1,11,On-site,1319412,Resigned
+E00833,IT,ML Engineer,Bangalore,4,4,Remote,1441605,Active
+E00834,Finance,Accountant,Mumbai,2,12,On-site,776925,Resigned
+E00835,Marketing,Marketing Executive,Bangalore,1,7,Remote,2173378,Resigned
+E00836,IT,DevOps Engineer,Chennai,3,18,On-site,2192517,Active
+E00837,HR,HR Assistant,Kolkata,4,1,Remote,1938124,Active
+E00838,Finance,Auditor,Pune,1,1,Hybrid,1110931,Active
+E00839,Support,Support Engineer,Mumbai,4,9,Remote,785620,Resigned
+E00840,IT,Data Analyst,Bangalore,3,2,Hybrid,1150853,Active
+E00841,IT,ML Engineer,Bangalore,3,8,Hybrid,2470929,Active
+E00842,Support,Customer Support,Kolkata,3,10,Hybrid,598848,Active
+E00843,IT,DevOps Engineer,Kolkata,3,3,Remote,352877,Active
+E00844,Sales,BD Associate,Pune,1,17,Remote,641670,Resigned
+E00845,Sales,BD Associate,Chennai,4,11,On-site,1507302,Resigned
+E00846,Sales,BD Associate,Kolkata,4,15,Hybrid,2122204,Active
+E00847,Operations,Operations Manager,Pune,4,3,Hybrid,1256891,Active
+E00848,Sales,Sales Executive,Hyderabad,3,1,Remote,1564870,Active
+E00849,HR,HR Assistant,Chennai,5,9,On-site,1634410,Active
+E00850,Finance,Accountant,Bangalore,4,16,On-site,1295533,Resigned
+E00851,IT,Software Engineer,Chennai,2,19,Hybrid,372026,Resigned
+E00852,Sales,Sales Manager,Bangalore,5,13,Hybrid,561741,Active
+E00853,IT,ML Engineer,Mumbai,4,9,Hybrid,1877008,Active
+E00854,Finance,Accountant,Hyderabad,4,19,Hybrid,360084,Resigned
+E00855,HR,Recruiter,Pune,1,18,On-site,1447442,Active
+E00856,Finance,Accountant,Delhi,1,12,Hybrid,264390,Resigned
+E00857,Sales,Sales Executive,Mumbai,5,15,Remote,2451072,Active
+E00858,IT,DevOps Engineer,Mumbai,3,18,Hybrid,1602382,Active
+E00859,Finance,Accountant,Bangalore,3,14,Hybrid,1330132,Active
+E00860,Operations,Operations Manager,Delhi,1,6,On-site,1180220,Resigned
+E00861,IT,DevOps Engineer,Pune,4,3,Hybrid,1022291,Active
+E00862,Marketing,Marketing Executive,Mumbai,2,18,Hybrid,1467309,Active
+E00863,Finance,Auditor,Bangalore,1,14,On-site,1916312,Active
+E00864,Sales,Sales Executive,Delhi,3,18,On-site,2019107,Resigned
+E00865,IT,DevOps Engineer,Bangalore,2,14,On-site,2064630,Active
+E00866,HR,HR Manager,Delhi,4,17,Hybrid,2181184,Active
+E00867,Sales,Sales Manager,Kolkata,2,6,On-site,940568,Active
+E00868,Marketing,Content Strategist,Delhi,3,17,On-site,1949547,Active
+E00869,Support,Support Engineer,Hyderabad,4,1,Hybrid,1406245,Resigned
+E00870,Sales,Sales Executive,Pune,4,14,On-site,1226006,Resigned
+E00871,Sales,Sales Manager,Chennai,4,17,On-site,1042955,Active
+E00872,HR,HR Manager,Mumbai,4,16,On-site,956014,Active
+E00873,Finance,Auditor,Kolkata,2,5,On-site,934076,Active
+E00874,Marketing,SEO Specialist,Hyderabad,2,4,On-site,1649298,Resigned
+E00875,HR,Recruiter,Delhi,5,11,On-site,1811232,Active
+E00876,HR,HR Manager,Kolkata,1,19,On-site,299476,Active
+E00877,IT,System Admin,Chennai,3,20,On-site,2363687,Active
+E00878,Finance,Accountant,Chennai,3,11,On-site,2438077,Active
+E00879,Finance,Financial Analyst,Bangalore,4,7,On-site,1939576,Active
+E00880,Operations,Operations Manager,Hyderabad,4,10,Remote,1897982,Resigned
+E00881,Finance,Auditor,Hyderabad,2,11,Hybrid,1228534,Active
+E00882,IT,Software Engineer,Chennai,5,11,Hybrid,731632,Active
+E00883,Marketing,Marketing Executive,Delhi,3,4,Hybrid,1661910,Active
+E00884,HR,HR Manager,Hyderabad,2,2,On-site,2125530,Resigned
+E00885,Operations,Operations Manager,Pune,1,19,On-site,1517633,Resigned
+E00886,Sales,BD Associate,Kolkata,1,12,Remote,2023462,Resigned
+E00887,Marketing,SEO Specialist,Mumbai,4,14,Hybrid,1712108,Active
+E00888,IT,ML Engineer,Bangalore,2,14,On-site,2415521,Active
+E00889,Operations,Operations Executive,Pune,3,9,On-site,1838858,Active
+E00890,HR,Recruiter,Bangalore,3,1,Remote,2243384,Active
+E00891,Operations,Logistics Coordinator,Hyderabad,5,6,Remote,585639,Active
+E00892,Marketing,SEO Specialist,Chennai,3,6,On-site,1462980,Resigned
+E00893,Operations,Logistics Coordinator,Hyderabad,2,20,Remote,1927465,Active
+E00894,Finance,Accountant,Chennai,5,18,On-site,822285,Active
+E00895,Operations,Logistics Coordinator,Bangalore,2,10,Hybrid,2144420,Resigned
+E00896,Marketing,SEO Specialist,Mumbai,3,3,Remote,2046218,Active
+E00897,Finance,Auditor,Kolkata,4,6,Hybrid,2290403,Active
+E00898,Finance,Financial Analyst,Mumbai,4,9,On-site,838033,Active
+E00899,Marketing,Marketing Executive,Kolkata,2,17,On-site,1711742,Active
+E00900,IT,System Admin,Mumbai,5,13,Remote,2492516,Active
+E00901,Marketing,Content Strategist,Hyderabad,2,7,On-site,1265930,Resigned
+E00902,Operations,Logistics Coordinator,Hyderabad,5,15,On-site,1159121,Active
+E00903,Marketing,SEO Specialist,Mumbai,3,5,Remote,968730,Active
+E00904,IT,DevOps Engineer,Kolkata,5,7,Remote,1087566,Active
+E00905,Sales,Sales Manager,Pune,2,15,Hybrid,1085165,Active
+E00906,Operations,Operations Manager,Hyderabad,4,12,On-site,1803749,Active
+E00907,IT,DevOps Engineer,Pune,4,15,Hybrid,936093,Active
+E00908,IT,Software Engineer,Bangalore,3,12,On-site,2436203,Active
+E00909,Support,Support Engineer,Chennai,2,6,Hybrid,823722,Active
+E00910,HR,HR Assistant,Bangalore,5,0,On-site,851513,Resigned
+E00911,Marketing,Marketing Executive,Delhi,5,5,Hybrid,2307017,Active
+E00912,Support,Customer Support,Hyderabad,5,19,Remote,259583,Resigned
+E00913,IT,Software Engineer,Delhi,1,20,On-site,2345598,Active
+E00914,Support,Tech Support,Pune,4,12,Remote,1304153,Active
+E00915,Sales,BD Associate,Bangalore,3,14,On-site,1073265,Active
+E00916,Support,Customer Support,Delhi,4,10,Remote,1886748,Active
+E00917,HR,HR Manager,Kolkata,1,9,On-site,363606,Resigned
+E00918,Finance,Auditor,Bangalore,2,0,On-site,1593054,Resigned
+E00919,Support,Tech Support,Hyderabad,4,17,Hybrid,517291,Active
+E00920,Sales,BD Associate,Pune,4,15,On-site,2129573,Active
+E00921,Operations,Operations Executive,Chennai,4,3,On-site,2489155,Active
+E00922,HR,HR Assistant,Mumbai,2,20,On-site,274363,Resigned
+E00923,Support,Support Engineer,Pune,2,20,On-site,942894,Resigned
+E00924,Support,Customer Support,Bangalore,5,1,Hybrid,2249085,Active
+E00925,IT,System Admin,Mumbai,2,14,Remote,2079074,Active
+E00926,HR,HR Assistant,Kolkata,4,2,Hybrid,489647,Active
+E00927,IT,DevOps Engineer,Chennai,2,8,Hybrid,2154611,Resigned
+E00928,IT,Software Engineer,Chennai,5,17,Hybrid,1608990,Active
+E00929,HR,HR Assistant,Kolkata,5,3,Hybrid,1587218,Active
+E00930,Marketing,SEO Specialist,Pune,5,9,Remote,674190,Active
+E00931,IT,Software Engineer,Pune,5,3,On-site,1007600,Active
+E00932,Operations,Operations Manager,Hyderabad,5,4,Remote,2337560,Resigned
+E00933,IT,System Admin,Pune,2,11,Hybrid,1907528,Active
+E00934,IT,Data Analyst,Mumbai,3,13,Hybrid,2495772,Active
+E00935,Finance,Auditor,Kolkata,1,1,On-site,1370831,Active
+E00936,Support,Customer Support,Mumbai,5,13,On-site,2085775,Active
+E00937,Support,Support Engineer,Mumbai,5,6,On-site,1135621,Active
+E00938,Operations,Logistics Coordinator,Mumbai,1,20,On-site,1953728,Active
+E00939,IT,ML Engineer,Mumbai,3,6,Remote,760609,Active
+E00940,Sales,Sales Manager,Hyderabad,5,17,On-site,1045911,Active
+E00941,Support,Support Engineer,Delhi,4,7,Remote,2499476,Active
+E00942,Finance,Auditor,Delhi,2,18,Hybrid,1650507,Active
+E00943,Finance,Accountant,Delhi,1,14,Remote,638742,Active
+E00944,Sales,Sales Executive,Mumbai,4,20,Remote,2345637,Active
+E00945,Sales,Sales Executive,Delhi,1,10,Hybrid,524548,Active
+E00946,Operations,Logistics Coordinator,Bangalore,2,15,On-site,2062901,Resigned
+E00947,Marketing,SEO Specialist,Mumbai,2,17,Hybrid,1021143,Active
+E00948,IT,DevOps Engineer,Mumbai,2,6,Remote,1826845,Active
+E00949,Support,Tech Support,Mumbai,1,12,On-site,341656,Resigned
+E00950,HR,HR Assistant,Chennai,2,18,Remote,1237938,Active
+E00951,Support,Customer Support,Delhi,1,18,On-site,320246,Resigned
+E00952,Sales,Sales Executive,Delhi,3,3,Hybrid,1287886,Active
+E00953,Sales,Sales Executive,Bangalore,2,4,On-site,701989,Active
+E00954,Support,Customer Support,Pune,5,2,Hybrid,1366136,Resigned
+E00955,HR,HR Assistant,Delhi,2,1,Hybrid,1300482,Resigned
+E00956,Operations,Logistics Coordinator,Mumbai,1,15,On-site,2297298,Resigned
+E00957,HR,HR Assistant,Pune,5,0,On-site,1163605,Active
+E00958,Sales,Sales Executive,Bangalore,3,7,On-site,1708251,Active
+E00959,HR,HR Manager,Pune,5,8,Remote,1434836,Active
+E00960,IT,Data Analyst,Kolkata,1,6,Hybrid,1828660,Active
+E00961,Sales,BD Associate,Delhi,1,1,Hybrid,1932964,Resigned
+E00962,Sales,Sales Executive,Chennai,5,19,On-site,1708835,Active
+E00963,HR,HR Assistant,Mumbai,1,2,Hybrid,2446274,Active
+E00964,Finance,Accountant,Bangalore,3,2,Hybrid,1406300,Resigned
+E00965,Marketing,Content Strategist,Hyderabad,5,19,Hybrid,1281328,Active
+E00966,HR,HR Manager,Hyderabad,4,12,Remote,1124072,Active
+E00967,Marketing,Content Strategist,Hyderabad,1,7,Hybrid,640732,Active
+E00968,HR,Recruiter,Hyderabad,1,4,On-site,2203097,Active
+E00969,IT,Data Analyst,Kolkata,4,4,On-site,736626,Active
+E00970,HR,HR Assistant,Kolkata,5,13,Hybrid,988456,Active
+E00971,Support,Support Engineer,Delhi,1,13,Hybrid,2017581,Active
+E00972,Support,Support Engineer,Mumbai,1,6,Hybrid,300248,Resigned
+E00973,Operations,Operations Manager,Bangalore,3,5,Hybrid,914164,Active
+E00974,IT,ML Engineer,Mumbai,2,20,On-site,714271,Resigned
+E00975,Operations,Operations Manager,Kolkata,1,15,Hybrid,1781618,Active
+E00976,Marketing,Content Strategist,Bangalore,5,17,On-site,2029472,Active
+E00977,Marketing,Content Strategist,Hyderabad,1,1,On-site,1346613,Resigned
+E00978,Marketing,Content Strategist,Bangalore,1,4,On-site,2047038,Resigned
+E00979,HR,HR Assistant,Pune,2,6,On-site,367369,Resigned
+E00980,Finance,Auditor,Chennai,2,16,Hybrid,2481737,Resigned
+E00981,Operations,Logistics Coordinator,Pune,3,19,Hybrid,1157153,Active
+E00982,IT,ML Engineer,Delhi,4,9,Hybrid,1816772,Active
+E00983,Finance,Auditor,Delhi,1,15,Hybrid,1376998,Resigned
+E00984,Support,Tech Support,Delhi,5,4,Hybrid,1689641,Active
+E00985,Sales,BD Associate,Hyderabad,4,17,On-site,542441,Active
+E00986,Sales,Sales Manager,Delhi,5,10,Hybrid,891462,Resigned
+E00987,Marketing,SEO Specialist,Mumbai,3,8,Remote,1015387,Active
+E00988,Support,Customer Support,Hyderabad,3,6,On-site,2445337,Active
+E00989,Finance,Financial Analyst,Chennai,4,19,On-site,2102566,Active
+E00990,Sales,Sales Manager,Bangalore,1,18,Hybrid,803620,Resigned
+E00991,IT,System Admin,Bangalore,1,10,On-site,1301341,Active
+E00992,Sales,Sales Executive,Mumbai,2,14,Hybrid,923616,Resigned
+E00993,Marketing,SEO Specialist,Hyderabad,1,13,On-site,768993,Resigned
+E00994,Marketing,SEO Specialist,Kolkata,3,0,Remote,1631688,Active
+E00995,Sales,BD Associate,Kolkata,5,1,Hybrid,1505802,Resigned
+E00996,HR,HR Manager,Pune,5,20,On-site,781930,Active
+E00997,IT,Software Engineer,Mumbai,2,4,Hybrid,1096462,Active
+E00998,Support,Customer Support,Kolkata,4,13,On-site,648825,Active
+E00999,IT,ML Engineer,Chennai,3,11,On-site,1966473,Active
+E01000,Sales,BD Associate,Delhi,5,6,On-site,1026041,Active
+E01001,IT,System Admin,Mumbai,1,15,On-site,1902595,Resigned
+E01002,IT,System Admin,Kolkata,3,7,On-site,560258,Resigned
+E01003,Sales,Sales Executive,Delhi,1,15,On-site,910501,Resigned
+E01004,IT,Data Analyst,Delhi,2,11,Remote,797578,Resigned
+E01005,Operations,Logistics Coordinator,Pune,2,8,Hybrid,447345,Active
+E01006,Operations,Operations Manager,Hyderabad,1,14,Remote,1058062,Active
+E01007,Finance,Auditor,Bangalore,3,19,On-site,2197175,Resigned
+E01008,IT,Software Engineer,Mumbai,2,8,On-site,667230,Resigned
+E01009,Sales,Sales Manager,Bangalore,3,13,Hybrid,832933,Active
+E01010,Support,Tech Support,Delhi,1,13,On-site,279092,Resigned
+E01011,HR,Recruiter,Hyderabad,1,0,Hybrid,457580,Resigned
+E01012,Sales,Sales Executive,Chennai,5,20,On-site,1910100,Resigned
+E01013,Finance,Accountant,Chennai,1,19,On-site,2050493,Active
+E01014,IT,Software Engineer,Bangalore,3,10,On-site,1028928,Resigned
+E01015,Finance,Financial Analyst,Pune,4,6,On-site,1400311,Active
+E01016,Marketing,Marketing Executive,Pune,4,2,Hybrid,1531258,Active
+E01017,Sales,BD Associate,Pune,5,10,Hybrid,1593679,Resigned
+E01018,Sales,BD Associate,Delhi,2,15,On-site,1096056,Active
+E01019,Operations,Logistics Coordinator,Kolkata,4,11,On-site,583964,Active
+E01020,HR,Recruiter,Kolkata,1,19,Remote,1182196,Active
+E01021,Marketing,Content Strategist,Bangalore,5,20,Hybrid,2414452,Active
+E01022,Finance,Financial Analyst,Chennai,5,10,On-site,2214078,Active
+E01023,Marketing,Content Strategist,Pune,5,6,On-site,2395265,Active
+E01024,IT,ML Engineer,Delhi,1,13,On-site,861709,Active
+E01025,Support,Customer Support,Chennai,1,17,Remote,1074464,Active
+E01026,Marketing,SEO Specialist,Chennai,5,8,Hybrid,1409070,Active
+E01027,Sales,BD Associate,Bangalore,1,6,On-site,2459375,Active
+E01028,HR,Recruiter,Pune,2,11,On-site,2003313,Resigned
+E01029,Marketing,Marketing Executive,Pune,5,17,On-site,1220584,Active
+E01030,HR,HR Manager,Kolkata,3,9,Remote,1701508,Active
+E01031,Finance,Accountant,Kolkata,1,15,Hybrid,2176663,Active
+E01032,Finance,Financial Analyst,Kolkata,5,17,Remote,1562629,Active
+E01033,Support,Tech Support,Pune,4,1,On-site,878758,Active
+E01034,Support,Customer Support,Bangalore,5,2,On-site,2190592,Resigned
+E01035,Sales,Sales Manager,Bangalore,3,9,On-site,1008271,Resigned
+E01036,Sales,BD Associate,Delhi,3,16,Hybrid,502773,Active
+E01037,IT,Data Analyst,Hyderabad,5,16,On-site,352951,Active
+E01038,HR,HR Assistant,Delhi,3,14,On-site,763223,Active
+E01039,Sales,BD Associate,Kolkata,1,16,Hybrid,671001,Active
+E01040,Support,Support Engineer,Bangalore,4,20,On-site,1098182,Resigned
+E01041,Support,Customer Support,Bangalore,5,6,On-site,1482663,Resigned
+E01042,Sales,BD Associate,Kolkata,4,3,Hybrid,457500,Active
+E01043,HR,HR Assistant,Kolkata,1,11,On-site,491482,Resigned
+E01044,Marketing,Marketing Executive,Kolkata,2,6,Remote,2050266,Active
+E01045,Sales,BD Associate,Chennai,2,15,Hybrid,2457312,Active
+E01046,Sales,BD Associate,Kolkata,5,4,Hybrid,1384077,Resigned
+E01047,Marketing,Marketing Executive,Mumbai,1,6,Remote,1817043,Resigned
+E01048,IT,Software Engineer,Chennai,5,6,Remote,565104,Active
+E01049,Finance,Financial Analyst,Mumbai,2,10,On-site,1738204,Resigned
+E01050,IT,ML Engineer,Delhi,2,8,Hybrid,574058,Active
+E01051,Marketing,Marketing Executive,Hyderabad,5,20,Hybrid,2143884,Active
+E01052,Support,Customer Support,Chennai,4,3,Remote,2303780,Active
+E01053,Operations,Logistics Coordinator,Bangalore,2,6,On-site,1903005,Resigned
+E01054,IT,DevOps Engineer,Pune,4,7,Hybrid,260514,Active
+E01055,Support,Customer Support,Hyderabad,2,17,On-site,1407260,Resigned
+E01056,HR,HR Assistant,Delhi,1,13,On-site,1237886,Active
+E01057,IT,System Admin,Kolkata,4,11,Remote,531383,Active
+E01058,IT,ML Engineer,Delhi,1,1,On-site,932346,Active
+E01059,Sales,BD Associate,Kolkata,3,12,On-site,1473045,Active
+E01060,IT,Software Engineer,Chennai,2,7,Hybrid,621557,Active
+E01061,Marketing,Content Strategist,Mumbai,1,13,On-site,1170267,Resigned
+E01062,Sales,Sales Manager,Mumbai,3,3,On-site,697628,Active
+E01063,HR,HR Assistant,Kolkata,5,8,On-site,2383221,Active
+E01064,Finance,Auditor,Pune,3,10,On-site,934659,Active
+E01065,Marketing,Content Strategist,Bangalore,2,17,On-site,2491105,Resigned
+E01066,HR,HR Manager,Delhi,2,6,On-site,1164217,Active
+E01067,IT,Data Analyst,Bangalore,3,1,On-site,536268,Active
+E01068,Sales,BD Associate,Hyderabad,4,17,Hybrid,615837,Active
+E01069,Finance,Auditor,Kolkata,5,15,Hybrid,1415975,Active
+E01070,HR,HR Manager,Pune,1,16,Hybrid,537906,Active
+E01071,Operations,Operations Executive,Mumbai,2,10,On-site,767257,Active
+E01072,Marketing,Content Strategist,Mumbai,2,18,On-site,1387273,Resigned
+E01073,IT,ML Engineer,Delhi,1,1,Remote,1256152,Resigned
+E01074,Finance,Accountant,Hyderabad,1,8,On-site,2396449,Active
+E01075,Finance,Auditor,Bangalore,3,15,On-site,1391766,Active
+E01076,IT,System Admin,Chennai,3,4,On-site,2185573,Active
+E01077,Operations,Operations Executive,Bangalore,2,14,On-site,1414650,Active
+E01078,Sales,Sales Executive,Hyderabad,5,12,On-site,2404327,Active
+E01079,IT,Data Analyst,Delhi,1,2,Remote,543257,Active
+E01080,Operations,Operations Executive,Hyderabad,3,4,On-site,1375269,Active
+E01081,Support,Tech Support,Kolkata,4,8,On-site,800049,Active
+E01082,Sales,Sales Executive,Bangalore,1,18,Hybrid,454580,Resigned
+E01083,IT,DevOps Engineer,Mumbai,4,3,Hybrid,808745,Active
+E01084,Operations,Operations Manager,Pune,4,15,Remote,2253369,Resigned
+E01085,Support,Customer Support,Mumbai,2,6,On-site,2203574,Resigned
+E01086,Support,Support Engineer,Hyderabad,2,8,Remote,836470,Active
+E01087,Marketing,Marketing Executive,Chennai,1,4,On-site,2068352,Resigned
+E01088,Support,Support Engineer,Delhi,1,16,On-site,1072922,Resigned
+E01089,Finance,Accountant,Delhi,1,14,Remote,461463,Resigned
+E01090,Finance,Financial Analyst,Chennai,1,10,Hybrid,343476,Resigned
+E01091,Sales,Sales Manager,Mumbai,1,2,Hybrid,1744475,Resigned
+E01092,Finance,Financial Analyst,Pune,2,1,On-site,341679,Resigned
+E01093,Sales,Sales Executive,Chennai,2,12,On-site,427476,Resigned
+E01094,Support,Customer Support,Delhi,3,20,On-site,2181441,Resigned
+E01095,HR,HR Manager,Bangalore,3,9,On-site,1874508,Active
+E01096,Sales,Sales Manager,Kolkata,1,18,Hybrid,1780332,Active
+E01097,Marketing,Marketing Executive,Delhi,2,18,Remote,824120,Resigned
+E01098,Support,Support Engineer,Bangalore,2,1,Hybrid,1554140,Resigned
+E01099,Operations,Logistics Coordinator,Chennai,2,7,On-site,2211921,Resigned
+E01100,Marketing,SEO Specialist,Hyderabad,5,8,On-site,1956422,Active
+E01101,Marketing,SEO Specialist,Kolkata,3,13,On-site,1051680,Resigned
+E01102,HR,Recruiter,Chennai,1,2,On-site,365981,Resigned
+E01103,Marketing,Content Strategist,Mumbai,2,17,On-site,1212494,Active
+E01104,Sales,BD Associate,Delhi,3,11,On-site,2442848,Resigned
+E01105,Marketing,Content Strategist,Bangalore,5,11,Remote,1836314,Active
+E01106,Operations,Logistics Coordinator,Pune,3,19,On-site,737335,Resigned
+E01107,Marketing,Content Strategist,Chennai,4,19,Remote,2376028,Active
+E01108,Sales,Sales Executive,Chennai,2,5,Hybrid,1773163,Resigned
+E01109,Finance,Accountant,Chennai,5,20,On-site,1766925,Active
+E01110,HR,HR Assistant,Bangalore,5,15,On-site,1663664,Active
+E01111,Marketing,SEO Specialist,Chennai,3,14,On-site,853359,Active
+E01112,Sales,BD Associate,Chennai,4,19,On-site,2316494,Active
+E01113,IT,System Admin,Pune,1,11,Hybrid,1533326,Active
+E01114,Support,Customer Support,Pune,1,12,Hybrid,736598,Resigned
+E01115,HR,HR Manager,Pune,1,11,On-site,677709,Active
+E01116,Marketing,Marketing Executive,Delhi,2,19,Hybrid,903080,Active
+E01117,HR,HR Assistant,Kolkata,5,7,On-site,794748,Active
+E01118,Support,Support Engineer,Pune,3,5,On-site,1084030,Active
+E01119,Finance,Financial Analyst,Bangalore,1,10,Remote,966358,Active
+E01120,Operations,Logistics Coordinator,Delhi,5,11,Hybrid,2324242,Resigned
+E01121,IT,Data Analyst,Mumbai,3,20,On-site,1101980,Resigned
+E01122,Finance,Accountant,Pune,4,0,On-site,1768642,Active
+E01123,Support,Support Engineer,Kolkata,3,11,Remote,1105656,Active
+E01124,Sales,Sales Manager,Bangalore,5,11,Remote,1618465,Active
+E01125,Operations,Logistics Coordinator,Hyderabad,1,11,Hybrid,2010968,Resigned
+E01126,Marketing,Content Strategist,Bangalore,3,19,Hybrid,1821853,Active
+E01127,IT,System Admin,Chennai,5,8,Remote,1961382,Active
+E01128,Marketing,SEO Specialist,Bangalore,2,13,Hybrid,921064,Active
+E01129,HR,Recruiter,Hyderabad,5,14,Hybrid,757730,Active
+E01130,HR,Recruiter,Mumbai,3,16,On-site,789203,Active
+E01131,Operations,Operations Manager,Chennai,1,3,Hybrid,1940336,Active
+E01132,IT,ML Engineer,Kolkata,5,1,Hybrid,1468284,Active
+E01133,Finance,Financial Analyst,Kolkata,2,8,Remote,1848515,Active
+E01134,IT,Software Engineer,Kolkata,4,9,Hybrid,2235500,Active
+E01135,Marketing,Content Strategist,Bangalore,4,20,Remote,550406,Active
+E01136,Sales,BD Associate,Kolkata,2,8,On-site,1780523,Active
+E01137,Support,Tech Support,Mumbai,3,14,On-site,2353627,Active
+E01138,IT,Data Analyst,Chennai,4,12,On-site,680037,Active
+E01139,HR,HR Manager,Pune,1,15,On-site,1049288,Resigned
+E01140,Finance,Financial Analyst,Kolkata,2,7,Hybrid,567798,Active
+E01141,Marketing,SEO Specialist,Delhi,1,12,Hybrid,714710,Active
+E01142,HR,Recruiter,Delhi,1,20,Hybrid,971075,Resigned
+E01143,IT,System Admin,Kolkata,5,20,Hybrid,2149955,Active
+E01144,Sales,BD Associate,Chennai,2,14,Remote,647693,Active
+E01145,Sales,Sales Executive,Chennai,4,1,On-site,1467745,Active
+E01146,Support,Tech Support,Bangalore,3,20,Remote,1304405,Active
+E01147,HR,HR Assistant,Chennai,3,11,On-site,774436,Active
+E01148,Finance,Financial Analyst,Chennai,4,13,Hybrid,1591795,Active
+E01149,IT,ML Engineer,Hyderabad,5,3,On-site,1746030,Active
+E01150,HR,HR Assistant,Bangalore,1,5,Hybrid,1625330,Resigned
+E01151,HR,HR Manager,Bangalore,5,15,Remote,1714003,Active
+E01152,Finance,Auditor,Pune,2,18,On-site,1557981,Active
+E01153,Finance,Financial Analyst,Chennai,3,19,Hybrid,1375847,Active
+E01154,Support,Support Engineer,Pune,1,3,On-site,1128835,Resigned
+E01155,Support,Support Engineer,Kolkata,5,10,Hybrid,1093353,Active
+E01156,Operations,Operations Executive,Mumbai,4,16,Remote,2425249,Active
+E01157,IT,DevOps Engineer,Kolkata,4,9,Hybrid,1306504,Active
+E01158,Support,Customer Support,Mumbai,1,14,Remote,1349469,Active
+E01159,Support,Customer Support,Delhi,5,5,On-site,2251854,Active
+E01160,IT,ML Engineer,Chennai,1,0,Remote,2368026,Resigned
+E01161,Marketing,Marketing Executive,Hyderabad,2,15,Remote,2452888,Active
+E01162,Marketing,Marketing Executive,Pune,5,4,On-site,2372609,Active
+E01163,Support,Customer Support,Chennai,2,3,On-site,2137145,Resigned
+E01164,HR,HR Assistant,Pune,5,12,Hybrid,250037,Resigned
+E01165,Operations,Logistics Coordinator,Hyderabad,1,4,On-site,953645,Active
+E01166,IT,Software Engineer,Hyderabad,5,5,On-site,1102224,Active
+E01167,HR,Recruiter,Bangalore,3,10,On-site,809031,Active
+E01168,Marketing,Marketing Executive,Bangalore,1,11,On-site,394938,Resigned
+E01169,Sales,Sales Executive,Mumbai,5,13,On-site,1040944,Resigned
+E01170,Support,Customer Support,Chennai,2,0,On-site,2200408,Resigned
+E01171,IT,Software Engineer,Hyderabad,5,14,On-site,2095786,Active
+E01172,Operations,Operations Manager,Kolkata,3,11,Hybrid,1968303,Active
+E01173,Finance,Accountant,Delhi,5,13,Remote,1885407,Resigned
+E01174,Finance,Auditor,Bangalore,3,15,Hybrid,2414533,Active
+E01175,IT,DevOps Engineer,Delhi,3,8,Hybrid,1153282,Active
+E01176,Marketing,Marketing Executive,Delhi,4,15,Hybrid,2276393,Resigned
+E01177,Finance,Financial Analyst,Bangalore,5,0,Hybrid,2129466,Active
+E01178,IT,DevOps Engineer,Chennai,1,12,Hybrid,1245791,Active
+E01179,HR,HR Manager,Hyderabad,3,9,On-site,1669600,Resigned
+E01180,Finance,Financial Analyst,Hyderabad,5,18,Hybrid,1465442,Active
+E01181,Marketing,SEO Specialist,Chennai,2,17,Hybrid,303024,Active
+E01182,Finance,Accountant,Pune,5,15,Remote,2162878,Active
+E01183,Operations,Logistics Coordinator,Delhi,1,5,Hybrid,984769,Active
+E01184,Sales,BD Associate,Pune,5,10,On-site,2126624,Resigned
+E01185,Sales,BD Associate,Chennai,4,0,Remote,2011331,Active
+E01186,Sales,BD Associate,Chennai,1,11,On-site,435151,Resigned
+E01187,Operations,Operations Manager,Hyderabad,5,19,On-site,2487699,Active
+E01188,Sales,BD Associate,Mumbai,2,17,On-site,627332,Resigned
+E01189,Finance,Accountant,Delhi,3,4,Remote,1558064,Resigned
+E01190,Operations,Operations Manager,Mumbai,4,16,On-site,1218410,Active
+E01191,Finance,Auditor,Chennai,1,3,Hybrid,519482,Resigned
+E01192,HR,HR Assistant,Mumbai,3,5,Hybrid,1280120,Resigned
+E01193,Support,Tech Support,Bangalore,4,18,Remote,637405,Active
+E01194,Finance,Financial Analyst,Hyderabad,1,12,Remote,2160155,Active
+E01195,Marketing,Content Strategist,Bangalore,1,4,On-site,2460846,Active
+E01196,Marketing,Marketing Executive,Chennai,4,9,On-site,1271480,Active
+E01197,Finance,Auditor,Mumbai,4,1,Hybrid,270946,Active
+E01198,Operations,Operations Executive,Mumbai,1,4,Remote,1727310,Resigned
+E01199,Operations,Logistics Coordinator,Pune,4,17,On-site,551364,Resigned
+E01200,Operations,Operations Executive,Hyderabad,5,7,On-site,2359571,Active
+E01201,IT,Software Engineer,Chennai,2,0,On-site,1298025,Active
+E01202,Sales,Sales Executive,Chennai,2,17,Remote,628355,Active
+E01203,IT,Data Analyst,Bangalore,3,18,Hybrid,799391,Active
+E01204,Marketing,Marketing Executive,Delhi,2,0,On-site,1375832,Resigned
+E01205,Support,Tech Support,Chennai,3,14,On-site,696880,Active
+E01206,Operations,Logistics Coordinator,Hyderabad,2,4,On-site,2255464,Active
+E01207,Finance,Financial Analyst,Hyderabad,2,8,On-site,1258507,Resigned
+E01208,Sales,Sales Manager,Hyderabad,3,18,Hybrid,766031,Active
+E01209,Support,Support Engineer,Chennai,1,0,Hybrid,1383397,Resigned
+E01210,Marketing,Content Strategist,Chennai,1,11,On-site,1142743,Resigned
+E01211,Marketing,SEO Specialist,Mumbai,3,19,Hybrid,1195161,Active
+E01212,Marketing,Content Strategist,Hyderabad,5,10,Remote,2047555,Active
+E01213,Finance,Accountant,Pune,1,8,On-site,1860000,Active
+E01214,Operations,Operations Manager,Chennai,3,0,On-site,913478,Resigned
+E01215,HR,HR Assistant,Mumbai,1,18,Remote,1463575,Resigned
+E01216,IT,Data Analyst,Chennai,3,17,Hybrid,437486,Active
+E01217,HR,HR Assistant,Bangalore,1,6,Hybrid,808910,Active
+E01218,Marketing,SEO Specialist,Delhi,4,15,On-site,2391924,Active
+E01219,IT,DevOps Engineer,Chennai,4,8,Hybrid,1908069,Active
+E01220,Sales,Sales Executive,Bangalore,2,17,On-site,1640179,Resigned
+E01221,HR,HR Manager,Delhi,5,13,Remote,996470,Active
+E01222,Operations,Operations Executive,Kolkata,3,9,On-site,1811128,Active
+E01223,Operations,Operations Executive,Pune,1,3,On-site,297361,Resigned
+E01224,HR,HR Assistant,Delhi,3,12,Remote,1627984,Active
+E01225,Sales,Sales Executive,Chennai,5,8,Hybrid,1433750,Active
+E01226,Support,Support Engineer,Chennai,1,8,Hybrid,1091618,Active
+E01227,HR,HR Manager,Chennai,5,12,On-site,353021,Active
+E01228,HR,HR Manager,Mumbai,1,4,On-site,466194,Resigned
+E01229,Sales,BD Associate,Kolkata,3,6,On-site,2187834,Resigned
+E01230,Marketing,Marketing Executive,Chennai,2,18,Remote,1814458,Active
+E01231,IT,System Admin,Delhi,5,15,On-site,1660124,Active
+E01232,Operations,Operations Manager,Delhi,4,6,On-site,2270014,Resigned
+E01233,Marketing,Content Strategist,Kolkata,1,20,On-site,991165,Active
+E01234,Support,Support Engineer,Kolkata,3,5,Remote,730620,Active
+E01235,Finance,Financial Analyst,Hyderabad,3,0,On-site,1074341,Active
+E01236,HR,HR Manager,Kolkata,3,16,Remote,1943802,Active
+E01237,Marketing,Content Strategist,Bangalore,2,1,On-site,510933,Active
+E01238,HR,Recruiter,Delhi,4,7,On-site,1278719,Active
+E01239,HR,Recruiter,Delhi,2,8,On-site,2083451,Resigned
+E01240,HR,HR Assistant,Hyderabad,1,11,Hybrid,1359736,Active
+E01241,Marketing,Marketing Executive,Mumbai,5,13,On-site,812193,Active
+E01242,Sales,BD Associate,Chennai,3,6,Hybrid,1599919,Active
+E01243,Finance,Accountant,Chennai,5,0,On-site,1241993,Resigned
+E01244,HR,Recruiter,Chennai,3,12,Hybrid,2069201,Active
+E01245,Sales,Sales Executive,Hyderabad,4,14,Remote,1042214,Active
+E01246,Marketing,Marketing Executive,Chennai,5,0,On-site,1008019,Active
+E01247,Finance,Accountant,Delhi,4,5,Remote,1337288,Active
+E01248,Marketing,Marketing Executive,Kolkata,5,8,Hybrid,536539,Active
+E01249,Support,Customer Support,Mumbai,4,2,On-site,1000310,Resigned
+E01250,Sales,Sales Manager,Bangalore,1,4,Hybrid,1750033,Active
+E01251,Operations,Logistics Coordinator,Delhi,2,16,Hybrid,2068182,Active
+E01252,Operations,Logistics Coordinator,Pune,4,2,On-site,1695675,Active
+E01253,IT,ML Engineer,Mumbai,4,5,Hybrid,2131986,Active
+E01254,Marketing,Marketing Executive,Pune,1,2,On-site,2068222,Active
+E01255,Finance,Financial Analyst,Mumbai,5,3,On-site,1329593,Active
+E01256,Support,Tech Support,Delhi,5,1,Hybrid,1602935,Resigned
+E01257,Finance,Auditor,Mumbai,2,11,On-site,2347951,Resigned
+E01258,HR,HR Manager,Hyderabad,1,6,Hybrid,764111,Resigned
+E01259,IT,System Admin,Bangalore,2,14,Hybrid,2215425,Active
+E01260,Marketing,Marketing Executive,Hyderabad,2,10,On-site,775403,Active
+E01261,Operations,Operations Manager,Delhi,3,17,On-site,700415,Active
+E01262,Finance,Auditor,Delhi,4,12,On-site,828843,Active
+E01263,Marketing,Marketing Executive,Hyderabad,5,19,On-site,1690352,Active
+E01264,Support,Tech Support,Chennai,4,0,Remote,2263783,Resigned
+E01265,Support,Tech Support,Hyderabad,3,5,Hybrid,2275216,Active
+E01266,IT,Software Engineer,Chennai,2,12,On-site,1865328,Active
+E01267,Support,Customer Support,Hyderabad,3,16,On-site,1674241,Active
+E01268,Support,Support Engineer,Hyderabad,4,4,On-site,1486855,Resigned
+E01269,IT,System Admin,Kolkata,5,5,Remote,2280871,Active
+E01270,HR,HR Manager,Bangalore,1,16,On-site,611911,Resigned
+E01271,Marketing,SEO Specialist,Mumbai,3,1,Remote,2289246,Active
+E01272,Marketing,Content Strategist,Pune,2,6,On-site,2421641,Active
+E01273,Sales,Sales Executive,Hyderabad,4,11,On-site,2318444,Active
+E01274,Operations,Operations Manager,Delhi,2,4,Remote,1662210,Resigned
+E01275,Finance,Auditor,Mumbai,3,6,On-site,1366521,Active
+E01276,Marketing,Content Strategist,Chennai,5,2,Hybrid,932527,Active
+E01277,HR,HR Assistant,Kolkata,5,2,On-site,1381614,Active
+E01278,Marketing,Marketing Executive,Hyderabad,3,1,Hybrid,1026385,Active
+E01279,Finance,Auditor,Bangalore,2,19,Hybrid,469356,Active
+E01280,IT,ML Engineer,Hyderabad,5,1,Hybrid,264925,Active
+E01281,Operations,Logistics Coordinator,Hyderabad,2,5,Hybrid,1414937,Active
+E01282,HR,HR Manager,Kolkata,3,19,Hybrid,1627640,Active
+E01283,Marketing,SEO Specialist,Chennai,4,7,Remote,1440130,Active
+E01284,Operations,Operations Executive,Kolkata,5,13,Hybrid,2386919,Active
+E01285,HR,Recruiter,Hyderabad,1,0,On-site,954537,Active
+E01286,Sales,Sales Executive,Pune,5,14,On-site,591447,Active
+E01287,Marketing,Marketing Executive,Delhi,1,11,Hybrid,1810155,Active
+E01288,Marketing,Marketing Executive,Bangalore,4,6,Hybrid,1463619,Active
+E01289,Support,Tech Support,Chennai,5,8,On-site,1796288,Active
+E01290,Sales,Sales Manager,Kolkata,2,10,On-site,1545129,Resigned
+E01291,Support,Tech Support,Bangalore,2,1,Hybrid,1804473,Resigned
+E01292,Support,Tech Support,Bangalore,4,8,Hybrid,1909848,Active
+E01293,Finance,Accountant,Kolkata,2,15,Remote,1841189,Active
+E01294,Sales,Sales Manager,Chennai,2,10,On-site,1790866,Resigned
+E01295,Operations,Operations Manager,Kolkata,1,19,Remote,1528283,Resigned
+E01296,Finance,Auditor,Mumbai,3,3,Hybrid,1121217,Active
+E01297,Marketing,Content Strategist,Mumbai,1,13,On-site,1065122,Active
+E01298,IT,ML Engineer,Delhi,1,15,On-site,2171620,Resigned
+E01299,IT,ML Engineer,Bangalore,5,3,On-site,471576,Active
+E01300,Marketing,Marketing Executive,Pune,5,19,Hybrid,504084,Active
+E01301,Operations,Operations Executive,Chennai,3,9,Remote,2201356,Active
+E01302,Finance,Financial Analyst,Pune,1,4,On-site,305486,Resigned
+E01303,Finance,Auditor,Kolkata,1,18,Hybrid,2267411,Resigned
+E01304,Finance,Auditor,Mumbai,2,3,On-site,939517,Active
+E01305,Operations,Logistics Coordinator,Mumbai,1,16,On-site,1689918,Resigned
+E01306,Marketing,Content Strategist,Kolkata,3,2,Remote,1141712,Active
+E01307,HR,HR Manager,Delhi,4,5,Remote,447170,Resigned
+E01308,IT,Software Engineer,Delhi,3,20,On-site,697095,Resigned
+E01309,Operations,Operations Executive,Mumbai,4,9,On-site,2042837,Resigned
+E01310,Operations,Operations Manager,Pune,2,16,On-site,1837916,Resigned
+E01311,Finance,Financial Analyst,Delhi,3,0,Remote,1533596,Active
+E01312,HR,HR Manager,Bangalore,1,1,Remote,1457935,Resigned
+E01313,Operations,Operations Executive,Hyderabad,4,16,On-site,1668351,Active
+E01314,Support,Support Engineer,Mumbai,5,1,On-site,1688242,Resigned
+E01315,HR,Recruiter,Bangalore,2,14,Hybrid,1934038,Active
+E01316,Operations,Operations Manager,Chennai,3,4,On-site,1643749,Resigned
+E01317,IT,Data Analyst,Mumbai,2,12,On-site,2254676,Resigned
+E01318,Operations,Operations Executive,Delhi,3,19,Hybrid,1416747,Active
+E01319,HR,HR Manager,Hyderabad,4,0,Remote,866070,Active
+E01320,Operations,Operations Manager,Kolkata,3,11,On-site,2276091,Resigned
+E01321,HR,Recruiter,Hyderabad,4,4,Hybrid,1204227,Active
+E01322,Marketing,Content Strategist,Kolkata,5,9,Remote,308031,Resigned
+E01323,Support,Support Engineer,Bangalore,5,0,On-site,1010791,Active
+E01324,Finance,Auditor,Pune,2,18,Remote,1880969,Active
+E01325,Sales,BD Associate,Chennai,2,19,Hybrid,1822900,Active
+E01326,Sales,Sales Manager,Delhi,5,7,Hybrid,1990584,Resigned
+E01327,HR,HR Assistant,Pune,5,11,Hybrid,2355039,Active
+E01328,Finance,Auditor,Mumbai,3,17,Hybrid,2277842,Active
+E01329,Support,Tech Support,Kolkata,1,11,On-site,558710,Resigned
+E01330,IT,DevOps Engineer,Pune,5,18,Hybrid,926503,Active
+E01331,Sales,BD Associate,Kolkata,5,13,On-site,2037139,Active
+E01332,Finance,Accountant,Mumbai,5,10,On-site,723818,Resigned
+E01333,HR,HR Assistant,Bangalore,4,7,On-site,837371,Active
+E01334,Finance,Accountant,Mumbai,1,11,Remote,1842210,Resigned
+E01335,Operations,Operations Executive,Pune,3,15,On-site,1304853,Active
+E01336,Sales,Sales Manager,Hyderabad,1,16,Hybrid,1785410,Resigned
+E01337,Sales,BD Associate,Pune,1,14,Hybrid,546177,Resigned
+E01338,HR,Recruiter,Delhi,3,6,On-site,1448609,Active
+E01339,Finance,Auditor,Hyderabad,1,11,Hybrid,2262236,Active
+E01340,Finance,Financial Analyst,Kolkata,5,5,Remote,939746,Active
+E01341,IT,System Admin,Hyderabad,3,15,Remote,304708,Active
+E01342,Support,Support Engineer,Chennai,2,13,On-site,1553027,Active
+E01343,Operations,Operations Executive,Mumbai,4,5,Hybrid,1647955,Active
+E01344,Support,Tech Support,Kolkata,3,19,Remote,1842063,Resigned
+E01345,IT,System Admin,Chennai,4,13,Hybrid,861781,Active
+E01346,Sales,BD Associate,Delhi,5,12,On-site,2144656,Resigned
+E01347,Marketing,Content Strategist,Chennai,1,7,On-site,322219,Resigned
+E01348,Finance,Auditor,Delhi,4,14,On-site,1304490,Resigned
+E01349,IT,ML Engineer,Bangalore,2,11,Hybrid,1425175,Active
+E01350,IT,Data Analyst,Kolkata,1,18,On-site,292039,Active
+E01351,HR,Recruiter,Bangalore,5,12,Remote,2221893,Active
+E01352,Finance,Accountant,Pune,5,6,On-site,374078,Resigned
+E01353,Marketing,Content Strategist,Bangalore,4,17,On-site,1126332,Active
+E01354,Finance,Accountant,Pune,2,0,Hybrid,1858678,Active
+E01355,Marketing,Marketing Executive,Chennai,4,8,On-site,660275,Active
+E01356,Sales,Sales Executive,Kolkata,5,8,On-site,2342195,Active
+E01357,IT,DevOps Engineer,Chennai,3,0,Remote,882899,Active
+E01358,IT,Software Engineer,Bangalore,3,11,Hybrid,1643758,Active
+E01359,HR,HR Manager,Chennai,3,5,On-site,2309636,Active
+E01360,Operations,Operations Executive,Chennai,3,17,On-site,593275,Resigned
+E01361,IT,DevOps Engineer,Mumbai,3,19,On-site,1001794,Active
+E01362,Support,Support Engineer,Chennai,2,9,On-site,706195,Resigned
+E01363,Operations,Operations Executive,Kolkata,5,2,Hybrid,1278520,Active
+E01364,HR,Recruiter,Hyderabad,5,13,Remote,504547,Active
+E01365,IT,ML Engineer,Chennai,3,7,On-site,2077791,Active
+E01366,Marketing,Content Strategist,Hyderabad,5,11,Remote,1177724,Active
+E01367,IT,DevOps Engineer,Kolkata,2,11,Hybrid,1007993,Active
+E01368,Finance,Auditor,Chennai,1,20,On-site,1320648,Active
+E01369,Finance,Auditor,Kolkata,5,9,On-site,801556,Active
+E01370,IT,ML Engineer,Bangalore,4,1,On-site,1507713,Resigned
+E01371,Finance,Accountant,Mumbai,4,4,On-site,2150057,Resigned
+E01372,Finance,Accountant,Hyderabad,1,16,On-site,695544,Active
+E01373,Support,Tech Support,Delhi,3,2,Hybrid,321326,Active
+E01374,Operations,Logistics Coordinator,Delhi,5,0,On-site,304645,Resigned
+E01375,Support,Customer Support,Chennai,2,9,Remote,2028904,Resigned
+E01376,Support,Tech Support,Bangalore,1,9,Remote,949438,Resigned
+E01377,Operations,Operations Executive,Mumbai,2,18,On-site,1042135,Active
+E01378,HR,Recruiter,Chennai,5,0,Remote,1651051,Active
+E01379,Finance,Financial Analyst,Hyderabad,4,1,Hybrid,379851,Resigned
+E01380,Finance,Financial Analyst,Kolkata,2,0,Hybrid,811133,Active
+E01381,Finance,Auditor,Mumbai,3,14,Remote,291722,Active
+E01382,Operations,Operations Executive,Bangalore,1,16,On-site,2176959,Resigned
+E01383,Sales,Sales Manager,Hyderabad,5,10,Hybrid,1277691,Active
+E01384,HR,HR Manager,Bangalore,5,3,Hybrid,2013190,Active
+E01385,HR,HR Assistant,Mumbai,3,18,On-site,2208074,Active
+E01386,Finance,Financial Analyst,Mumbai,3,5,On-site,2157798,Active
+E01387,Marketing,Content Strategist,Hyderabad,2,9,Hybrid,267718,Resigned
+E01388,Support,Tech Support,Kolkata,2,18,Hybrid,2493227,Resigned
+E01389,Support,Support Engineer,Chennai,3,10,Remote,803360,Active
+E01390,Sales,BD Associate,Hyderabad,5,6,On-site,1473979,Resigned
+E01391,IT,ML Engineer,Mumbai,3,9,On-site,1215721,Active
+E01392,Sales,BD Associate,Bangalore,4,8,Remote,1231093,Active
+E01393,Marketing,Marketing Executive,Chennai,3,14,Hybrid,282356,Active
+E01394,Sales,Sales Manager,Mumbai,5,2,Remote,2393175,Resigned
+E01395,Sales,Sales Executive,Hyderabad,5,15,On-site,722919,Active
+E01396,Support,Support Engineer,Pune,4,11,Hybrid,2357512,Active
+E01397,HR,Recruiter,Chennai,3,7,Remote,2317911,Active
+E01398,IT,ML Engineer,Mumbai,1,10,On-site,2157310,Active
+E01399,Support,Customer Support,Pune,2,18,On-site,1432200,Resigned
+E01400,Finance,Accountant,Delhi,1,14,Hybrid,1081460,Resigned
+E01401,IT,ML Engineer,Delhi,2,2,On-site,2044679,Active
+E01402,Marketing,Content Strategist,Kolkata,5,19,On-site,1960741,Resigned
+E01403,Operations,Operations Executive,Chennai,1,16,Remote,1160906,Active
+E01404,Sales,BD Associate,Pune,5,15,Remote,979672,Active
+E01405,Marketing,Content Strategist,Mumbai,4,19,On-site,1544876,Active
+E01406,Support,Support Engineer,Mumbai,3,20,On-site,1556884,Active
+E01407,Marketing,SEO Specialist,Hyderabad,4,15,On-site,1683043,Active
+E01408,IT,Data Analyst,Chennai,5,18,On-site,794517,Active
+E01409,HR,HR Manager,Pune,4,13,Hybrid,2269111,Active
+E01410,Operations,Logistics Coordinator,Kolkata,3,13,On-site,1642928,Resigned
+E01411,Sales,Sales Executive,Kolkata,4,6,Hybrid,2263122,Active
+E01412,Marketing,SEO Specialist,Kolkata,2,15,Hybrid,539596,Active
+E01413,IT,DevOps Engineer,Delhi,4,5,Hybrid,1134094,Active
+E01414,Support,Support Engineer,Chennai,5,16,On-site,763676,Active
+E01415,Marketing,Marketing Executive,Bangalore,2,3,Hybrid,2380450,Active
+E01416,Marketing,Marketing Executive,Chennai,2,4,Hybrid,1830296,Active
+E01417,Marketing,SEO Specialist,Kolkata,5,18,Hybrid,1411133,Active
+E01418,Support,Tech Support,Mumbai,2,7,Hybrid,512701,Active
+E01419,Operations,Logistics Coordinator,Delhi,4,17,Remote,1048028,Resigned
+E01420,HR,HR Assistant,Kolkata,3,10,On-site,2480878,Active
+E01421,Marketing,Marketing Executive,Chennai,2,0,Remote,2494430,Active
+E01422,HR,HR Manager,Pune,4,14,On-site,866767,Active
+E01423,HR,Recruiter,Kolkata,4,6,Hybrid,783703,Active
+E01424,Support,Support Engineer,Kolkata,4,1,Remote,1316746,Resigned
+E01425,HR,Recruiter,Delhi,5,7,On-site,1475701,Active
+E01426,HR,Recruiter,Pune,2,7,Remote,2005864,Active
+E01427,Sales,Sales Executive,Chennai,3,11,Hybrid,751854,Active
+E01428,IT,Software Engineer,Pune,3,16,On-site,775957,Active
+E01429,Marketing,Content Strategist,Hyderabad,5,3,Hybrid,551951,Active
+E01430,Sales,Sales Executive,Bangalore,2,11,On-site,2043723,Resigned
+E01431,Marketing,SEO Specialist,Kolkata,5,18,Hybrid,866798,Active
+E01432,HR,HR Assistant,Pune,5,1,Hybrid,1694132,Active
+E01433,HR,HR Manager,Pune,5,17,On-site,1715544,Active
+E01434,Operations,Operations Executive,Bangalore,5,16,Hybrid,1355391,Active
+E01435,Finance,Auditor,Bangalore,4,14,On-site,1375664,Active
+E01436,Sales,Sales Manager,Chennai,4,12,Hybrid,1356136,Active
+E01437,HR,Recruiter,Kolkata,4,13,Remote,1232912,Active
+E01438,Operations,Logistics Coordinator,Hyderabad,4,20,On-site,996256,Active
+E01439,Sales,Sales Manager,Chennai,2,14,On-site,1317376,Resigned
+E01440,HR,HR Manager,Bangalore,1,19,On-site,1066196,Active
+E01441,Marketing,SEO Specialist,Bangalore,1,18,On-site,1409149,Resigned
+E01442,Finance,Financial Analyst,Bangalore,3,9,On-site,2191042,Resigned
+E01443,Sales,BD Associate,Mumbai,3,1,Hybrid,1431349,Resigned
+E01444,Operations,Logistics Coordinator,Mumbai,4,18,Remote,976547,Active
+E01445,HR,HR Manager,Bangalore,5,11,On-site,462628,Active
+E01446,HR,HR Assistant,Delhi,2,20,Hybrid,2348201,Active
+E01447,HR,Recruiter,Delhi,2,13,Remote,1962208,Active
+E01448,Marketing,Content Strategist,Pune,3,6,Remote,1494119,Active
+E01449,Sales,BD Associate,Pune,2,12,Remote,1891466,Resigned
+E01450,HR,HR Assistant,Delhi,5,4,On-site,858919,Active
+E01451,Sales,BD Associate,Kolkata,1,12,On-site,760559,Active
+E01452,Finance,Accountant,Kolkata,2,12,On-site,2400517,Active
+E01453,Finance,Accountant,Hyderabad,2,20,On-site,318247,Active
+E01454,Operations,Operations Executive,Hyderabad,4,3,Hybrid,1250005,Active
+E01455,Finance,Auditor,Mumbai,2,16,Hybrid,1041877,Resigned
+E01456,Operations,Logistics Coordinator,Mumbai,5,11,Hybrid,662610,Resigned
+E01457,Finance,Financial Analyst,Hyderabad,3,7,Hybrid,2219921,Active
+E01458,Marketing,Marketing Executive,Kolkata,5,0,Remote,2088346,Active
+E01459,Finance,Financial Analyst,Kolkata,4,16,On-site,409876,Active
+E01460,Marketing,SEO Specialist,Pune,4,0,Hybrid,2266950,Active
+E01461,Operations,Logistics Coordinator,Mumbai,4,9,On-site,729177,Active
+E01462,Marketing,Content Strategist,Kolkata,1,4,On-site,1258449,Active
+E01463,HR,HR Manager,Mumbai,4,0,Hybrid,933850,Active
+E01464,Support,Support Engineer,Bangalore,1,4,Hybrid,1260065,Active
+E01465,Marketing,Marketing Executive,Hyderabad,3,9,Remote,1621242,Active
+E01466,Operations,Operations Executive,Hyderabad,5,10,Hybrid,900660,Active
+E01467,Finance,Accountant,Delhi,1,8,On-site,1798496,Active
+E01468,IT,System Admin,Chennai,5,8,Remote,562067,Active
+E01469,Sales,Sales Manager,Hyderabad,1,5,On-site,2383643,Resigned
+E01470,Finance,Financial Analyst,Bangalore,2,14,On-site,1151111,Active
+E01471,Finance,Accountant,Chennai,2,2,Hybrid,1870706,Active
+E01472,Operations,Operations Manager,Bangalore,1,12,On-site,2475074,Resigned
+E01473,Marketing,Content Strategist,Delhi,5,11,On-site,1968626,Active
+E01474,Operations,Operations Manager,Delhi,3,10,On-site,785807,Resigned
+E01475,IT,Software Engineer,Mumbai,3,2,Hybrid,287570,Active
+E01476,Finance,Financial Analyst,Hyderabad,3,20,On-site,939009,Active
+E01477,Finance,Auditor,Pune,4,20,On-site,1937164,Active
+E01478,Operations,Operations Manager,Bangalore,3,7,On-site,1016230,Resigned
+E01479,Sales,Sales Executive,Kolkata,3,19,On-site,1375914,Active
+E01480,Marketing,Content Strategist,Chennai,3,2,On-site,996447,Active
+E01481,Finance,Auditor,Chennai,5,13,On-site,1968340,Active
+E01482,Support,Customer Support,Chennai,1,3,On-site,990599,Resigned
+E01483,Sales,Sales Manager,Chennai,4,5,Remote,1928653,Resigned
+E01484,HR,HR Assistant,Hyderabad,5,13,Hybrid,2436494,Active
+E01485,Operations,Operations Executive,Pune,2,0,Hybrid,2237406,Active
+E01486,Operations,Operations Executive,Pune,3,15,On-site,320560,Resigned
+E01487,Support,Support Engineer,Delhi,3,7,On-site,1487087,Active
+E01488,HR,HR Manager,Bangalore,3,3,On-site,1333685,Active
+E01489,IT,Software Engineer,Mumbai,4,20,On-site,1402007,Active
+E01490,Finance,Financial Analyst,Delhi,2,4,On-site,734469,Active
+E01491,Marketing,Content Strategist,Kolkata,2,13,Remote,1818366,Active
+E01492,IT,System Admin,Delhi,5,4,On-site,1779275,Active
+E01493,HR,HR Manager,Pune,3,3,Hybrid,2046538,Active
+E01494,Finance,Financial Analyst,Delhi,3,3,Remote,2150600,Active
+E01495,Finance,Auditor,Mumbai,1,20,Hybrid,1299520,Resigned
+E01496,Support,Tech Support,Bangalore,5,18,Remote,2135249,Active
+E01497,HR,Recruiter,Mumbai,5,11,On-site,277690,Active
+E01498,Finance,Financial Analyst,Chennai,4,16,On-site,763672,Active
+E01499,IT,Data Analyst,Kolkata,4,6,Remote,1749202,Active
+E01500,HR,Recruiter,Chennai,5,4,Hybrid,2356040,Active
+E01501,Marketing,Content Strategist,Bangalore,3,16,On-site,903974,Resigned
+E01502,HR,Recruiter,Delhi,3,16,On-site,1554925,Resigned
+E01503,Operations,Operations Executive,Kolkata,4,19,Hybrid,433273,Resigned
+E01504,Operations,Operations Executive,Delhi,2,15,On-site,855829,Resigned
+E01505,Operations,Logistics Coordinator,Mumbai,1,12,Remote,1319626,Active
+E01506,HR,HR Manager,Chennai,2,6,On-site,2485064,Resigned
+E01507,IT,DevOps Engineer,Pune,5,19,On-site,1259589,Active
+E01508,Marketing,SEO Specialist,Mumbai,4,12,On-site,819503,Active
+E01509,Operations,Operations Manager,Hyderabad,1,3,Remote,2242719,Resigned
+E01510,Sales,Sales Executive,Hyderabad,2,20,On-site,704377,Active
+E01511,Sales,Sales Executive,Hyderabad,4,3,On-site,281346,Active
+E01512,Operations,Operations Executive,Chennai,5,7,On-site,1821771,Active
+E01513,Operations,Logistics Coordinator,Delhi,1,8,On-site,1499657,Resigned
+E01514,Sales,Sales Manager,Bangalore,5,15,Remote,1615358,Resigned
+E01515,Support,Support Engineer,Hyderabad,4,14,On-site,2263189,Active
+E01516,Marketing,Marketing Executive,Bangalore,2,10,Remote,1871671,Active
+E01517,HR,HR Manager,Pune,4,16,On-site,379101,Active
+E01518,Marketing,Content Strategist,Chennai,4,10,Hybrid,401633,Active
+E01519,IT,DevOps Engineer,Delhi,4,9,Hybrid,846432,Active
+E01520,Sales,Sales Manager,Chennai,4,14,Remote,2099333,Resigned
+E01521,Sales,Sales Executive,Hyderabad,4,1,Remote,892006,Active
+E01522,Sales,Sales Executive,Chennai,3,10,On-site,2077186,Active
+E01523,Marketing,Content Strategist,Bangalore,3,18,On-site,1347158,Active
+E01524,Sales,Sales Manager,Mumbai,4,4,On-site,1258725,Active
+E01525,Sales,BD Associate,Kolkata,1,2,On-site,2010177,Resigned
+E01526,HR,HR Assistant,Chennai,1,9,On-site,1572601,Active
+E01527,Operations,Operations Manager,Kolkata,4,7,Hybrid,681965,Active
+E01528,Sales,Sales Manager,Bangalore,2,3,On-site,2416458,Resigned
+E01529,IT,System Admin,Kolkata,2,0,On-site,1398175,Resigned
+E01530,HR,HR Manager,Kolkata,1,9,On-site,810591,Active
+E01531,IT,System Admin,Chennai,5,17,On-site,865995,Active
+E01532,Marketing,SEO Specialist,Chennai,2,1,On-site,1543073,Resigned
+E01533,Operations,Logistics Coordinator,Pune,2,20,On-site,527132,Active
+E01534,Sales,BD Associate,Chennai,2,6,Hybrid,2391572,Active
+E01535,Sales,BD Associate,Hyderabad,2,6,Hybrid,2373120,Active
+E01536,Operations,Logistics Coordinator,Delhi,3,0,Remote,1598964,Active
+E01537,Marketing,SEO Specialist,Bangalore,4,20,On-site,1185026,Active
+E01538,Operations,Operations Executive,Delhi,3,18,Hybrid,826469,Resigned
+E01539,Sales,Sales Executive,Delhi,5,1,On-site,1654460,Resigned
+E01540,Finance,Accountant,Delhi,5,9,On-site,862529,Active
+E01541,IT,Data Analyst,Mumbai,4,5,On-site,1683974,Active
+E01542,IT,DevOps Engineer,Kolkata,5,20,Hybrid,1538267,Active
+E01543,HR,Recruiter,Chennai,2,14,Remote,1358731,Active
+E01544,Finance,Financial Analyst,Pune,5,8,On-site,1068408,Active
+E01545,IT,Data Analyst,Chennai,4,0,Hybrid,2075372,Active
+E01546,Marketing,Marketing Executive,Delhi,5,20,On-site,908561,Active
+E01547,Marketing,Content Strategist,Kolkata,4,17,On-site,2152211,Active
+E01548,Sales,Sales Executive,Delhi,2,17,On-site,1490962,Resigned
+E01549,IT,System Admin,Pune,3,12,On-site,883556,Active
+E01550,Finance,Auditor,Delhi,1,7,On-site,2254358,Resigned
+E01551,Sales,BD Associate,Delhi,5,13,On-site,1231835,Active
+E01552,HR,HR Assistant,Pune,2,8,Hybrid,1612617,Active
+E01553,Operations,Operations Manager,Chennai,3,3,On-site,1140648,Active
+E01554,Marketing,Marketing Executive,Chennai,2,17,Hybrid,1786377,Active
+E01555,IT,Data Analyst,Pune,4,3,On-site,743570,Active
+E01556,Marketing,Marketing Executive,Pune,3,17,Hybrid,1515322,Active
+E01557,Support,Tech Support,Pune,4,11,Remote,2101608,Active
+E01558,Support,Customer Support,Pune,5,8,Remote,2196788,Active
+E01559,HR,Recruiter,Mumbai,4,2,On-site,2121826,Resigned
+E01560,IT,Software Engineer,Bangalore,1,20,Remote,2020358,Active
+E01561,Support,Support Engineer,Kolkata,2,10,On-site,1392454,Resigned
+E01562,Operations,Logistics Coordinator,Delhi,2,16,On-site,2305162,Resigned
+E01563,Support,Tech Support,Mumbai,4,20,On-site,740339,Resigned
+E01564,Sales,Sales Executive,Mumbai,4,12,On-site,1707571,Active
+E01565,IT,Software Engineer,Bangalore,1,19,Hybrid,1593297,Resigned
+E01566,IT,ML Engineer,Pune,4,0,Remote,1504660,Active
+E01567,Sales,Sales Executive,Pune,1,3,On-site,1593683,Resigned
+E01568,Finance,Auditor,Kolkata,2,12,Remote,1910458,Active
+E01569,Marketing,SEO Specialist,Delhi,2,4,Hybrid,1654619,Resigned
+E01570,HR,HR Manager,Hyderabad,5,9,Remote,971167,Active
+E01571,Operations,Logistics Coordinator,Mumbai,2,11,On-site,801872,Resigned
+E01572,Support,Tech Support,Hyderabad,1,4,Remote,1184499,Resigned
+E01573,IT,Software Engineer,Pune,3,14,Remote,655427,Active
+E01574,Support,Support Engineer,Chennai,1,8,On-site,1431426,Resigned
+E01575,Sales,BD Associate,Bangalore,2,20,Hybrid,1830622,Active
+E01576,Marketing,SEO Specialist,Kolkata,5,5,On-site,1463944,Active
+E01577,IT,ML Engineer,Mumbai,1,4,On-site,1197719,Resigned
+E01578,Operations,Logistics Coordinator,Hyderabad,2,17,Hybrid,2253649,Resigned
+E01579,Support,Support Engineer,Hyderabad,2,10,Hybrid,762193,Active
+E01580,HR,HR Manager,Kolkata,5,15,On-site,996355,Active
+E01581,Support,Support Engineer,Hyderabad,2,17,Hybrid,992476,Active
+E01582,IT,Data Analyst,Hyderabad,1,12,Hybrid,1305752,Active
+E01583,Finance,Accountant,Mumbai,1,5,Remote,746184,Resigned
+E01584,Marketing,Content Strategist,Bangalore,3,1,On-site,738720,Active
+E01585,Support,Customer Support,Chennai,5,16,Hybrid,1208904,Active
+E01586,Finance,Financial Analyst,Kolkata,1,8,Hybrid,1942832,Resigned
+E01587,HR,Recruiter,Hyderabad,2,12,On-site,1082044,Active
+E01588,Sales,Sales Executive,Hyderabad,5,19,On-site,388307,Resigned
+E01589,Sales,Sales Manager,Mumbai,1,14,Remote,2018494,Resigned
+E01590,HR,Recruiter,Mumbai,2,4,Hybrid,831330,Active
+E01591,IT,System Admin,Pune,2,1,On-site,794283,Active
+E01592,Operations,Operations Manager,Kolkata,2,13,On-site,1202394,Resigned
+E01593,Finance,Financial Analyst,Kolkata,1,4,Remote,1836529,Active
+E01594,Operations,Operations Manager,Kolkata,3,3,Hybrid,652854,Active
+E01595,Support,Support Engineer,Delhi,3,14,On-site,1172879,Resigned
+E01596,Support,Support Engineer,Delhi,1,9,On-site,519072,Active
+E01597,IT,Data Analyst,Bangalore,5,7,Hybrid,2282479,Active
+E01598,Operations,Operations Manager,Delhi,3,18,Remote,1595360,Active
+E01599,Sales,Sales Executive,Delhi,4,16,Remote,1451418,Active
+E01600,Marketing,SEO Specialist,Chennai,5,13,On-site,1476137,Active
+E01601,Support,Tech Support,Mumbai,3,15,Remote,1185510,Active
+E01602,Support,Customer Support,Bangalore,5,16,Remote,505745,Active
+E01603,IT,Data Analyst,Hyderabad,3,10,On-site,2230115,Active
+E01604,Marketing,Marketing Executive,Bangalore,4,0,On-site,2470377,Active
+E01605,Finance,Auditor,Pune,5,2,On-site,971202,Active
+E01606,Operations,Logistics Coordinator,Chennai,5,19,Hybrid,1095177,Active
+E01607,Marketing,SEO Specialist,Delhi,1,4,On-site,1843526,Active
+E01608,Finance,Auditor,Chennai,5,15,Hybrid,1116572,Active
+E01609,Finance,Auditor,Kolkata,3,12,Remote,293021,Active
+E01610,Finance,Auditor,Kolkata,4,1,On-site,1108754,Resigned
+E01611,HR,HR Manager,Bangalore,4,14,Hybrid,1656046,Active
+E01612,Marketing,SEO Specialist,Pune,1,17,On-site,2113613,Resigned
+E01613,Support,Support Engineer,Delhi,4,0,On-site,736160,Resigned
+E01614,Sales,Sales Executive,Mumbai,4,1,On-site,1742669,Active
+E01615,Marketing,Content Strategist,Hyderabad,1,2,On-site,1046240,Active
+E01616,Marketing,Content Strategist,Kolkata,3,13,On-site,286080,Resigned
+E01617,Marketing,Content Strategist,Chennai,4,1,On-site,428982,Active
+E01618,Finance,Auditor,Kolkata,5,1,Remote,910709,Active
+E01619,Support,Customer Support,Bangalore,4,8,On-site,1182280,Resigned
+E01620,Sales,Sales Manager,Kolkata,2,12,On-site,812347,Resigned
+E01621,Sales,Sales Manager,Hyderabad,2,19,On-site,341665,Resigned
+E01622,Operations,Operations Manager,Hyderabad,4,20,On-site,379909,Resigned
+E01623,IT,Software Engineer,Bangalore,3,19,Remote,2100962,Active
+E01624,Finance,Auditor,Bangalore,4,14,On-site,696015,Active
+E01625,IT,Data Analyst,Delhi,1,8,On-site,329794,Resigned
+E01626,HR,Recruiter,Mumbai,3,7,On-site,2386521,Active
+E01627,Support,Customer Support,Kolkata,4,2,Remote,269416,Resigned
+E01628,HR,HR Assistant,Bangalore,4,17,Remote,1702847,Active
+E01629,Sales,Sales Executive,Chennai,5,18,On-site,1423290,Resigned
+E01630,Sales,BD Associate,Mumbai,5,19,On-site,2251034,Active
+E01631,Support,Support Engineer,Chennai,4,16,On-site,2361559,Active
+E01632,Marketing,Marketing Executive,Pune,5,5,Hybrid,1521635,Active
+E01633,HR,Recruiter,Kolkata,2,2,On-site,774252,Resigned
+E01634,Marketing,Marketing Executive,Chennai,2,8,Hybrid,1880188,Active
+E01635,Sales,Sales Executive,Chennai,3,14,On-site,1827724,Resigned
+E01636,IT,Software Engineer,Delhi,4,9,On-site,2281722,Active
+E01637,Marketing,Marketing Executive,Kolkata,1,19,Hybrid,1031608,Resigned
+E01638,HR,HR Assistant,Bangalore,5,11,On-site,1343128,Resigned
+E01639,Marketing,SEO Specialist,Pune,3,10,On-site,2063318,Active
+E01640,Operations,Operations Executive,Delhi,4,2,Remote,2073332,Resigned
+E01641,HR,HR Manager,Pune,4,9,Hybrid,1466953,Active
+E01642,Finance,Financial Analyst,Delhi,4,16,Remote,728720,Active
+E01643,HR,HR Manager,Kolkata,1,19,Hybrid,1198128,Resigned
+E01644,Operations,Operations Manager,Kolkata,4,13,On-site,1717806,Resigned
+E01645,Operations,Logistics Coordinator,Hyderabad,2,20,Remote,595123,Active
+E01646,Sales,Sales Manager,Pune,3,2,On-site,2326409,Resigned
+E01647,Marketing,Marketing Executive,Mumbai,3,11,On-site,1946235,Active
+E01648,IT,Software Engineer,Chennai,1,20,Hybrid,1747879,Active
+E01649,Sales,Sales Executive,Kolkata,1,12,Hybrid,1605824,Resigned
+E01650,IT,Data Analyst,Hyderabad,2,0,On-site,843358,Active
+E01651,HR,HR Manager,Hyderabad,2,12,On-site,1962238,Resigned
+E01652,IT,Data Analyst,Pune,4,19,On-site,685485,Resigned
+E01653,Marketing,Marketing Executive,Pune,1,3,Remote,410353,Active
+E01654,Marketing,SEO Specialist,Pune,2,15,Hybrid,2374755,Resigned
+E01655,IT,ML Engineer,Bangalore,3,4,Hybrid,2222645,Active
+E01656,Marketing,SEO Specialist,Delhi,3,7,On-site,1550557,Active
+E01657,IT,ML Engineer,Pune,4,5,Remote,2319396,Active
+E01658,IT,Software Engineer,Kolkata,4,2,Hybrid,1052914,Active
+E01659,Operations,Operations Manager,Delhi,4,1,Hybrid,318607,Active
+E01660,Marketing,Marketing Executive,Delhi,5,14,On-site,867300,Active
+E01661,Sales,BD Associate,Chennai,1,20,Hybrid,2143959,Active
+E01662,HR,HR Manager,Delhi,1,7,Hybrid,2393781,Resigned
+E01663,Finance,Auditor,Bangalore,2,10,On-site,2217739,Active
+E01664,HR,Recruiter,Bangalore,4,12,On-site,1704915,Active
+E01665,Sales,Sales Executive,Mumbai,4,14,Hybrid,961045,Resigned
+E01666,Marketing,Content Strategist,Hyderabad,2,20,Hybrid,2001772,Active
+E01667,Finance,Auditor,Mumbai,4,4,On-site,1716703,Active
+E01668,Finance,Accountant,Mumbai,3,6,On-site,2330444,Active
+E01669,Marketing,Content Strategist,Pune,2,7,On-site,1309288,Active
+E01670,IT,Software Engineer,Pune,2,11,Remote,286972,Active
+E01671,HR,HR Manager,Mumbai,2,13,On-site,1121836,Active
+E01672,Operations,Operations Executive,Kolkata,5,4,Hybrid,1961176,Resigned
+E01673,Marketing,Content Strategist,Kolkata,1,6,On-site,2374749,Active
+E01674,Support,Customer Support,Bangalore,3,18,On-site,1066473,Resigned
+E01675,Sales,BD Associate,Delhi,4,18,Hybrid,1885846,Active
+E01676,Finance,Accountant,Pune,1,10,On-site,682331,Active
+E01677,HR,HR Manager,Mumbai,3,19,Hybrid,391668,Active
+E01678,Finance,Auditor,Mumbai,2,12,On-site,870656,Resigned
+E01679,Marketing,Marketing Executive,Bangalore,4,8,On-site,1054406,Active
+E01680,Support,Tech Support,Kolkata,1,16,On-site,715992,Active
+E01681,IT,Software Engineer,Chennai,1,11,Remote,1424188,Active
+E01682,Support,Customer Support,Delhi,4,10,On-site,2268333,Active
+E01683,Finance,Financial Analyst,Hyderabad,3,20,Remote,933045,Active
+E01684,Marketing,Content Strategist,Mumbai,4,15,Hybrid,1300600,Resigned
+E01685,IT,DevOps Engineer,Hyderabad,4,10,On-site,678416,Active
+E01686,Support,Tech Support,Chennai,1,18,On-site,1160226,Resigned
+E01687,Finance,Auditor,Kolkata,4,11,On-site,543805,Active
+E01688,Sales,BD Associate,Mumbai,4,7,Remote,1072457,Active
+E01689,Marketing,Marketing Executive,Bangalore,1,19,Remote,2300126,Active
+E01690,Marketing,SEO Specialist,Mumbai,3,5,On-site,1391219,Active
+E01691,Marketing,Content Strategist,Hyderabad,4,15,On-site,828078,Active
+E01692,Support,Support Engineer,Mumbai,1,19,Hybrid,2174009,Resigned
+E01693,Operations,Operations Manager,Delhi,4,14,On-site,1972629,Active
+E01694,Operations,Logistics Coordinator,Mumbai,1,8,Remote,1450413,Active
+E01695,HR,HR Manager,Hyderabad,5,9,On-site,985101,Active
+E01696,HR,Recruiter,Mumbai,3,13,On-site,1011654,Active
+E01697,Support,Tech Support,Delhi,1,4,Hybrid,1224939,Resigned
+E01698,Sales,Sales Manager,Bangalore,3,3,On-site,2002153,Active
+E01699,Sales,BD Associate,Kolkata,2,16,Remote,1620687,Active
+E01700,Marketing,Content Strategist,Kolkata,5,15,On-site,2205163,Active
+E01701,Marketing,Content Strategist,Kolkata,1,3,On-site,2113096,Active
+E01702,Sales,Sales Manager,Mumbai,1,11,Remote,1978177,Active
+E01703,Finance,Financial Analyst,Kolkata,3,9,Remote,1989886,Active
+E01704,Sales,BD Associate,Mumbai,2,13,On-site,748185,Active
+E01705,Marketing,SEO Specialist,Chennai,3,8,Hybrid,1324377,Active
+E01706,IT,Software Engineer,Delhi,5,16,On-site,1580730,Active
+E01707,Sales,BD Associate,Kolkata,4,11,On-site,772886,Active
+E01708,IT,System Admin,Chennai,1,16,On-site,298737,Resigned
+E01709,IT,DevOps Engineer,Mumbai,4,9,On-site,376298,Resigned
+E01710,Support,Support Engineer,Chennai,4,13,On-site,263698,Resigned
+E01711,Support,Customer Support,Pune,5,18,Hybrid,1517426,Active
+E01712,HR,Recruiter,Kolkata,3,8,Remote,1765697,Active
+E01713,Marketing,SEO Specialist,Pune,1,3,Hybrid,843695,Active
+E01714,HR,HR Assistant,Mumbai,5,19,Remote,1961738,Active
+E01715,Operations,Logistics Coordinator,Bangalore,1,3,Hybrid,1806321,Active
+E01716,Finance,Financial Analyst,Bangalore,1,18,On-site,328743,Resigned
+E01717,Finance,Accountant,Chennai,5,19,On-site,978927,Active
+E01718,Operations,Logistics Coordinator,Pune,4,6,On-site,516441,Active
+E01719,Operations,Operations Executive,Bangalore,2,20,On-site,1196740,Resigned
+E01720,Marketing,Marketing Executive,Chennai,1,7,Hybrid,1310528,Active
+E01721,Support,Support Engineer,Bangalore,5,5,On-site,555525,Active
+E01722,Support,Tech Support,Pune,5,15,On-site,794043,Resigned
+E01723,Support,Customer Support,Chennai,3,8,Hybrid,1907301,Resigned
+E01724,Marketing,Marketing Executive,Hyderabad,3,20,Remote,1513772,Active
+E01725,Operations,Operations Executive,Delhi,1,20,On-site,1470925,Resigned
+E01726,Sales,Sales Manager,Chennai,1,20,Remote,1928575,Active
+E01727,Support,Tech Support,Kolkata,2,11,On-site,984543,Active
+E01728,HR,HR Assistant,Delhi,2,2,On-site,1080154,Resigned
+E01729,Support,Support Engineer,Chennai,4,9,On-site,1585827,Resigned
+E01730,HR,HR Manager,Bangalore,4,8,Remote,1428152,Active
+E01731,Finance,Financial Analyst,Kolkata,5,14,On-site,780929,Active
+E01732,Marketing,Marketing Executive,Kolkata,5,14,On-site,745521,Active
+E01733,HR,HR Assistant,Delhi,5,19,On-site,1288470,Active
+E01734,HR,Recruiter,Pune,2,8,Remote,581012,Active
+E01735,Finance,Accountant,Bangalore,4,14,Hybrid,775589,Active
+E01736,IT,ML Engineer,Bangalore,1,9,On-site,1331311,Active
+E01737,HR,HR Manager,Mumbai,1,6,On-site,531097,Active
+E01738,Finance,Auditor,Chennai,4,2,On-site,2488083,Resigned
+E01739,HR,HR Assistant,Delhi,4,5,Hybrid,1173618,Active
+E01740,Finance,Accountant,Mumbai,5,12,On-site,2267949,Active
+E01741,Sales,Sales Executive,Bangalore,1,9,On-site,268510,Resigned
+E01742,Support,Customer Support,Hyderabad,5,8,On-site,2218487,Active
+E01743,Operations,Logistics Coordinator,Kolkata,3,12,Hybrid,1597527,Active
+E01744,Marketing,SEO Specialist,Delhi,4,11,On-site,483670,Resigned
+E01745,Sales,Sales Manager,Kolkata,2,17,On-site,895452,Resigned
+E01746,HR,Recruiter,Kolkata,2,0,Hybrid,771315,Active
+E01747,Support,Tech Support,Delhi,5,6,On-site,2039033,Active
+E01748,Operations,Operations Manager,Chennai,1,10,Remote,2273106,Active
+E01749,Finance,Auditor,Mumbai,3,10,On-site,516651,Active
+E01750,Sales,Sales Executive,Delhi,3,0,On-site,1313881,Resigned
+E01751,HR,HR Manager,Mumbai,5,18,Hybrid,1925902,Active
+E01752,Marketing,SEO Specialist,Mumbai,4,9,On-site,1430181,Active
+E01753,IT,ML Engineer,Mumbai,2,13,Remote,1034717,Active
+E01754,Marketing,SEO Specialist,Bangalore,5,11,On-site,598125,Active
+E01755,Sales,BD Associate,Delhi,2,4,Remote,1903594,Active
+E01756,Support,Support Engineer,Bangalore,3,14,Hybrid,767926,Active
+E01757,Finance,Accountant,Hyderabad,1,9,Hybrid,2027998,Resigned
+E01758,Support,Tech Support,Pune,3,17,On-site,2132809,Active
+E01759,HR,HR Assistant,Kolkata,2,20,Remote,2370179,Resigned
+E01760,HR,HR Assistant,Kolkata,2,3,Remote,670091,Active
+E01761,Operations,Operations Manager,Hyderabad,1,14,On-site,561493,Active
+E01762,Sales,BD Associate,Bangalore,3,12,On-site,2052572,Active
+E01763,Marketing,SEO Specialist,Hyderabad,4,11,Hybrid,1150794,Active
+E01764,Support,Support Engineer,Bangalore,2,6,Hybrid,1276923,Active
+E01765,Marketing,Content Strategist,Bangalore,2,12,On-site,1644208,Active
+E01766,Support,Customer Support,Mumbai,4,0,Remote,462996,Resigned
+E01767,IT,Software Engineer,Hyderabad,5,14,On-site,1384321,Active
+E01768,Operations,Operations Executive,Kolkata,2,16,On-site,2243155,Active
+E01769,HR,HR Manager,Mumbai,4,1,On-site,1989528,Active
+E01770,Operations,Logistics Coordinator,Kolkata,4,2,On-site,2449223,Active
+E01771,Support,Customer Support,Hyderabad,5,7,Hybrid,1086507,Active
+E01772,IT,DevOps Engineer,Kolkata,1,11,On-site,1446845,Resigned
+E01773,Support,Tech Support,Hyderabad,5,18,Remote,622429,Resigned
+E01774,Marketing,Content Strategist,Bangalore,3,14,On-site,1486938,Active
+E01775,HR,HR Manager,Bangalore,3,9,Remote,373844,Active
+E01776,Sales,Sales Executive,Hyderabad,1,15,Hybrid,2394404,Resigned
+E01777,Finance,Accountant,Hyderabad,3,20,Remote,1797840,Active
+E01778,Finance,Auditor,Mumbai,4,20,On-site,2361577,Active
+E01779,HR,Recruiter,Mumbai,4,16,On-site,1572061,Resigned
+E01780,IT,Data Analyst,Bangalore,4,18,Remote,808867,Active
+E01781,Support,Customer Support,Delhi,5,10,Hybrid,879443,Active
+E01782,Support,Tech Support,Pune,4,2,Hybrid,1957621,Active
+E01783,Support,Support Engineer,Chennai,3,15,Hybrid,2033360,Active
+E01784,Support,Customer Support,Pune,2,9,Hybrid,2004741,Resigned
+E01785,IT,System Admin,Kolkata,1,3,Hybrid,1989783,Active
+E01786,Finance,Auditor,Pune,2,8,Hybrid,1940045,Resigned
+E01787,Sales,Sales Executive,Bangalore,4,5,Hybrid,1334148,Active
+E01788,HR,Recruiter,Mumbai,4,12,Remote,2208997,Active
+E01789,Operations,Logistics Coordinator,Pune,3,15,Remote,2082723,Resigned
+E01790,Support,Support Engineer,Kolkata,5,16,On-site,1045005,Active
+E01791,IT,DevOps Engineer,Mumbai,2,5,Hybrid,2305852,Active
+E01792,Marketing,Marketing Executive,Kolkata,2,16,Hybrid,1207122,Resigned
+E01793,Operations,Logistics Coordinator,Delhi,2,2,On-site,505549,Active
+E01794,Sales,BD Associate,Hyderabad,3,12,Hybrid,2028650,Active
+E01795,Marketing,SEO Specialist,Bangalore,3,14,Remote,1858439,Active
+E01796,Support,Customer Support,Chennai,1,7,On-site,287355,Resigned
+E01797,Marketing,Content Strategist,Hyderabad,4,12,On-site,527941,Active
+E01798,Support,Tech Support,Chennai,2,15,Hybrid,2316799,Resigned
+E01799,Finance,Accountant,Chennai,3,14,On-site,1080258,Active
+E01800,Marketing,Marketing Executive,Mumbai,2,6,Hybrid,2498753,Active
+E01801,Marketing,Content Strategist,Pune,5,20,On-site,1562628,Active
+E01802,Support,Support Engineer,Kolkata,1,8,On-site,1460280,Resigned
+E01803,HR,HR Manager,Hyderabad,2,7,On-site,849181,Resigned
+E01804,HR,HR Assistant,Hyderabad,5,7,Hybrid,366751,Resigned
+E01805,Finance,Accountant,Mumbai,3,16,Hybrid,1462250,Active
+E01806,HR,HR Assistant,Mumbai,5,4,On-site,1361073,Active
+E01807,Finance,Auditor,Bangalore,3,0,On-site,1454540,Active
+E01808,Sales,Sales Manager,Mumbai,2,17,Remote,1119530,Active
+E01809,HR,HR Manager,Hyderabad,3,19,On-site,1079722,Active
+E01810,Marketing,Marketing Executive,Chennai,5,4,On-site,2258880,Active
+E01811,Support,Tech Support,Delhi,4,14,Hybrid,1091830,Active
+E01812,Marketing,SEO Specialist,Kolkata,2,17,On-site,2478610,Resigned
+E01813,Support,Customer Support,Bangalore,1,20,On-site,1238807,Active
+E01814,Marketing,SEO Specialist,Mumbai,5,11,On-site,1644317,Active
+E01815,Operations,Operations Manager,Hyderabad,2,1,On-site,905954,Resigned
+E01816,IT,DevOps Engineer,Hyderabad,1,3,On-site,1858990,Active
+E01817,Finance,Accountant,Hyderabad,2,12,Hybrid,1709222,Active
+E01818,Support,Customer Support,Delhi,4,12,Remote,2036999,Active
+E01819,IT,System Admin,Hyderabad,5,4,On-site,1604056,Active
+E01820,Sales,Sales Manager,Pune,2,3,On-site,2390237,Resigned
+E01821,IT,DevOps Engineer,Delhi,1,10,Hybrid,1754777,Resigned
+E01822,Finance,Financial Analyst,Mumbai,5,7,On-site,2049995,Active
+E01823,IT,DevOps Engineer,Mumbai,1,0,Hybrid,2183630,Active
+E01824,Sales,Sales Manager,Chennai,3,18,On-site,1349984,Active
+E01825,Finance,Accountant,Kolkata,1,2,On-site,1071681,Resigned
+E01826,Support,Tech Support,Bangalore,5,19,Remote,712403,Active
+E01827,Sales,Sales Manager,Hyderabad,2,12,Remote,1942531,Active
+E01828,IT,Software Engineer,Hyderabad,2,16,Hybrid,2397849,Resigned
+E01829,Finance,Financial Analyst,Hyderabad,3,8,On-site,1616825,Active
+E01830,Operations,Operations Executive,Kolkata,4,5,Hybrid,2187627,Active
+E01831,Operations,Logistics Coordinator,Kolkata,4,2,Hybrid,2449433,Active
+E01832,Sales,Sales Executive,Mumbai,5,17,Hybrid,791833,Active
+E01833,Marketing,Marketing Executive,Delhi,1,17,On-site,1588687,Active
+E01834,IT,System Admin,Hyderabad,4,14,On-site,1270576,Active
+E01835,Finance,Auditor,Kolkata,3,1,Remote,778118,Active
+E01836,Sales,Sales Manager,Hyderabad,3,6,Remote,1053100,Active
+E01837,IT,Data Analyst,Hyderabad,5,15,On-site,868657,Active
+E01838,HR,HR Manager,Pune,3,14,Remote,1366741,Active
+E01839,HR,HR Assistant,Delhi,2,3,Hybrid,1773155,Active
+E01840,Support,Customer Support,Bangalore,4,6,Remote,1715355,Active
+E01841,HR,HR Assistant,Chennai,3,3,Hybrid,475648,Active
+E01842,Support,Tech Support,Bangalore,5,19,Hybrid,2298566,Active
+E01843,Operations,Operations Manager,Kolkata,5,19,On-site,276296,Resigned
+E01844,Operations,Operations Manager,Kolkata,4,10,On-site,349074,Active
+E01845,Support,Tech Support,Kolkata,5,13,On-site,1479510,Active
+E01846,Finance,Auditor,Hyderabad,3,2,On-site,2112577,Active
+E01847,Marketing,SEO Specialist,Delhi,4,6,On-site,1553793,Active
+E01848,Sales,Sales Manager,Kolkata,5,3,Hybrid,386615,Active
+E01849,Operations,Operations Manager,Kolkata,1,4,Remote,733843,Resigned
+E01850,HR,HR Assistant,Pune,5,15,On-site,678410,Active
+E01851,Operations,Logistics Coordinator,Bangalore,5,18,On-site,1066386,Resigned
+E01852,Finance,Financial Analyst,Hyderabad,2,4,Hybrid,649782,Active
+E01853,Marketing,Content Strategist,Mumbai,1,3,Hybrid,1490505,Resigned
+E01854,Operations,Operations Manager,Kolkata,2,0,On-site,1968671,Resigned
+E01855,HR,Recruiter,Delhi,1,11,Hybrid,2433643,Active
+E01856,IT,Software Engineer,Pune,3,13,On-site,476406,Active
+E01857,Sales,Sales Executive,Hyderabad,2,9,On-site,1075217,Active
+E01858,Operations,Operations Manager,Chennai,1,9,On-site,1750392,Resigned
+E01859,Sales,BD Associate,Chennai,4,8,On-site,471746,Active
+E01860,IT,System Admin,Delhi,5,13,On-site,672618,Resigned
+E01861,IT,Data Analyst,Mumbai,3,16,Hybrid,366775,Resigned
+E01862,HR,HR Manager,Mumbai,1,19,On-site,1988746,Resigned
+E01863,HR,HR Assistant,Bangalore,4,4,Hybrid,2436903,Active
+E01864,IT,DevOps Engineer,Kolkata,3,19,On-site,2230698,Resigned
+E01865,Sales,BD Associate,Bangalore,2,14,On-site,1447964,Active
+E01866,HR,Recruiter,Bangalore,2,1,Remote,1429280,Active
+E01867,HR,Recruiter,Bangalore,5,0,Hybrid,656497,Active
+E01868,Operations,Operations Manager,Mumbai,5,2,On-site,1236291,Resigned
+E01869,Support,Support Engineer,Chennai,3,9,On-site,626330,Active
+E01870,Sales,BD Associate,Chennai,5,20,Remote,413148,Active
+E01871,Operations,Operations Executive,Chennai,3,18,Hybrid,1497155,Active
+E01872,IT,DevOps Engineer,Pune,2,6,On-site,393775,Active
+E01873,Sales,Sales Executive,Hyderabad,5,0,Hybrid,1643352,Active
+E01874,HR,HR Manager,Kolkata,2,8,Hybrid,1018278,Resigned
+E01875,Operations,Logistics Coordinator,Delhi,1,15,Hybrid,2085003,Active
+E01876,Sales,Sales Executive,Delhi,5,15,On-site,1241725,Resigned
+E01877,Finance,Auditor,Mumbai,5,19,Hybrid,1649509,Active
+E01878,Marketing,Marketing Executive,Bangalore,1,19,Hybrid,1442555,Active
+E01879,Sales,Sales Executive,Hyderabad,4,15,On-site,1042904,Active
+E01880,IT,ML Engineer,Pune,3,6,Hybrid,1829872,Active
+E01881,Support,Tech Support,Mumbai,2,3,Hybrid,1738221,Resigned
+E01882,Marketing,Marketing Executive,Hyderabad,5,18,On-site,895026,Resigned
+E01883,Finance,Auditor,Kolkata,4,15,Hybrid,454470,Active
+E01884,IT,DevOps Engineer,Kolkata,4,15,On-site,1350911,Active
+E01885,Finance,Auditor,Kolkata,5,12,On-site,456823,Active
+E01886,Support,Customer Support,Kolkata,2,17,On-site,539169,Active
+E01887,Support,Customer Support,Mumbai,5,0,Remote,1902108,Resigned
+E01888,HR,HR Assistant,Pune,1,15,On-site,606338,Active
+E01889,Finance,Financial Analyst,Pune,1,7,On-site,374716,Active
+E01890,Support,Customer Support,Chennai,4,10,Hybrid,1610247,Active
+E01891,IT,Software Engineer,Mumbai,5,0,Hybrid,1588519,Active
+E01892,Support,Support Engineer,Mumbai,5,19,On-site,633545,Active
+E01893,IT,ML Engineer,Delhi,1,0,On-site,888288,Resigned
+E01894,Sales,Sales Manager,Bangalore,4,3,On-site,927510,Resigned
+E01895,IT,Software Engineer,Bangalore,4,3,On-site,2381745,Active
+E01896,Support,Tech Support,Bangalore,1,16,On-site,902739,Active
+E01897,Sales,BD Associate,Mumbai,3,10,Remote,2433948,Resigned
+E01898,HR,Recruiter,Delhi,3,18,Hybrid,1702757,Active
+E01899,Marketing,SEO Specialist,Hyderabad,5,20,Hybrid,693108,Active
+E01900,HR,HR Manager,Hyderabad,3,4,Remote,2194353,Active
+E01901,Marketing,Content Strategist,Chennai,1,3,On-site,295452,Active
+E01902,IT,Data Analyst,Delhi,1,16,Remote,2478742,Active
+E01903,Finance,Accountant,Hyderabad,2,9,Hybrid,326757,Resigned
+E01904,Finance,Accountant,Chennai,5,19,On-site,648759,Resigned
+E01905,Marketing,Marketing Executive,Pune,2,15,On-site,2242335,Resigned
+E01906,Operations,Operations Manager,Delhi,4,4,On-site,1377775,Resigned
+E01907,Sales,BD Associate,Chennai,5,0,On-site,1403215,Active
+E01908,Sales,BD Associate,Hyderabad,1,20,Hybrid,1367040,Active
+E01909,Support,Tech Support,Bangalore,4,18,On-site,1336315,Active
+E01910,IT,DevOps Engineer,Hyderabad,5,20,On-site,1226124,Active
+E01911,Support,Tech Support,Pune,5,5,Hybrid,1570966,Resigned
+E01912,Support,Support Engineer,Delhi,5,14,Remote,650623,Resigned
+E01913,Marketing,Content Strategist,Mumbai,1,19,On-site,861204,Active
+E01914,HR,Recruiter,Bangalore,1,14,Remote,2221443,Active
+E01915,Finance,Accountant,Delhi,1,14,On-site,932031,Resigned
+E01916,Finance,Accountant,Kolkata,3,12,On-site,2406941,Active
+E01917,Support,Customer Support,Kolkata,5,11,On-site,645771,Resigned
+E01918,Support,Tech Support,Pune,3,17,Hybrid,1005584,Active
+E01919,Operations,Logistics Coordinator,Pune,3,11,Hybrid,2349741,Active
+E01920,HR,Recruiter,Mumbai,5,6,Remote,1000506,Resigned
+E01921,Marketing,Content Strategist,Hyderabad,1,15,Hybrid,1967321,Resigned
+E01922,Support,Customer Support,Delhi,2,19,Hybrid,715718,Resigned
+E01923,Sales,Sales Executive,Hyderabad,2,5,Hybrid,2400357,Active
+E01924,HR,Recruiter,Bangalore,3,18,On-site,1982266,Active
+E01925,HR,HR Manager,Kolkata,1,5,On-site,417806,Resigned
+E01926,Support,Tech Support,Bangalore,3,11,Hybrid,332673,Active
+E01927,Operations,Operations Manager,Mumbai,1,6,Hybrid,683073,Resigned
+E01928,Finance,Accountant,Hyderabad,3,0,Hybrid,2067389,Active
+E01929,Marketing,SEO Specialist,Delhi,5,9,Remote,1402849,Active
+E01930,Operations,Operations Executive,Delhi,2,16,Hybrid,1192302,Resigned
+E01931,HR,HR Manager,Bangalore,2,18,Hybrid,1194545,Active
+E01932,IT,System Admin,Chennai,2,0,Remote,704318,Active
+E01933,Marketing,Content Strategist,Pune,1,17,On-site,1877255,Active
+E01934,HR,HR Manager,Pune,3,19,On-site,1146020,Active
+E01935,Finance,Auditor,Mumbai,3,19,On-site,1718084,Resigned
+E01936,Marketing,SEO Specialist,Pune,4,9,On-site,316538,Resigned
+E01937,Sales,Sales Manager,Chennai,1,1,Remote,2157561,Active
+E01938,HR,HR Manager,Chennai,5,0,On-site,2380239,Resigned
+E01939,IT,Software Engineer,Pune,1,7,On-site,1677206,Resigned
+E01940,Marketing,Content Strategist,Bangalore,4,14,Hybrid,2090174,Active
+E01941,HR,HR Manager,Pune,2,0,Remote,2086301,Resigned
+E01942,Operations,Operations Executive,Pune,5,19,Hybrid,2444999,Active
+E01943,IT,Data Analyst,Delhi,5,11,On-site,509966,Active
+E01944,IT,ML Engineer,Chennai,3,20,On-site,2038976,Active
+E01945,IT,DevOps Engineer,Kolkata,1,19,On-site,2387414,Resigned
+E01946,Marketing,Marketing Executive,Pune,1,12,On-site,2230413,Active
+E01947,Operations,Logistics Coordinator,Chennai,5,10,On-site,2438256,Resigned
+E01948,Operations,Operations Executive,Bangalore,5,8,Hybrid,1385583,Active
+E01949,IT,Data Analyst,Delhi,3,18,Remote,2404505,Active
+E01950,HR,HR Manager,Kolkata,2,0,Hybrid,580429,Resigned
+E01951,Marketing,SEO Specialist,Bangalore,3,16,On-site,2464791,Active
+E01952,IT,Software Engineer,Pune,1,11,On-site,372994,Resigned
+E01953,Marketing,Marketing Executive,Chennai,3,3,Hybrid,1501260,Active
+E01954,Sales,Sales Manager,Kolkata,4,15,Remote,2427816,Resigned
+E01955,Operations,Logistics Coordinator,Pune,1,6,On-site,1753463,Active
+E01956,Finance,Accountant,Bangalore,5,12,On-site,1643440,Active
+E01957,Marketing,SEO Specialist,Pune,4,11,Remote,1342834,Active
+E01958,Sales,Sales Executive,Hyderabad,1,0,On-site,1461694,Resigned
+E01959,Marketing,SEO Specialist,Mumbai,2,8,Remote,706435,Resigned
+E01960,Marketing,SEO Specialist,Bangalore,1,10,Remote,2435266,Resigned
+E01961,Finance,Financial Analyst,Hyderabad,4,3,Hybrid,2196808,Active
+E01962,Marketing,Content Strategist,Bangalore,3,9,On-site,716548,Active
+E01963,HR,Recruiter,Mumbai,1,17,On-site,1379803,Resigned
+E01964,Finance,Financial Analyst,Kolkata,3,5,Remote,743466,Active
+E01965,IT,ML Engineer,Chennai,5,7,Remote,1980077,Active
+E01966,Support,Support Engineer,Delhi,5,9,On-site,1670750,Active
+E01967,Support,Support Engineer,Mumbai,4,18,On-site,1689485,Resigned
+E01968,Support,Support Engineer,Hyderabad,2,11,On-site,298242,Resigned
+E01969,Support,Tech Support,Mumbai,3,12,Hybrid,1690580,Active
+E01970,IT,Software Engineer,Kolkata,3,17,Remote,360091,Resigned
+E01971,Support,Tech Support,Bangalore,3,9,Remote,349329,Active
+E01972,HR,HR Assistant,Mumbai,3,8,On-site,1542179,Resigned
+E01973,Sales,BD Associate,Mumbai,1,8,On-site,1769934,Active
+E01974,Operations,Operations Executive,Chennai,3,20,Hybrid,1475647,Active
+E01975,Support,Customer Support,Pune,4,2,Hybrid,2299871,Resigned
+E01976,HR,HR Manager,Bangalore,4,14,On-site,467815,Active
+E01977,Sales,Sales Executive,Bangalore,4,3,Remote,534487,Active
+E01978,Finance,Auditor,Bangalore,1,9,Remote,1678166,Active
+E01979,Sales,BD Associate,Bangalore,5,13,On-site,656080,Resigned
+E01980,HR,Recruiter,Hyderabad,3,18,Hybrid,1836282,Active
+E01981,Sales,BD Associate,Kolkata,4,3,On-site,1786843,Resigned
+E01982,Finance,Auditor,Mumbai,1,16,Hybrid,1782984,Active
+E01983,Operations,Operations Executive,Chennai,3,5,Remote,388966,Resigned
+E01984,Finance,Auditor,Mumbai,5,19,On-site,875070,Active
+E01985,Support,Tech Support,Hyderabad,2,5,On-site,2288731,Active
+E01986,Support,Support Engineer,Bangalore,1,0,Remote,728739,Active
+E01987,Support,Customer Support,Pune,4,17,On-site,1364131,Active
+E01988,IT,Data Analyst,Pune,3,14,Remote,2173413,Active
+E01989,Support,Customer Support,Mumbai,1,18,On-site,2073384,Resigned
+E01990,Operations,Operations Executive,Kolkata,2,8,Hybrid,908554,Resigned
+E01991,Support,Tech Support,Mumbai,2,15,On-site,408621,Resigned
+E01992,Finance,Financial Analyst,Bangalore,5,4,On-site,480099,Active
+E01993,HR,HR Manager,Kolkata,4,17,On-site,698052,Active
+E01994,Support,Tech Support,Delhi,4,15,Hybrid,1670545,Active
+E01995,Support,Customer Support,Kolkata,3,5,On-site,521639,Active
+E01996,Operations,Operations Executive,Delhi,5,6,Remote,1584132,Resigned
+E01997,Operations,Logistics Coordinator,Kolkata,4,0,On-site,2024702,Resigned
+E01998,Finance,Accountant,Hyderabad,5,17,Remote,633094,Active
+E01999,Support,Customer Support,Kolkata,1,3,Remote,531260,Resigned
+E02000,Marketing,Marketing Executive,Hyderabad,5,12,Hybrid,2108558,Active
+E02001,Sales,Sales Executive,Kolkata,3,4,Hybrid,1845141,Active
+E02002,Operations,Operations Executive,Chennai,5,12,Hybrid,936838,Active
+E02003,IT,DevOps Engineer,Delhi,5,19,Hybrid,1212217,Active
+E02004,IT,DevOps Engineer,Delhi,3,18,Hybrid,370918,Active
+E02005,Finance,Auditor,Hyderabad,4,4,Remote,267829,Resigned
+E02006,IT,System Admin,Bangalore,3,8,On-site,456604,Active
+E02007,Finance,Financial Analyst,Chennai,3,4,On-site,2188174,Active
+E02008,Sales,Sales Manager,Delhi,3,4,On-site,2032391,Active
+E02009,Operations,Logistics Coordinator,Chennai,3,9,On-site,791689,Active
+E02010,Support,Customer Support,Kolkata,4,0,On-site,1566735,Active
+E02011,Sales,Sales Manager,Bangalore,3,16,Hybrid,1341347,Active
+E02012,Sales,BD Associate,Delhi,3,7,Hybrid,540299,Active
+E02013,Operations,Operations Manager,Bangalore,4,20,On-site,1615435,Active
+E02014,HR,HR Assistant,Hyderabad,3,3,On-site,630149,Resigned
+E02015,Marketing,Marketing Executive,Chennai,1,4,Hybrid,1519343,Resigned
+E02016,Sales,BD Associate,Hyderabad,5,9,Hybrid,760684,Active
+E02017,Operations,Operations Executive,Bangalore,2,9,Hybrid,1646615,Resigned
+E02018,Marketing,Marketing Executive,Chennai,5,17,On-site,403023,Active
+E02019,HR,HR Assistant,Kolkata,5,0,Remote,1375521,Active
+E02020,Finance,Accountant,Chennai,2,14,Hybrid,739922,Active
+E02021,Operations,Logistics Coordinator,Chennai,4,5,Remote,798892,Active
+E02022,IT,DevOps Engineer,Mumbai,1,4,Remote,1409691,Active
+E02023,Marketing,Marketing Executive,Chennai,2,13,Hybrid,309790,Resigned
+E02024,Support,Support Engineer,Hyderabad,3,13,On-site,557157,Active
+E02025,Marketing,Marketing Executive,Bangalore,2,3,Hybrid,1977421,Resigned
+E02026,HR,Recruiter,Delhi,1,15,On-site,1367201,Active
+E02027,Finance,Financial Analyst,Delhi,3,13,On-site,773566,Resigned
+E02028,HR,Recruiter,Kolkata,5,9,Remote,992138,Active
+E02029,IT,ML Engineer,Kolkata,2,11,Hybrid,2077331,Resigned
+E02030,IT,Software Engineer,Kolkata,3,20,Remote,2026305,Active
+E02031,HR,HR Manager,Delhi,3,1,Remote,1021393,Active
+E02032,HR,Recruiter,Chennai,3,4,Hybrid,2015207,Active
+E02033,Marketing,Marketing Executive,Bangalore,2,16,Remote,2350777,Active
+E02034,Marketing,Content Strategist,Pune,4,0,On-site,1687912,Resigned
+E02035,Sales,BD Associate,Kolkata,5,4,Hybrid,610372,Active
+E02036,HR,HR Assistant,Mumbai,1,3,Hybrid,259012,Resigned
+E02037,Sales,BD Associate,Hyderabad,4,0,On-site,2202894,Resigned
+E02038,Support,Support Engineer,Delhi,3,5,On-site,1427052,Resigned
+E02039,Marketing,SEO Specialist,Chennai,5,14,Hybrid,759590,Active
+E02040,Operations,Operations Executive,Kolkata,1,18,Hybrid,2100170,Active
+E02041,Sales,Sales Manager,Pune,5,16,On-site,599301,Active
+E02042,IT,DevOps Engineer,Delhi,1,12,On-site,1100630,Resigned
+E02043,HR,HR Assistant,Bangalore,1,12,Hybrid,2054473,Active
+E02044,Support,Tech Support,Chennai,3,5,Hybrid,950972,Active
+E02045,Support,Support Engineer,Chennai,5,2,On-site,1360276,Active
+E02046,Sales,Sales Executive,Pune,3,9,On-site,1324198,Resigned
+E02047,Marketing,Marketing Executive,Kolkata,4,13,Hybrid,528833,Active
+E02048,Sales,BD Associate,Mumbai,4,12,On-site,1780732,Resigned
+E02049,Sales,BD Associate,Hyderabad,3,13,On-site,2045580,Resigned
+E02050,HR,HR Assistant,Kolkata,3,8,Remote,954690,Active
+E02051,IT,DevOps Engineer,Bangalore,5,17,Hybrid,2178288,Active
+E02052,Support,Support Engineer,Delhi,3,5,On-site,2484126,Resigned
+E02053,Marketing,Content Strategist,Bangalore,2,20,Hybrid,481898,Active
+E02054,Sales,Sales Executive,Chennai,3,20,Hybrid,958854,Active
+E02055,Finance,Accountant,Bangalore,1,0,On-site,1713595,Resigned
+E02056,Operations,Operations Executive,Hyderabad,4,16,Hybrid,1020545,Active
+E02057,HR,HR Manager,Bangalore,4,8,On-site,806552,Active
+E02058,Marketing,Content Strategist,Bangalore,3,16,Hybrid,1862086,Active
+E02059,Sales,BD Associate,Mumbai,4,17,Remote,1922115,Resigned
+E02060,Operations,Logistics Coordinator,Kolkata,2,8,Remote,304808,Resigned
+E02061,IT,Data Analyst,Pune,4,15,Remote,477977,Active
+E02062,IT,Data Analyst,Delhi,3,18,Hybrid,663612,Active
+E02063,Marketing,Marketing Executive,Mumbai,4,19,On-site,836455,Active
+E02064,Finance,Accountant,Bangalore,4,17,On-site,2387655,Active
+E02065,Marketing,SEO Specialist,Chennai,4,14,Hybrid,400424,Active
+E02066,Support,Support Engineer,Delhi,5,1,On-site,2001674,Active
+E02067,Marketing,SEO Specialist,Chennai,4,11,On-site,2171158,Active
+E02068,IT,Data Analyst,Kolkata,4,5,Remote,1478391,Active
+E02069,Operations,Operations Manager,Hyderabad,2,2,Remote,1609470,Active
+E02070,IT,DevOps Engineer,Pune,4,20,Remote,269192,Resigned
+E02071,IT,Data Analyst,Delhi,4,7,Remote,2399646,Active
+E02072,Sales,Sales Manager,Bangalore,1,14,On-site,680754,Active
+E02073,Finance,Financial Analyst,Pune,3,0,On-site,420002,Active
+E02074,Sales,Sales Executive,Mumbai,1,6,Hybrid,1907971,Active
+E02075,HR,HR Manager,Mumbai,3,10,Hybrid,719134,Active
+E02076,Finance,Financial Analyst,Chennai,4,20,On-site,1827234,Active
+E02077,Marketing,Content Strategist,Hyderabad,5,9,Hybrid,1918966,Active
+E02078,HR,Recruiter,Pune,3,11,On-site,2232369,Resigned
+E02079,Support,Customer Support,Chennai,1,5,On-site,263448,Resigned
+E02080,IT,System Admin,Chennai,4,17,Hybrid,1843603,Active
+E02081,Sales,Sales Executive,Pune,5,11,Hybrid,1594782,Active
+E02082,Marketing,SEO Specialist,Pune,5,7,Remote,758853,Active
+E02083,Finance,Auditor,Hyderabad,3,3,Hybrid,815438,Active
+E02084,IT,Data Analyst,Chennai,2,14,Hybrid,1075748,Active
+E02085,IT,Software Engineer,Mumbai,4,17,Remote,1957806,Active
+E02086,HR,HR Manager,Delhi,4,6,On-site,411101,Resigned
+E02087,Finance,Financial Analyst,Delhi,2,5,On-site,1080171,Resigned
+E02088,Sales,Sales Executive,Delhi,4,2,Remote,1557649,Resigned
+E02089,Operations,Logistics Coordinator,Chennai,4,17,On-site,810956,Active
+E02090,Support,Customer Support,Delhi,3,6,Remote,1780688,Resigned
+E02091,HR,Recruiter,Pune,1,15,Hybrid,2367347,Active
+E02092,Sales,Sales Manager,Kolkata,3,6,On-site,293585,Active
+E02093,Support,Support Engineer,Pune,4,17,Remote,1177510,Active
+E02094,Operations,Operations Manager,Mumbai,2,1,On-site,1589616,Active
+E02095,Marketing,Content Strategist,Chennai,3,10,On-site,1104214,Active
+E02096,Finance,Auditor,Hyderabad,2,15,Hybrid,760926,Active
+E02097,Sales,Sales Executive,Bangalore,2,17,On-site,2292103,Resigned
+E02098,Support,Support Engineer,Pune,3,16,On-site,2350588,Active
+E02099,HR,Recruiter,Mumbai,4,9,Hybrid,1096454,Active
+E02100,Finance,Accountant,Bangalore,5,4,Hybrid,2077916,Active
+E02101,Marketing,SEO Specialist,Pune,1,16,Remote,1412108,Active
+E02102,Marketing,SEO Specialist,Bangalore,3,5,Remote,1955869,Active
+E02103,IT,ML Engineer,Chennai,1,15,Remote,1730929,Resigned
+E02104,Finance,Accountant,Bangalore,5,16,On-site,1346686,Active
+E02105,Sales,Sales Manager,Pune,3,13,Remote,1706729,Active
+E02106,IT,Software Engineer,Hyderabad,2,5,On-site,414818,Active
+E02107,Support,Support Engineer,Hyderabad,5,7,On-site,336728,Resigned
+E02108,Finance,Accountant,Hyderabad,3,9,On-site,2098915,Resigned
+E02109,HR,HR Manager,Mumbai,1,9,On-site,777703,Resigned
+E02110,Operations,Operations Manager,Hyderabad,1,8,Hybrid,1131965,Resigned
+E02111,IT,Data Analyst,Chennai,3,6,On-site,397215,Active
+E02112,Finance,Auditor,Hyderabad,3,14,Remote,359365,Active
+E02113,Sales,BD Associate,Pune,2,19,On-site,1569021,Resigned
+E02114,HR,HR Assistant,Hyderabad,3,2,On-site,1845164,Active
+E02115,Marketing,SEO Specialist,Pune,4,17,On-site,1426473,Active
+E02116,Finance,Financial Analyst,Mumbai,4,12,Remote,531594,Active
+E02117,IT,Data Analyst,Hyderabad,5,19,Hybrid,918975,Active
+E02118,Support,Tech Support,Bangalore,2,17,Remote,2169359,Active
+E02119,Marketing,SEO Specialist,Bangalore,5,7,Remote,1288967,Active
+E02120,Operations,Operations Manager,Bangalore,1,5,Hybrid,1974092,Resigned
+E02121,Marketing,SEO Specialist,Hyderabad,4,1,On-site,2410957,Active
+E02122,Operations,Operations Executive,Chennai,4,0,Hybrid,1891345,Resigned
+E02123,IT,DevOps Engineer,Mumbai,1,9,On-site,775400,Active
+E02124,HR,HR Manager,Delhi,3,8,Hybrid,1240055,Active
+E02125,Support,Support Engineer,Kolkata,3,7,On-site,2034908,Active
+E02126,Operations,Operations Executive,Mumbai,5,1,Remote,1974645,Resigned
+E02127,IT,ML Engineer,Mumbai,3,12,Hybrid,1619951,Active
+E02128,Sales,Sales Manager,Pune,2,12,Remote,344328,Active
+E02129,Operations,Logistics Coordinator,Mumbai,3,17,On-site,733121,Resigned
+E02130,Sales,Sales Executive,Chennai,2,7,Hybrid,1069932,Active
+E02131,HR,Recruiter,Bangalore,2,16,On-site,1618040,Active
+E02132,HR,HR Manager,Chennai,3,4,On-site,790735,Active
+E02133,Marketing,Content Strategist,Hyderabad,1,12,Hybrid,2187215,Resigned
+E02134,HR,Recruiter,Kolkata,1,11,On-site,1143320,Active
+E02135,HR,Recruiter,Bangalore,2,11,Remote,1749163,Active
+E02136,Support,Support Engineer,Mumbai,4,1,Hybrid,523445,Resigned
+E02137,IT,ML Engineer,Chennai,2,13,Hybrid,1052560,Resigned
+E02138,Operations,Operations Manager,Bangalore,5,4,Remote,1980251,Active
+E02139,Finance,Auditor,Delhi,2,20,Hybrid,1245563,Active
+E02140,Support,Customer Support,Bangalore,2,7,Remote,742436,Resigned
+E02141,Marketing,Marketing Executive,Chennai,3,7,Hybrid,506072,Active
+E02142,HR,HR Manager,Chennai,3,5,On-site,2141985,Active
+E02143,HR,HR Manager,Chennai,4,6,Hybrid,659759,Active
+E02144,HR,Recruiter,Pune,3,7,Remote,768567,Active
+E02145,Finance,Accountant,Pune,3,14,Hybrid,1484327,Active
+E02146,HR,HR Assistant,Mumbai,4,13,On-site,648488,Active
+E02147,IT,DevOps Engineer,Chennai,1,3,Hybrid,2280829,Active
+E02148,Finance,Financial Analyst,Pune,3,15,On-site,2092653,Active
+E02149,Marketing,Content Strategist,Pune,3,8,Remote,2100084,Active
+E02150,IT,DevOps Engineer,Kolkata,1,3,On-site,2027639,Resigned
+E02151,Finance,Financial Analyst,Kolkata,1,7,On-site,2156847,Resigned
+E02152,Operations,Operations Manager,Mumbai,3,6,Hybrid,868531,Active
+E02153,Operations,Operations Executive,Kolkata,1,1,Remote,2111416,Resigned
+E02154,Sales,BD Associate,Delhi,2,5,Remote,423804,Resigned
+E02155,Sales,BD Associate,Mumbai,4,18,On-site,1743522,Resigned
+E02156,Operations,Operations Executive,Hyderabad,1,9,Remote,2480173,Resigned
+E02157,HR,Recruiter,Kolkata,5,6,On-site,1385736,Active
+E02158,HR,Recruiter,Bangalore,1,10,Hybrid,2086079,Active
+E02159,Finance,Financial Analyst,Delhi,2,4,Hybrid,1730341,Active
+E02160,Support,Support Engineer,Hyderabad,5,18,On-site,760839,Active
+E02161,IT,DevOps Engineer,Pune,5,11,On-site,1697622,Active
+E02162,Support,Customer Support,Delhi,4,15,On-site,2102978,Active
+E02163,Support,Tech Support,Hyderabad,3,7,On-site,360949,Active
+E02164,Operations,Logistics Coordinator,Pune,2,19,Hybrid,2204769,Resigned
+E02165,Sales,Sales Manager,Bangalore,1,15,On-site,1549266,Resigned
+E02166,Marketing,Content Strategist,Kolkata,1,8,On-site,1631194,Active
+E02167,Operations,Logistics Coordinator,Mumbai,3,5,Hybrid,1978336,Resigned
+E02168,IT,DevOps Engineer,Kolkata,5,2,On-site,949560,Active
+E02169,Operations,Logistics Coordinator,Delhi,2,20,Remote,1438092,Active
+E02170,Sales,Sales Executive,Chennai,4,19,On-site,1429568,Resigned
+E02171,Sales,Sales Manager,Mumbai,2,7,Remote,1350718,Resigned
+E02172,IT,System Admin,Pune,5,15,Remote,1578323,Active
+E02173,Support,Customer Support,Delhi,2,4,Hybrid,529374,Resigned
+E02174,Support,Tech Support,Hyderabad,2,1,On-site,1290402,Resigned
+E02175,Marketing,Marketing Executive,Mumbai,1,12,Hybrid,1836019,Active
+E02176,Sales,Sales Executive,Mumbai,3,10,On-site,2425084,Resigned
+E02177,HR,HR Manager,Mumbai,3,11,On-site,286680,Active
+E02178,Operations,Operations Manager,Kolkata,1,2,Remote,1762945,Active
+E02179,Marketing,SEO Specialist,Mumbai,4,12,On-site,1864977,Active
+E02180,HR,Recruiter,Kolkata,2,12,Hybrid,282121,Active
+E02181,Operations,Logistics Coordinator,Mumbai,1,0,On-site,1641933,Active
+E02182,Marketing,SEO Specialist,Mumbai,3,5,Remote,2348468,Active
+E02183,Sales,BD Associate,Chennai,4,0,On-site,1273429,Resigned
+E02184,Support,Customer Support,Kolkata,1,14,Hybrid,903114,Resigned
+E02185,Sales,Sales Manager,Chennai,1,0,On-site,1323799,Resigned
+E02186,Sales,Sales Manager,Delhi,2,16,Hybrid,2398652,Resigned
+E02187,Sales,Sales Executive,Pune,5,15,Hybrid,2096573,Active
+E02188,IT,DevOps Engineer,Pune,3,2,On-site,1133881,Resigned
+E02189,Sales,BD Associate,Kolkata,2,10,On-site,1836444,Active
+E02190,Support,Customer Support,Pune,4,11,Hybrid,364527,Resigned
+E02191,HR,HR Manager,Delhi,1,10,On-site,1196363,Active
+E02192,HR,Recruiter,Kolkata,5,0,On-site,998008,Resigned
+E02193,IT,Data Analyst,Pune,5,7,Hybrid,1485078,Active
+E02194,IT,ML Engineer,Mumbai,2,2,Remote,2041770,Resigned
+E02195,Operations,Operations Executive,Hyderabad,3,16,Hybrid,1981042,Active
+E02196,Marketing,SEO Specialist,Mumbai,1,16,Hybrid,1958928,Active
+E02197,IT,Data Analyst,Kolkata,4,19,Remote,1399302,Active
+E02198,Sales,Sales Executive,Mumbai,4,19,Hybrid,802561,Active
+E02199,Finance,Accountant,Bangalore,4,8,On-site,2110941,Active
+E02200,Finance,Financial Analyst,Mumbai,4,7,Remote,273439,Active
+E02201,IT,Data Analyst,Hyderabad,4,9,On-site,1156030,Active
+E02202,Sales,Sales Executive,Hyderabad,5,15,On-site,1784527,Resigned
+E02203,HR,Recruiter,Pune,3,3,On-site,943920,Active
+E02204,IT,Software Engineer,Pune,1,0,Hybrid,616447,Resigned
+E02205,Finance,Accountant,Delhi,4,11,Hybrid,1159041,Active
+E02206,Finance,Auditor,Chennai,2,7,On-site,389118,Resigned
+E02207,Support,Tech Support,Mumbai,1,20,Hybrid,839352,Active
+E02208,IT,System Admin,Mumbai,4,18,On-site,1290062,Active
+E02209,HR,Recruiter,Kolkata,5,4,On-site,1963279,Active
+E02210,Marketing,Content Strategist,Chennai,1,5,Hybrid,2336508,Resigned
+E02211,IT,System Admin,Mumbai,3,7,Remote,1352779,Active
+E02212,Marketing,Content Strategist,Kolkata,5,9,Remote,339067,Active
+E02213,IT,Data Analyst,Hyderabad,2,16,Hybrid,1815647,Active
+E02214,IT,System Admin,Kolkata,3,15,On-site,1926177,Resigned
+E02215,Sales,Sales Executive,Delhi,2,4,Hybrid,727563,Resigned
+E02216,Finance,Financial Analyst,Bangalore,3,7,On-site,694605,Active
+E02217,Operations,Logistics Coordinator,Hyderabad,1,2,Hybrid,963341,Resigned
+E02218,Operations,Logistics Coordinator,Pune,3,1,On-site,682636,Active
+E02219,Operations,Logistics Coordinator,Chennai,4,5,On-site,2491560,Resigned
+E02220,Marketing,Marketing Executive,Kolkata,2,18,On-site,1235080,Active
+E02221,Finance,Accountant,Delhi,2,10,On-site,2387885,Resigned
+E02222,Marketing,Marketing Executive,Kolkata,2,6,On-site,773343,Active
+E02223,Finance,Auditor,Hyderabad,1,20,Hybrid,1278512,Active
+E02224,Finance,Accountant,Bangalore,5,9,Hybrid,1327280,Active
+E02225,HR,HR Assistant,Mumbai,4,14,Remote,2456810,Active
+E02226,HR,Recruiter,Delhi,2,3,Hybrid,955906,Resigned
+E02227,Marketing,Content Strategist,Bangalore,5,10,Hybrid,1394818,Active
+E02228,Support,Customer Support,Kolkata,1,6,On-site,932701,Active
+E02229,Operations,Logistics Coordinator,Chennai,4,5,On-site,1498756,Active
+E02230,Sales,Sales Executive,Mumbai,2,9,On-site,1604559,Resigned
+E02231,Finance,Auditor,Delhi,2,7,Hybrid,1346141,Resigned
+E02232,Support,Tech Support,Chennai,1,11,Remote,377636,Active
+E02233,HR,HR Assistant,Chennai,1,9,On-site,2313126,Active
+E02234,Support,Tech Support,Mumbai,2,13,Hybrid,260372,Resigned
+E02235,Finance,Financial Analyst,Hyderabad,2,9,Hybrid,345856,Active
+E02236,Sales,Sales Executive,Mumbai,3,4,Remote,2322745,Resigned
+E02237,IT,Software Engineer,Pune,1,4,On-site,2138033,Resigned
+E02238,IT,Data Analyst,Chennai,2,8,On-site,1974931,Resigned
+E02239,Sales,Sales Executive,Kolkata,5,14,Hybrid,1396615,Active
+E02240,IT,DevOps Engineer,Pune,5,16,On-site,699158,Active
+E02241,HR,HR Assistant,Delhi,4,6,Hybrid,2004298,Active
+E02242,Finance,Accountant,Kolkata,1,7,On-site,1245262,Resigned
+E02243,Operations,Operations Manager,Bangalore,4,19,On-site,1325091,Resigned
+E02244,Sales,Sales Manager,Bangalore,3,9,On-site,1755859,Resigned
+E02245,Marketing,Marketing Executive,Chennai,4,16,On-site,901631,Resigned
+E02246,Marketing,Content Strategist,Delhi,4,12,Remote,1924688,Active
+E02247,HR,HR Manager,Chennai,2,3,On-site,520153,Active
+E02248,Marketing,Content Strategist,Chennai,2,2,Hybrid,1990434,Resigned
+E02249,Sales,BD Associate,Hyderabad,5,3,On-site,1419424,Resigned
+E02250,Operations,Operations Manager,Mumbai,5,10,Remote,1472465,Resigned
+E02251,Support,Tech Support,Chennai,4,3,Hybrid,778089,Active
+E02252,Support,Support Engineer,Chennai,4,16,Hybrid,2365789,Active
+E02253,HR,HR Manager,Chennai,4,2,On-site,726113,Active
+E02254,Operations,Logistics Coordinator,Bangalore,3,5,Hybrid,2461242,Active
+E02255,HR,HR Assistant,Kolkata,3,18,On-site,614758,Active
+E02256,Support,Support Engineer,Delhi,3,1,Remote,1064356,Active
+E02257,IT,Data Analyst,Bangalore,2,18,Remote,1486873,Active
+E02258,Operations,Logistics Coordinator,Hyderabad,4,5,Remote,2434665,Active
+E02259,Operations,Operations Executive,Pune,5,6,On-site,2278851,Active
+E02260,Marketing,Marketing Executive,Pune,2,6,On-site,737843,Resigned
+E02261,IT,System Admin,Kolkata,1,3,Remote,766066,Resigned
+E02262,Sales,Sales Executive,Hyderabad,1,13,Hybrid,2195486,Resigned
+E02263,Sales,Sales Manager,Pune,2,13,Hybrid,279251,Resigned
+E02264,Finance,Accountant,Chennai,1,17,Remote,1941368,Active
+E02265,Marketing,Content Strategist,Delhi,3,18,Hybrid,1697754,Active
+E02266,IT,DevOps Engineer,Hyderabad,3,16,Remote,1673034,Active
+E02267,Finance,Auditor,Mumbai,2,16,On-site,293237,Resigned
+E02268,Operations,Operations Executive,Kolkata,3,4,Remote,1570274,Active
+E02269,Sales,Sales Manager,Delhi,5,6,Remote,1714011,Active
+E02270,Sales,Sales Executive,Delhi,4,12,Hybrid,2471961,Active
+E02271,HR,Recruiter,Kolkata,2,11,Remote,1088537,Resigned
+E02272,Operations,Operations Executive,Kolkata,3,3,Hybrid,2157030,Resigned
+E02273,Support,Tech Support,Chennai,3,16,On-site,886024,Active
+E02274,Operations,Operations Executive,Hyderabad,1,0,Hybrid,1881629,Resigned
+E02275,Finance,Financial Analyst,Bangalore,1,3,Remote,1736630,Active
+E02276,Operations,Operations Manager,Mumbai,3,14,Remote,2261718,Active
+E02277,Support,Tech Support,Kolkata,2,0,Hybrid,313474,Resigned
+E02278,IT,DevOps Engineer,Delhi,1,17,Hybrid,798442,Active
+E02279,IT,Data Analyst,Mumbai,5,12,Remote,2002362,Active
+E02280,HR,Recruiter,Bangalore,4,8,On-site,2265791,Active
+E02281,Support,Tech Support,Pune,4,18,On-site,301033,Resigned
+E02282,Operations,Operations Executive,Hyderabad,5,1,On-site,1855190,Active
+E02283,Marketing,Marketing Executive,Chennai,2,17,On-site,2188814,Resigned
+E02284,Support,Tech Support,Pune,1,19,On-site,284510,Resigned
+E02285,Sales,BD Associate,Delhi,3,0,Hybrid,730265,Resigned
+E02286,HR,Recruiter,Chennai,4,15,On-site,2213078,Active
+E02287,Finance,Auditor,Bangalore,3,4,Hybrid,1759579,Active
+E02288,HR,Recruiter,Kolkata,1,10,Hybrid,1991951,Active
+E02289,Marketing,Content Strategist,Bangalore,3,2,Hybrid,1699462,Active
+E02290,Operations,Logistics Coordinator,Chennai,2,12,Remote,926618,Active
+E02291,Operations,Operations Executive,Pune,1,18,Hybrid,1501590,Resigned
+E02292,HR,HR Assistant,Kolkata,3,8,Hybrid,1407122,Active
+E02293,Finance,Auditor,Hyderabad,4,12,Hybrid,920247,Active
+E02294,Support,Support Engineer,Hyderabad,1,0,Remote,599829,Resigned
+E02295,Finance,Accountant,Delhi,2,7,Hybrid,2173099,Active
+E02296,Support,Tech Support,Hyderabad,1,19,Hybrid,1888388,Active
+E02297,IT,DevOps Engineer,Mumbai,5,18,On-site,1339005,Active
+E02298,HR,HR Manager,Mumbai,5,11,Hybrid,680898,Active
+E02299,Operations,Operations Manager,Pune,4,6,Remote,2330029,Resigned
+E02300,Finance,Auditor,Kolkata,3,17,On-site,463699,Resigned
+E02301,Operations,Logistics Coordinator,Pune,2,4,Remote,734023,Active
+E02302,Marketing,Content Strategist,Bangalore,5,0,On-site,589758,Active
+E02303,Operations,Operations Manager,Chennai,1,19,Hybrid,2394124,Active
+E02304,HR,HR Assistant,Kolkata,5,17,Remote,1624340,Active
+E02305,Support,Support Engineer,Delhi,1,18,Remote,371403,Active
+E02306,HR,Recruiter,Mumbai,5,17,Remote,2161950,Active
+E02307,Operations,Operations Executive,Mumbai,2,14,On-site,859122,Active
+E02308,IT,DevOps Engineer,Bangalore,1,13,On-site,1648356,Active
+E02309,Marketing,SEO Specialist,Delhi,3,8,On-site,1989736,Active
+E02310,Marketing,Content Strategist,Mumbai,5,0,Hybrid,636804,Active
+E02311,Marketing,Content Strategist,Kolkata,3,16,Hybrid,1035072,Active
+E02312,IT,Data Analyst,Hyderabad,2,3,On-site,1128340,Active
+E02313,Operations,Operations Manager,Pune,5,10,On-site,1766008,Active
+E02314,Marketing,Marketing Executive,Delhi,5,10,On-site,1353091,Active
+E02315,IT,Software Engineer,Delhi,5,0,Hybrid,1138908,Active
+E02316,Marketing,Marketing Executive,Chennai,5,14,Hybrid,1412493,Active
+E02317,Marketing,SEO Specialist,Delhi,5,3,Hybrid,1371861,Active
+E02318,Finance,Accountant,Mumbai,5,8,Remote,981401,Active
+E02319,Sales,Sales Manager,Pune,1,20,Remote,2462462,Active
+E02320,Marketing,SEO Specialist,Mumbai,4,2,Remote,803560,Active
+E02321,Marketing,Marketing Executive,Pune,4,7,On-site,1238128,Resigned
+E02322,HR,HR Manager,Chennai,3,6,On-site,419173,Active
+E02323,Finance,Financial Analyst,Mumbai,1,5,On-site,2249491,Active
+E02324,HR,Recruiter,Hyderabad,3,2,Hybrid,1424995,Active
+E02325,Operations,Operations Executive,Chennai,3,0,On-site,889695,Resigned
+E02326,IT,System Admin,Kolkata,2,13,On-site,2240124,Resigned
+E02327,HR,HR Assistant,Pune,5,2,On-site,1064110,Resigned
+E02328,Finance,Accountant,Mumbai,1,7,On-site,1550344,Resigned
+E02329,Operations,Operations Executive,Bangalore,4,14,On-site,653125,Active
+E02330,Operations,Logistics Coordinator,Kolkata,2,13,Hybrid,471325,Active
+E02331,Operations,Operations Manager,Kolkata,2,18,Hybrid,1308677,Resigned
+E02332,Operations,Logistics Coordinator,Mumbai,5,15,On-site,2366367,Active
+E02333,Marketing,Content Strategist,Hyderabad,5,4,On-site,1789563,Active
+E02334,Sales,Sales Manager,Bangalore,1,2,On-site,2291836,Resigned
+E02335,HR,HR Manager,Delhi,1,15,Remote,2388897,Active
+E02336,Sales,Sales Executive,Bangalore,2,17,On-site,369097,Resigned
+E02337,Sales,Sales Executive,Kolkata,2,10,On-site,1612061,Active
+E02338,Support,Tech Support,Pune,4,3,Remote,1711121,Active
+E02339,Marketing,Content Strategist,Pune,4,2,Remote,913622,Resigned
+E02340,Marketing,SEO Specialist,Hyderabad,2,13,On-site,878292,Active
+E02341,IT,ML Engineer,Bangalore,3,11,On-site,2202317,Active
+E02342,Operations,Logistics Coordinator,Chennai,2,1,Remote,304895,Resigned
+E02343,Finance,Financial Analyst,Kolkata,5,15,On-site,464241,Resigned
+E02344,Operations,Operations Executive,Hyderabad,1,9,On-site,1150897,Resigned
+E02345,Operations,Operations Executive,Mumbai,1,6,On-site,2094804,Resigned
+E02346,Support,Customer Support,Mumbai,2,16,On-site,1287588,Active
+E02347,Sales,BD Associate,Kolkata,5,18,On-site,1070007,Active
+E02348,IT,Software Engineer,Hyderabad,3,14,On-site,1084175,Active
+E02349,HR,HR Assistant,Chennai,5,14,Hybrid,1741069,Active
+E02350,Sales,Sales Manager,Chennai,3,6,Hybrid,2440157,Active
+E02351,Operations,Operations Manager,Pune,4,6,Hybrid,1960025,Active
+E02352,Sales,Sales Manager,Bangalore,1,1,On-site,1143242,Active
+E02353,Operations,Operations Manager,Delhi,3,4,Remote,1712983,Active
+E02354,IT,ML Engineer,Pune,5,9,Hybrid,1538900,Active
+E02355,IT,DevOps Engineer,Hyderabad,4,10,Hybrid,939286,Active
+E02356,HR,Recruiter,Kolkata,1,4,Remote,603082,Resigned
+E02357,HR,HR Assistant,Bangalore,2,6,Remote,734780,Active
+E02358,Sales,Sales Manager,Pune,3,18,On-site,1322231,Active
+E02359,Sales,Sales Manager,Delhi,4,3,On-site,1724491,Active
+E02360,Operations,Operations Manager,Bangalore,4,19,On-site,2382343,Active
+E02361,IT,DevOps Engineer,Bangalore,1,1,Hybrid,1660566,Active
+E02362,Operations,Operations Manager,Pune,3,2,On-site,2471902,Resigned
+E02363,Sales,BD Associate,Chennai,2,0,Hybrid,1294332,Resigned
+E02364,Finance,Auditor,Delhi,3,18,Hybrid,2285156,Active
+E02365,Marketing,Content Strategist,Pune,5,16,On-site,1745270,Active
+E02366,Support,Support Engineer,Delhi,5,15,On-site,2494241,Resigned
+E02367,HR,HR Assistant,Kolkata,3,7,Hybrid,1686953,Active
+E02368,Finance,Auditor,Bangalore,3,19,On-site,726555,Resigned
+E02369,IT,Software Engineer,Chennai,4,3,On-site,530398,Resigned
+E02370,Support,Tech Support,Hyderabad,1,13,On-site,619531,Resigned
+E02371,Finance,Financial Analyst,Hyderabad,2,1,On-site,1576871,Resigned
+E02372,Sales,Sales Executive,Pune,4,0,On-site,1682609,Resigned
+E02373,IT,ML Engineer,Pune,5,19,On-site,2065385,Active
+E02374,Support,Customer Support,Chennai,2,19,On-site,2396612,Active
+E02375,Sales,Sales Executive,Bangalore,5,11,Hybrid,520574,Active
+E02376,Support,Tech Support,Pune,4,20,On-site,626783,Active
+E02377,Operations,Operations Executive,Mumbai,2,12,Hybrid,2244083,Active
+E02378,Finance,Auditor,Kolkata,1,15,On-site,279715,Active
+E02379,IT,DevOps Engineer,Pune,5,6,On-site,518451,Resigned
+E02380,Sales,BD Associate,Chennai,5,5,Hybrid,1840196,Resigned
+E02381,Marketing,SEO Specialist,Hyderabad,2,11,Hybrid,1895906,Resigned
+E02382,IT,DevOps Engineer,Chennai,3,4,Hybrid,1562916,Active
+E02383,Support,Tech Support,Bangalore,5,7,On-site,1785705,Active
+E02384,HR,HR Assistant,Hyderabad,5,12,Hybrid,1563981,Active
+E02385,Operations,Operations Manager,Kolkata,3,3,Hybrid,1020376,Active
+E02386,Operations,Logistics Coordinator,Bangalore,1,0,On-site,879275,Resigned
+E02387,Marketing,Marketing Executive,Pune,5,5,On-site,2218331,Active
+E02388,HR,Recruiter,Hyderabad,5,15,Hybrid,1516019,Active
+E02389,Support,Customer Support,Delhi,3,18,Hybrid,400468,Active
+E02390,Finance,Auditor,Hyderabad,3,5,On-site,928627,Resigned
+E02391,Finance,Accountant,Delhi,1,0,Hybrid,382508,Resigned
+E02392,HR,HR Manager,Mumbai,4,7,On-site,664429,Active
+E02393,HR,Recruiter,Chennai,1,4,Remote,1341426,Active
+E02394,HR,Recruiter,Bangalore,3,5,On-site,951335,Resigned
+E02395,IT,System Admin,Delhi,2,10,Hybrid,781369,Active
+E02396,Marketing,Content Strategist,Chennai,1,6,On-site,2285334,Resigned
+E02397,Support,Customer Support,Kolkata,4,18,Hybrid,625651,Resigned
+E02398,Sales,BD Associate,Delhi,2,0,On-site,1295618,Resigned
+E02399,Operations,Operations Executive,Hyderabad,2,12,Hybrid,959192,Resigned
+E02400,IT,ML Engineer,Hyderabad,5,11,On-site,885318,Active
+E02401,Support,Customer Support,Mumbai,1,4,Remote,951565,Active
+E02402,Sales,Sales Manager,Hyderabad,2,3,Remote,2286677,Resigned
+E02403,Support,Customer Support,Kolkata,3,5,On-site,896868,Active
+E02404,Support,Tech Support,Hyderabad,5,6,On-site,470826,Active
+E02405,Operations,Operations Executive,Delhi,2,12,On-site,621007,Resigned
+E02406,Sales,Sales Executive,Pune,3,5,On-site,338898,Resigned
+E02407,HR,HR Manager,Chennai,4,4,Remote,2474392,Active
+E02408,Operations,Operations Manager,Pune,3,3,On-site,1775245,Resigned
+E02409,IT,ML Engineer,Mumbai,2,2,On-site,1080623,Resigned
+E02410,Marketing,SEO Specialist,Mumbai,3,9,Hybrid,693445,Resigned
+E02411,Finance,Financial Analyst,Pune,3,1,Hybrid,954875,Resigned
+E02412,Marketing,Marketing Executive,Delhi,1,4,On-site,538766,Active
+E02413,Support,Support Engineer,Pune,1,14,Hybrid,2061196,Resigned
+E02414,Sales,Sales Executive,Kolkata,1,16,Hybrid,740548,Resigned
+E02415,Support,Customer Support,Pune,5,15,On-site,453154,Resigned
+E02416,Sales,BD Associate,Mumbai,1,5,On-site,1096302,Resigned
+E02417,Support,Tech Support,Kolkata,2,15,On-site,979988,Resigned
+E02418,Sales,Sales Executive,Chennai,4,18,Hybrid,1632352,Active
+E02419,Support,Tech Support,Chennai,2,6,Hybrid,933284,Resigned
+E02420,Marketing,Content Strategist,Pune,5,2,Remote,2457532,Active
+E02421,Marketing,SEO Specialist,Hyderabad,2,6,On-site,727347,Active
+E02422,IT,DevOps Engineer,Delhi,3,11,Remote,1762447,Active
+E02423,IT,DevOps Engineer,Mumbai,5,13,Hybrid,1755271,Active
+E02424,Support,Customer Support,Mumbai,4,11,Remote,1148118,Active
+E02425,Sales,Sales Manager,Pune,5,18,On-site,2498543,Active
+E02426,Sales,BD Associate,Hyderabad,2,2,On-site,2438520,Active
+E02427,Operations,Operations Executive,Chennai,3,1,Hybrid,2465374,Active
+E02428,Support,Tech Support,Chennai,4,15,Hybrid,460926,Resigned
+E02429,Finance,Financial Analyst,Chennai,5,0,Hybrid,487741,Active
+E02430,Finance,Auditor,Delhi,2,8,Hybrid,2151411,Active
+E02431,Marketing,Marketing Executive,Mumbai,1,11,On-site,1868773,Active
+E02432,Marketing,Content Strategist,Pune,2,19,Hybrid,1786949,Resigned
+E02433,Marketing,Marketing Executive,Hyderabad,2,3,On-site,1255716,Active
+E02434,Support,Support Engineer,Delhi,3,10,Hybrid,1581757,Active
+E02435,IT,DevOps Engineer,Pune,1,8,On-site,1835667,Active
+E02436,HR,Recruiter,Kolkata,4,3,Remote,1515988,Active
+E02437,Support,Tech Support,Bangalore,4,8,On-site,2475128,Resigned
+E02438,Sales,Sales Executive,Mumbai,2,15,On-site,343391,Active
+E02439,Finance,Auditor,Pune,3,9,On-site,1475328,Active
+E02440,IT,Software Engineer,Pune,3,6,Hybrid,1308595,Active
+E02441,HR,HR Assistant,Pune,4,6,Hybrid,359537,Active
+E02442,Operations,Operations Executive,Kolkata,1,5,Hybrid,1161575,Active
+E02443,Sales,BD Associate,Mumbai,3,3,On-site,695581,Active
+E02444,Support,Tech Support,Kolkata,2,18,Hybrid,2276414,Resigned
+E02445,Marketing,SEO Specialist,Chennai,2,11,Hybrid,382192,Resigned
+E02446,Support,Customer Support,Bangalore,4,3,On-site,1852813,Active
+E02447,Finance,Financial Analyst,Bangalore,2,14,On-site,761213,Active
+E02448,Operations,Logistics Coordinator,Mumbai,5,14,Hybrid,513648,Active
+E02449,Operations,Operations Manager,Delhi,4,3,Hybrid,1379376,Active
+E02450,IT,Software Engineer,Delhi,3,16,On-site,1761061,Active
+E02451,Operations,Operations Executive,Bangalore,1,20,On-site,1376161,Active
+E02452,Operations,Logistics Coordinator,Pune,2,8,Hybrid,523994,Active
+E02453,Support,Tech Support,Hyderabad,1,6,Remote,1979151,Active
+E02454,Marketing,Content Strategist,Kolkata,1,9,Remote,1285357,Active
+E02455,Finance,Auditor,Kolkata,4,5,On-site,1189057,Active
+E02456,Marketing,Content Strategist,Bangalore,2,12,On-site,288795,Resigned
+E02457,Sales,Sales Manager,Pune,1,16,Remote,679960,Active
+E02458,IT,System Admin,Hyderabad,3,15,On-site,252355,Active
+E02459,Marketing,SEO Specialist,Hyderabad,5,15,On-site,425477,Active
+E02460,Finance,Financial Analyst,Hyderabad,2,9,On-site,1987568,Resigned
+E02461,Support,Customer Support,Bangalore,1,9,Remote,429111,Active
+E02462,Support,Tech Support,Bangalore,5,15,Remote,253825,Active
+E02463,Support,Support Engineer,Hyderabad,5,9,On-site,1880763,Resigned
+E02464,Marketing,Marketing Executive,Mumbai,3,19,On-site,2176458,Active
+E02465,Sales,Sales Manager,Bangalore,2,1,On-site,398616,Resigned
+E02466,HR,Recruiter,Delhi,3,8,Hybrid,1346158,Active
+E02467,Sales,Sales Manager,Kolkata,5,7,On-site,625038,Active
+E02468,Operations,Logistics Coordinator,Kolkata,1,14,Hybrid,724514,Active
+E02469,Marketing,SEO Specialist,Bangalore,5,7,Hybrid,1251008,Active
+E02470,Finance,Accountant,Pune,1,14,Hybrid,1667098,Active
+E02471,Sales,Sales Manager,Bangalore,4,17,Remote,2247499,Active
+E02472,Operations,Operations Manager,Pune,3,16,On-site,580126,Active
+E02473,Marketing,SEO Specialist,Kolkata,4,15,Remote,2274996,Active
+E02474,Marketing,Marketing Executive,Kolkata,2,13,Hybrid,2046717,Resigned
+E02475,Sales,BD Associate,Delhi,1,8,Hybrid,1516366,Resigned
+E02476,HR,HR Manager,Kolkata,5,0,On-site,1201712,Active
+E02477,Sales,BD Associate,Chennai,1,3,Hybrid,1755670,Active
+E02478,Operations,Operations Manager,Mumbai,5,6,On-site,2455915,Resigned
+E02479,Sales,BD Associate,Bangalore,3,13,On-site,1250598,Active
+E02480,Operations,Logistics Coordinator,Delhi,5,1,Remote,1980891,Active
+E02481,IT,ML Engineer,Pune,4,17,Remote,486192,Active
+E02482,IT,DevOps Engineer,Pune,4,0,On-site,590791,Resigned
+E02483,HR,Recruiter,Hyderabad,3,1,Hybrid,1758088,Resigned
+E02484,IT,Data Analyst,Delhi,3,11,On-site,1644817,Active
+E02485,HR,HR Manager,Pune,3,9,On-site,1857820,Resigned
+E02486,HR,HR Manager,Kolkata,5,6,Remote,1735815,Active
+E02487,Marketing,Marketing Executive,Chennai,2,16,Hybrid,701930,Active
+E02488,HR,HR Manager,Delhi,1,3,Remote,1155954,Active
+E02489,Sales,Sales Executive,Delhi,2,12,Hybrid,1644021,Resigned
+E02490,Sales,Sales Executive,Pune,5,18,Hybrid,335261,Active
+E02491,Sales,Sales Manager,Delhi,2,0,Hybrid,459691,Resigned
+E02492,IT,ML Engineer,Mumbai,5,16,Remote,1594721,Active
+E02493,Operations,Operations Executive,Delhi,1,4,Hybrid,1046454,Resigned
+E02494,HR,HR Manager,Delhi,1,4,Remote,1760272,Active
+E02495,Operations,Operations Executive,Delhi,2,15,Remote,2072366,Resigned
+E02496,HR,HR Assistant,Mumbai,3,9,Hybrid,2224138,Active
+E02497,Marketing,Marketing Executive,Bangalore,1,4,Remote,2061146,Active
+E02498,Marketing,SEO Specialist,Mumbai,5,15,On-site,1715226,Active
+E02499,Support,Support Engineer,Delhi,3,8,Hybrid,2304648,Active
+E02500,HR,HR Manager,Mumbai,3,15,Hybrid,2428586,Active
+E02501,IT,DevOps Engineer,Delhi,3,1,On-site,1256137,Resigned
+E02502,Marketing,SEO Specialist,Delhi,1,5,On-site,1078786,Resigned
+E02503,Operations,Operations Executive,Kolkata,5,13,Hybrid,1320807,Active
+E02504,Operations,Operations Executive,Mumbai,4,15,Remote,1023418,Active
+E02505,Marketing,Content Strategist,Bangalore,1,13,Remote,1078008,Active
+E02506,Sales,Sales Executive,Delhi,4,9,Hybrid,1059818,Active
+E02507,HR,Recruiter,Chennai,5,17,Hybrid,2032700,Active
+E02508,Marketing,SEO Specialist,Pune,4,14,Hybrid,1737444,Active
+E02509,Finance,Financial Analyst,Kolkata,1,15,Remote,1704471,Active
+E02510,Marketing,Marketing Executive,Delhi,4,3,On-site,2392845,Resigned
+E02511,Marketing,Marketing Executive,Pune,2,16,On-site,2335589,Active
+E02512,Marketing,Content Strategist,Hyderabad,5,4,On-site,2158277,Active
+E02513,Support,Customer Support,Bangalore,1,8,On-site,2148851,Active
+E02514,Marketing,SEO Specialist,Chennai,2,15,Hybrid,2067030,Active
+E02515,Support,Support Engineer,Kolkata,3,15,On-site,1708256,Active
+E02516,HR,Recruiter,Bangalore,4,2,Hybrid,1287825,Active
+E02517,Finance,Accountant,Chennai,4,16,On-site,1832997,Active
+E02518,Finance,Financial Analyst,Kolkata,4,11,Remote,853672,Active
+E02519,Sales,Sales Executive,Mumbai,5,14,Hybrid,616014,Active
+E02520,IT,System Admin,Mumbai,3,15,On-site,1752651,Active
+E02521,Operations,Logistics Coordinator,Hyderabad,4,4,On-site,1510780,Active
+E02522,Sales,Sales Executive,Chennai,5,2,Hybrid,1188202,Resigned
+E02523,Support,Support Engineer,Kolkata,3,18,Hybrid,1537156,Active
+E02524,Sales,Sales Executive,Kolkata,1,2,Hybrid,600857,Resigned
+E02525,Sales,Sales Manager,Chennai,1,1,On-site,1703672,Active
+E02526,Sales,Sales Manager,Delhi,2,4,On-site,1244764,Resigned
+E02527,Finance,Accountant,Mumbai,3,9,On-site,1056951,Active
+E02528,Sales,Sales Manager,Hyderabad,4,17,Remote,2057977,Resigned
+E02529,Finance,Financial Analyst,Pune,4,11,Remote,568952,Active
+E02530,Sales,Sales Executive,Delhi,1,6,On-site,1771267,Active
+E02531,IT,DevOps Engineer,Chennai,2,13,On-site,920756,Resigned
+E02532,Marketing,SEO Specialist,Kolkata,5,4,On-site,1195751,Active
+E02533,Support,Customer Support,Hyderabad,1,9,On-site,1463091,Active
+E02534,Sales,Sales Manager,Chennai,5,16,Hybrid,1547984,Active
+E02535,HR,Recruiter,Hyderabad,5,19,On-site,2428270,Active
+E02536,Finance,Financial Analyst,Chennai,5,3,Hybrid,1749159,Active
+E02537,Finance,Financial Analyst,Chennai,5,4,On-site,880025,Resigned
+E02538,IT,System Admin,Chennai,3,11,On-site,923346,Resigned
+E02539,Operations,Operations Executive,Mumbai,1,20,On-site,1389304,Active
+E02540,Sales,BD Associate,Chennai,5,2,On-site,1685761,Active
+E02541,HR,HR Manager,Pune,4,12,Hybrid,260086,Resigned
+E02542,Sales,Sales Executive,Delhi,1,2,Remote,735685,Resigned
+E02543,Sales,Sales Manager,Hyderabad,4,12,Hybrid,938484,Active
+E02544,IT,ML Engineer,Mumbai,3,15,Hybrid,623857,Active
+E02545,HR,HR Manager,Chennai,4,9,Remote,1567765,Active
+E02546,Marketing,SEO Specialist,Pune,1,5,On-site,298022,Active
+E02547,IT,DevOps Engineer,Chennai,5,5,Hybrid,645151,Active
+E02548,Support,Support Engineer,Mumbai,4,9,On-site,1563558,Active
+E02549,Finance,Accountant,Chennai,3,3,On-site,1668038,Active
+E02550,HR,HR Manager,Chennai,5,1,On-site,1478489,Active
+E02551,IT,System Admin,Pune,1,13,On-site,1697832,Active
+E02552,IT,DevOps Engineer,Chennai,2,7,On-site,2074472,Active
+E02553,HR,HR Manager,Kolkata,3,2,On-site,1562151,Active
+E02554,Support,Tech Support,Hyderabad,4,15,Hybrid,403807,Active
+E02555,HR,HR Manager,Mumbai,4,6,On-site,2359788,Resigned
+E02556,Marketing,Marketing Executive,Bangalore,3,18,On-site,1301574,Active
+E02557,Marketing,SEO Specialist,Pune,1,15,Remote,1961463,Active
+E02558,Finance,Accountant,Chennai,4,9,On-site,1052651,Active
+E02559,IT,Data Analyst,Mumbai,2,17,On-site,403016,Resigned
+E02560,HR,HR Manager,Kolkata,4,18,On-site,1321754,Active
+E02561,Finance,Auditor,Pune,1,10,Remote,2184755,Active
+E02562,HR,Recruiter,Pune,5,0,Remote,358644,Resigned
+E02563,HR,HR Assistant,Pune,5,17,Remote,630457,Active
+E02564,Marketing,SEO Specialist,Delhi,2,18,On-site,317258,Resigned
+E02565,Finance,Auditor,Hyderabad,5,14,On-site,2162768,Active
+E02566,Support,Customer Support,Pune,2,18,On-site,2395059,Resigned
+E02567,Finance,Accountant,Hyderabad,5,19,Remote,2087520,Active
+E02568,Sales,Sales Executive,Bangalore,3,19,Hybrid,1704823,Active
+E02569,Marketing,Marketing Executive,Chennai,2,1,On-site,1749543,Active
+E02570,HR,HR Manager,Delhi,3,9,On-site,893913,Active
+E02571,Marketing,Content Strategist,Chennai,2,16,On-site,993106,Active
+E02572,Marketing,SEO Specialist,Pune,1,10,Remote,1306360,Resigned
+E02573,Marketing,SEO Specialist,Chennai,2,11,Hybrid,1062586,Active
+E02574,Operations,Operations Manager,Chennai,2,13,Hybrid,994287,Resigned
+E02575,HR,HR Manager,Delhi,1,10,On-site,2262826,Resigned
+E02576,HR,HR Assistant,Chennai,5,7,Remote,572233,Active
+E02577,Sales,Sales Manager,Kolkata,4,16,On-site,611970,Active
+E02578,Sales,Sales Manager,Pune,4,8,Hybrid,2040580,Active
+E02579,HR,Recruiter,Bangalore,2,10,On-site,1460340,Active
+E02580,Sales,Sales Manager,Delhi,1,20,Hybrid,1329626,Active
+E02581,Finance,Auditor,Chennai,2,14,On-site,1274627,Active
+E02582,HR,HR Assistant,Mumbai,3,2,Hybrid,1196152,Active
+E02583,Sales,Sales Executive,Pune,3,7,On-site,362446,Active
+E02584,Sales,Sales Manager,Pune,1,4,Remote,1374165,Active
+E02585,IT,DevOps Engineer,Bangalore,2,18,On-site,1793169,Active
+E02586,Marketing,Content Strategist,Hyderabad,1,5,On-site,2142552,Active
+E02587,Support,Customer Support,Mumbai,4,4,Remote,2189128,Active
+E02588,Operations,Operations Executive,Pune,4,14,Hybrid,580492,Active
+E02589,HR,Recruiter,Pune,5,9,Hybrid,881377,Active
+E02590,Marketing,Content Strategist,Bangalore,5,7,On-site,696642,Active
+E02591,Support,Tech Support,Bangalore,2,2,Remote,907844,Resigned
+E02592,Operations,Operations Manager,Mumbai,2,18,Hybrid,1400053,Resigned
+E02593,Operations,Logistics Coordinator,Delhi,5,7,Remote,2470002,Active
+E02594,Operations,Operations Manager,Mumbai,5,16,Remote,1982938,Resigned
+E02595,IT,Data Analyst,Mumbai,5,11,On-site,2180448,Resigned
+E02596,IT,System Admin,Delhi,1,1,On-site,1744237,Resigned
+E02597,Sales,BD Associate,Kolkata,1,11,Remote,412198,Resigned
+E02598,Support,Tech Support,Mumbai,5,6,Remote,473293,Resigned
+E02599,Marketing,SEO Specialist,Chennai,5,18,On-site,778382,Active
+E02600,Sales,Sales Manager,Bangalore,3,3,On-site,2039575,Active
+E02601,Support,Customer Support,Kolkata,3,3,Remote,2178968,Resigned
+E02602,IT,Data Analyst,Bangalore,4,11,On-site,2049235,Active
+E02603,Operations,Operations Manager,Delhi,1,14,Hybrid,1552974,Resigned
+E02604,IT,Data Analyst,Chennai,4,19,Hybrid,353376,Active
+E02605,Marketing,SEO Specialist,Hyderabad,2,6,On-site,270734,Active
+E02606,Support,Support Engineer,Pune,4,16,On-site,1245373,Active
+E02607,Operations,Operations Executive,Delhi,2,15,On-site,570051,Resigned
+E02608,Sales,BD Associate,Mumbai,1,4,On-site,1875312,Active
+E02609,IT,DevOps Engineer,Mumbai,5,17,On-site,814109,Resigned
+E02610,HR,HR Manager,Hyderabad,4,10,Hybrid,2100696,Active
+E02611,Marketing,Content Strategist,Mumbai,5,5,On-site,480069,Active
+E02612,Marketing,Marketing Executive,Hyderabad,2,13,Hybrid,1104259,Active
+E02613,Finance,Auditor,Kolkata,3,7,On-site,2201253,Active
+E02614,Marketing,Marketing Executive,Kolkata,5,17,Hybrid,2173680,Active
+E02615,Marketing,Marketing Executive,Kolkata,3,3,Hybrid,1350712,Active
+E02616,Support,Customer Support,Bangalore,1,19,Hybrid,1712573,Resigned
+E02617,Finance,Accountant,Delhi,1,11,On-site,2219265,Active
+E02618,Sales,Sales Executive,Chennai,3,9,Hybrid,599269,Active
+E02619,Operations,Logistics Coordinator,Hyderabad,2,9,Remote,2033927,Resigned
+E02620,Support,Customer Support,Hyderabad,4,18,On-site,340341,Resigned
+E02621,Support,Tech Support,Hyderabad,5,14,On-site,2479776,Active
+E02622,HR,HR Manager,Delhi,3,4,Remote,647053,Active
+E02623,Support,Tech Support,Chennai,4,14,Hybrid,1371662,Active
+E02624,Support,Tech Support,Pune,2,5,Remote,2392787,Active
+E02625,IT,System Admin,Delhi,2,5,On-site,1353754,Resigned
+E02626,Sales,Sales Manager,Mumbai,3,17,On-site,1999875,Resigned
+E02627,Operations,Logistics Coordinator,Mumbai,1,16,Remote,648267,Resigned
+E02628,IT,Data Analyst,Kolkata,2,10,Remote,2068285,Resigned
+E02629,Sales,BD Associate,Hyderabad,3,17,Hybrid,1540129,Resigned
+E02630,IT,ML Engineer,Mumbai,3,6,Hybrid,1592894,Active
+E02631,Marketing,Marketing Executive,Mumbai,5,20,On-site,927251,Active
+E02632,Sales,BD Associate,Chennai,4,15,Hybrid,605698,Active
+E02633,HR,Recruiter,Hyderabad,5,8,On-site,951264,Active
+E02634,Marketing,Content Strategist,Kolkata,2,18,On-site,2043003,Resigned
+E02635,Support,Customer Support,Bangalore,4,19,Hybrid,611046,Active
+E02636,IT,Software Engineer,Delhi,1,9,Remote,2400532,Active
+E02637,HR,HR Assistant,Delhi,4,1,On-site,2307610,Resigned
+E02638,HR,Recruiter,Kolkata,1,13,Hybrid,305210,Active
+E02639,Finance,Financial Analyst,Mumbai,5,15,On-site,1792445,Resigned
+E02640,IT,Software Engineer,Mumbai,3,13,Hybrid,1535176,Active
+E02641,Marketing,Content Strategist,Kolkata,2,20,Remote,1597008,Resigned
+E02642,Marketing,Content Strategist,Bangalore,1,20,On-site,569642,Active
+E02643,Finance,Auditor,Chennai,3,20,Hybrid,1910383,Active
+E02644,Finance,Financial Analyst,Delhi,1,16,On-site,1867243,Resigned
+E02645,Support,Customer Support,Bangalore,1,11,On-site,1537749,Resigned
+E02646,Operations,Operations Executive,Mumbai,3,19,On-site,1758948,Active
+E02647,Finance,Auditor,Hyderabad,3,7,Hybrid,1969080,Active
+E02648,IT,ML Engineer,Hyderabad,3,11,On-site,2338201,Resigned
+E02649,Support,Customer Support,Bangalore,1,17,Remote,1927166,Active
+E02650,Support,Support Engineer,Pune,2,16,Hybrid,826587,Resigned
+E02651,Operations,Operations Executive,Kolkata,5,14,On-site,1382097,Active
+E02652,Support,Customer Support,Bangalore,4,10,On-site,1796466,Resigned
+E02653,Finance,Financial Analyst,Mumbai,2,18,Hybrid,1302567,Resigned
+E02654,Finance,Financial Analyst,Mumbai,2,14,On-site,2266639,Active
+E02655,HR,HR Manager,Bangalore,4,15,On-site,1294583,Active
+E02656,IT,ML Engineer,Delhi,4,6,Remote,1625088,Active
+E02657,Operations,Logistics Coordinator,Delhi,4,10,Hybrid,1121103,Active
+E02658,HR,HR Manager,Hyderabad,3,7,On-site,714193,Active
+E02659,IT,DevOps Engineer,Pune,1,3,On-site,1424848,Active
+E02660,IT,Data Analyst,Pune,4,9,Hybrid,1263165,Active
+E02661,Finance,Financial Analyst,Hyderabad,3,8,Remote,1338707,Active
+E02662,IT,System Admin,Pune,4,17,On-site,2468649,Active
+E02663,Support,Support Engineer,Chennai,1,1,Hybrid,1859096,Resigned
+E02664,Operations,Operations Executive,Chennai,3,16,Remote,2051708,Active
+E02665,HR,Recruiter,Kolkata,2,17,Hybrid,575516,Active
+E02666,Support,Customer Support,Kolkata,1,10,On-site,1086073,Resigned
+E02667,IT,System Admin,Chennai,5,5,On-site,659366,Active
+E02668,Support,Support Engineer,Mumbai,5,18,Hybrid,1303927,Active
+E02669,Operations,Operations Executive,Pune,1,15,On-site,2185025,Active
+E02670,Operations,Operations Manager,Delhi,2,3,Hybrid,1933489,Active
+E02671,Finance,Financial Analyst,Delhi,2,19,Remote,2487058,Active
+E02672,Support,Customer Support,Delhi,2,13,Hybrid,2463406,Resigned
+E02673,Marketing,Content Strategist,Bangalore,4,11,Hybrid,476351,Active
+E02674,HR,HR Manager,Pune,5,6,On-site,1363664,Active
+E02675,Sales,Sales Manager,Hyderabad,1,12,Remote,2094975,Active
+E02676,Finance,Financial Analyst,Pune,3,19,Hybrid,1092332,Active
+E02677,IT,Software Engineer,Bangalore,3,16,Hybrid,2181947,Active
+E02678,Marketing,Marketing Executive,Pune,5,11,On-site,1343511,Active
+E02679,Sales,Sales Manager,Hyderabad,4,14,On-site,828109,Active
+E02680,Marketing,Marketing Executive,Bangalore,3,4,On-site,1675544,Active
+E02681,HR,HR Assistant,Hyderabad,5,9,Hybrid,400061,Active
+E02682,Marketing,SEO Specialist,Bangalore,1,2,On-site,1171657,Active
+E02683,IT,Software Engineer,Mumbai,1,13,Remote,1037424,Active
+E02684,Support,Customer Support,Pune,1,5,Remote,529709,Resigned
+E02685,Support,Support Engineer,Delhi,2,6,Hybrid,1960230,Resigned
+E02686,Sales,BD Associate,Kolkata,3,1,Hybrid,1144803,Active
+E02687,IT,Data Analyst,Kolkata,1,14,Remote,2015990,Active
+E02688,Sales,Sales Executive,Delhi,1,2,On-site,1967563,Active
+E02689,Marketing,SEO Specialist,Mumbai,4,9,Hybrid,1824475,Active
+E02690,Support,Customer Support,Bangalore,4,19,Hybrid,2059390,Active
+E02691,Support,Customer Support,Chennai,4,12,On-site,525850,Active
+E02692,HR,HR Manager,Bangalore,1,12,On-site,907428,Active
+E02693,Operations,Logistics Coordinator,Delhi,2,10,On-site,2335503,Resigned
+E02694,Finance,Financial Analyst,Delhi,3,9,Remote,2182527,Active
+E02695,HR,Recruiter,Mumbai,3,19,On-site,1203253,Active
+E02696,IT,Software Engineer,Hyderabad,2,8,On-site,1079418,Active
+E02697,HR,Recruiter,Chennai,4,13,On-site,569346,Active
+E02698,Support,Customer Support,Bangalore,5,20,Hybrid,2072969,Resigned
+E02699,Operations,Operations Manager,Hyderabad,1,1,On-site,786758,Active
+E02700,Marketing,Content Strategist,Kolkata,3,12,On-site,678993,Active
+E02701,Sales,Sales Manager,Hyderabad,3,18,On-site,1059471,Resigned
+E02702,HR,HR Assistant,Delhi,4,8,On-site,1378182,Active
+E02703,Finance,Financial Analyst,Mumbai,4,15,On-site,1486513,Active
+E02704,Marketing,Marketing Executive,Hyderabad,2,5,On-site,1607921,Active
+E02705,Operations,Logistics Coordinator,Bangalore,3,19,Hybrid,843684,Resigned
+E02706,Sales,Sales Manager,Kolkata,4,17,On-site,2172870,Active
+E02707,Marketing,Marketing Executive,Pune,4,19,Hybrid,1469508,Active
+E02708,HR,Recruiter,Bangalore,3,0,Remote,1182774,Active
+E02709,HR,Recruiter,Pune,4,3,Hybrid,2261034,Active
+E02710,IT,DevOps Engineer,Mumbai,4,5,Hybrid,1312908,Active
+E02711,Operations,Operations Executive,Kolkata,2,7,Hybrid,2368795,Resigned
+E02712,Sales,BD Associate,Chennai,1,17,Hybrid,2042360,Active
+E02713,Support,Customer Support,Delhi,5,3,Hybrid,2209776,Resigned
+E02714,Marketing,Marketing Executive,Hyderabad,2,8,On-site,783464,Resigned
+E02715,IT,DevOps Engineer,Bangalore,2,7,Hybrid,416460,Resigned
+E02716,IT,Software Engineer,Hyderabad,2,11,Hybrid,1537679,Active
+E02717,Sales,Sales Executive,Mumbai,3,19,On-site,1927885,Resigned
+E02718,Operations,Operations Executive,Hyderabad,4,4,Remote,386659,Resigned
+E02719,IT,Software Engineer,Mumbai,5,9,Remote,1301581,Active
+E02720,IT,ML Engineer,Pune,1,4,Remote,726708,Active
+E02721,Sales,BD Associate,Bangalore,2,17,Remote,875703,Active
+E02722,Operations,Logistics Coordinator,Mumbai,5,1,On-site,257799,Resigned
+E02723,Sales,BD Associate,Hyderabad,4,2,On-site,521759,Resigned
+E02724,HR,HR Manager,Delhi,3,17,Remote,774434,Active
+E02725,HR,HR Manager,Kolkata,2,2,On-site,463756,Resigned
+E02726,Sales,Sales Executive,Hyderabad,2,18,On-site,1785818,Resigned
+E02727,Sales,BD Associate,Kolkata,5,6,On-site,287459,Active
+E02728,IT,Data Analyst,Chennai,5,4,Remote,449269,Active
+E02729,Sales,Sales Manager,Hyderabad,3,20,On-site,993781,Resigned
+E02730,Marketing,SEO Specialist,Delhi,4,14,On-site,1590070,Active
+E02731,Operations,Operations Manager,Delhi,4,14,On-site,1591456,Active
+E02732,Sales,Sales Manager,Delhi,2,9,On-site,2365429,Active
+E02733,Finance,Accountant,Kolkata,3,9,On-site,1499462,Active
+E02734,Marketing,Marketing Executive,Chennai,2,18,Hybrid,1830690,Active
+E02735,Marketing,SEO Specialist,Delhi,2,5,On-site,1453598,Resigned
+E02736,Finance,Auditor,Bangalore,2,16,On-site,317583,Active
+E02737,Finance,Auditor,Chennai,2,15,On-site,1461649,Active
+E02738,HR,HR Manager,Chennai,4,17,On-site,2446053,Active
+E02739,Marketing,Marketing Executive,Chennai,1,3,On-site,1432976,Active
+E02740,Support,Support Engineer,Hyderabad,3,2,On-site,1804974,Active
+E02741,HR,Recruiter,Hyderabad,4,11,Hybrid,1857662,Active
+E02742,Marketing,Marketing Executive,Delhi,2,6,Remote,894686,Active
+E02743,Finance,Accountant,Delhi,1,14,On-site,2204575,Active
+E02744,Support,Customer Support,Kolkata,4,10,Hybrid,1883932,Resigned
+E02745,Marketing,SEO Specialist,Kolkata,2,2,Hybrid,278370,Active
+E02746,Sales,BD Associate,Bangalore,2,5,On-site,441157,Resigned
+E02747,Finance,Accountant,Delhi,1,7,Hybrid,1010817,Active
+E02748,Support,Customer Support,Delhi,2,14,Hybrid,1782006,Active
+E02749,Sales,BD Associate,Delhi,4,14,Hybrid,1108753,Resigned
+E02750,Marketing,Content Strategist,Hyderabad,5,9,Hybrid,2064149,Active
+E02751,Sales,Sales Manager,Kolkata,4,19,Hybrid,1265005,Active
+E02752,Marketing,SEO Specialist,Mumbai,2,17,Remote,2405460,Active
+E02753,Operations,Logistics Coordinator,Mumbai,1,12,On-site,2409312,Resigned
+E02754,HR,HR Manager,Chennai,3,2,Hybrid,977498,Active
+E02755,Marketing,Marketing Executive,Kolkata,4,11,Hybrid,320656,Active
+E02756,IT,Data Analyst,Hyderabad,3,2,On-site,872826,Resigned
+E02757,HR,HR Manager,Kolkata,1,0,Hybrid,1047809,Active
+E02758,Sales,BD Associate,Chennai,4,5,Hybrid,686196,Active
+E02759,HR,HR Assistant,Kolkata,1,20,Hybrid,1790932,Resigned
+E02760,HR,HR Assistant,Pune,1,11,On-site,1041744,Active
+E02761,HR,HR Manager,Kolkata,4,4,On-site,606450,Active
+E02762,Marketing,SEO Specialist,Chennai,3,16,On-site,1825284,Active
+E02763,Operations,Operations Manager,Bangalore,3,2,Remote,1196468,Resigned
+E02764,Sales,Sales Manager,Bangalore,3,3,Hybrid,735741,Active
+E02765,IT,DevOps Engineer,Pune,5,17,On-site,817670,Active
+E02766,Marketing,Marketing Executive,Mumbai,2,6,Hybrid,1974578,Active
+E02767,HR,Recruiter,Bangalore,3,11,Hybrid,851037,Active
+E02768,Sales,BD Associate,Chennai,1,1,On-site,1406455,Resigned
+E02769,Marketing,Marketing Executive,Pune,2,1,Hybrid,1578727,Active
+E02770,IT,DevOps Engineer,Pune,3,11,On-site,2243604,Active
+E02771,Finance,Auditor,Kolkata,1,11,Remote,839487,Active
+E02772,Operations,Operations Manager,Hyderabad,4,17,On-site,2175259,Active
+E02773,IT,Data Analyst,Bangalore,5,11,On-site,1096610,Active
+E02774,HR,HR Assistant,Kolkata,2,13,Remote,2152043,Active
+E02775,Finance,Financial Analyst,Delhi,1,17,On-site,1291399,Resigned
+E02776,Sales,BD Associate,Pune,1,19,Hybrid,1273655,Active
+E02777,HR,HR Assistant,Chennai,1,20,On-site,2252029,Active
+E02778,Finance,Accountant,Chennai,1,19,On-site,621879,Resigned
+E02779,Operations,Operations Manager,Kolkata,3,13,On-site,1353292,Resigned
+E02780,Marketing,Marketing Executive,Delhi,1,2,On-site,1637213,Active
+E02781,Operations,Operations Manager,Kolkata,3,0,Remote,1310385,Resigned
+E02782,IT,System Admin,Mumbai,4,15,Hybrid,858527,Active
+E02783,Sales,Sales Manager,Hyderabad,3,14,Hybrid,2111886,Active
+E02784,Support,Tech Support,Delhi,5,16,On-site,661832,Active
+E02785,Marketing,SEO Specialist,Kolkata,4,11,On-site,650168,Resigned
+E02786,Operations,Operations Executive,Chennai,4,20,Remote,586644,Active
+E02787,Finance,Accountant,Bangalore,2,13,Hybrid,1948265,Resigned
+E02788,Sales,Sales Manager,Kolkata,4,9,On-site,429594,Active
+E02789,Operations,Logistics Coordinator,Mumbai,1,3,Hybrid,1986560,Active
+E02790,Marketing,Marketing Executive,Kolkata,1,18,Remote,1407060,Active
+E02791,Operations,Operations Manager,Delhi,5,5,Hybrid,2025322,Active
+E02792,Support,Customer Support,Kolkata,2,12,Remote,325018,Resigned
+E02793,HR,HR Manager,Delhi,4,16,Hybrid,1042553,Active
+E02794,Finance,Auditor,Hyderabad,1,2,Hybrid,2099955,Active
+E02795,Sales,Sales Executive,Bangalore,1,19,On-site,1725785,Active
+E02796,Marketing,SEO Specialist,Mumbai,2,0,Hybrid,1066327,Resigned
+E02797,HR,HR Assistant,Chennai,5,12,Remote,1133654,Active
+E02798,Finance,Accountant,Pune,5,16,Hybrid,1124756,Active
+E02799,Sales,Sales Manager,Hyderabad,5,3,Hybrid,717894,Resigned
+E02800,IT,DevOps Engineer,Mumbai,2,11,Hybrid,460828,Active
+E02801,IT,System Admin,Bangalore,1,12,On-site,1036686,Resigned
+E02802,Marketing,SEO Specialist,Pune,3,9,Hybrid,2248556,Active
+E02803,Finance,Accountant,Hyderabad,4,19,On-site,490655,Active
+E02804,Marketing,Marketing Executive,Bangalore,5,20,On-site,420386,Resigned
+E02805,HR,HR Manager,Hyderabad,2,18,On-site,1033834,Resigned
+E02806,Marketing,Marketing Executive,Chennai,2,1,Remote,1828066,Active
+E02807,Finance,Financial Analyst,Kolkata,3,20,On-site,954600,Active
+E02808,HR,HR Assistant,Bangalore,2,13,On-site,954259,Resigned
+E02809,HR,HR Manager,Delhi,3,7,On-site,2013544,Active
+E02810,Support,Support Engineer,Chennai,4,16,Hybrid,1614952,Active
+E02811,IT,Data Analyst,Chennai,1,20,On-site,1120895,Active
+E02812,Marketing,Content Strategist,Delhi,2,5,On-site,967497,Resigned
+E02813,Operations,Operations Executive,Mumbai,2,14,Remote,2480975,Active
+E02814,IT,DevOps Engineer,Hyderabad,5,15,On-site,1053309,Active
+E02815,Sales,Sales Manager,Mumbai,3,16,Hybrid,2470963,Active
+E02816,Support,Support Engineer,Kolkata,3,7,On-site,1819198,Resigned
+E02817,IT,DevOps Engineer,Pune,2,14,Remote,752542,Active
+E02818,Marketing,SEO Specialist,Pune,4,3,On-site,1917716,Active
+E02819,Finance,Financial Analyst,Mumbai,4,15,On-site,983833,Active
+E02820,Operations,Logistics Coordinator,Chennai,5,5,On-site,2027148,Resigned
+E02821,Sales,Sales Executive,Chennai,1,2,Hybrid,622072,Active
+E02822,Support,Customer Support,Pune,4,19,On-site,2368321,Active
+E02823,Marketing,Content Strategist,Bangalore,1,6,Hybrid,2180667,Active
+E02824,Sales,Sales Executive,Chennai,5,16,On-site,504686,Active
+E02825,IT,System Admin,Hyderabad,2,12,Remote,1141751,Resigned
+E02826,Marketing,Content Strategist,Kolkata,3,12,Hybrid,2407858,Active
+E02827,Sales,Sales Executive,Bangalore,1,2,On-site,2275496,Resigned
+E02828,IT,Software Engineer,Mumbai,3,18,On-site,1393527,Active
+E02829,Sales,Sales Executive,Chennai,5,3,Hybrid,2114501,Resigned
+E02830,Finance,Accountant,Chennai,3,1,On-site,1549113,Active
+E02831,HR,HR Manager,Pune,2,9,Hybrid,363209,Resigned
+E02832,HR,HR Assistant,Bangalore,2,11,Remote,829632,Resigned
+E02833,Operations,Logistics Coordinator,Chennai,5,16,On-site,268733,Active
+E02834,Marketing,Marketing Executive,Bangalore,3,12,Hybrid,290849,Active
+E02835,IT,Software Engineer,Delhi,4,16,Remote,1705499,Active
+E02836,Support,Tech Support,Hyderabad,5,13,On-site,2265653,Resigned
+E02837,IT,Software Engineer,Kolkata,5,11,Remote,951916,Active
+E02838,Finance,Accountant,Bangalore,1,14,Remote,1252581,Active
+E02839,Operations,Operations Manager,Pune,1,13,On-site,1632193,Active
+E02840,HR,Recruiter,Delhi,5,11,Hybrid,2491203,Active
+E02841,Operations,Operations Executive,Chennai,3,9,On-site,551062,Active
+E02842,IT,Data Analyst,Pune,4,5,On-site,846285,Active
+E02843,IT,ML Engineer,Chennai,3,4,Hybrid,2173309,Active
+E02844,Support,Tech Support,Bangalore,3,15,On-site,688687,Active
+E02845,HR,Recruiter,Pune,1,14,Hybrid,1760190,Active
+E02846,Marketing,Marketing Executive,Mumbai,2,19,Remote,665282,Resigned
+E02847,Sales,Sales Executive,Pune,3,1,On-site,1211164,Resigned
+E02848,Marketing,SEO Specialist,Chennai,1,4,On-site,253654,Resigned
+E02849,Sales,BD Associate,Chennai,4,11,Hybrid,1344833,Active
+E02850,Sales,BD Associate,Kolkata,1,2,Hybrid,517618,Resigned
+E02851,Support,Support Engineer,Kolkata,2,14,On-site,610377,Active
+E02852,HR,HR Assistant,Mumbai,2,18,On-site,1324351,Active
+E02853,Support,Customer Support,Chennai,3,16,On-site,1792666,Active
+E02854,Support,Tech Support,Kolkata,1,16,Remote,1576289,Active
+E02855,IT,ML Engineer,Mumbai,4,15,Hybrid,2371672,Active
+E02856,Support,Support Engineer,Mumbai,3,14,On-site,1170363,Resigned
+E02857,Sales,Sales Manager,Kolkata,1,8,On-site,929678,Resigned
+E02858,HR,Recruiter,Delhi,3,14,On-site,2104054,Active
+E02859,Support,Tech Support,Bangalore,1,2,On-site,557479,Resigned
+E02860,Finance,Auditor,Chennai,1,19,Hybrid,1221416,Active
+E02861,Finance,Accountant,Hyderabad,1,18,On-site,800008,Active
+E02862,Finance,Auditor,Mumbai,2,19,Hybrid,1066566,Active
+E02863,Operations,Logistics Coordinator,Mumbai,4,7,On-site,1235372,Active
+E02864,Sales,BD Associate,Bangalore,2,12,On-site,1135032,Resigned
+E02865,Marketing,SEO Specialist,Delhi,3,20,On-site,951040,Active
+E02866,Support,Support Engineer,Hyderabad,3,11,On-site,1998951,Resigned
+E02867,Finance,Financial Analyst,Chennai,5,10,Hybrid,423403,Active
+E02868,HR,HR Manager,Pune,3,13,Hybrid,787831,Active
+E02869,IT,System Admin,Hyderabad,4,6,Hybrid,843465,Active
+E02870,HR,HR Manager,Hyderabad,3,4,Remote,907767,Active
+E02871,Sales,BD Associate,Hyderabad,4,19,Remote,1398348,Active
+E02872,Marketing,Content Strategist,Kolkata,4,7,On-site,2097746,Active
+E02873,Operations,Logistics Coordinator,Mumbai,5,10,On-site,431410,Resigned
+E02874,Marketing,Marketing Executive,Pune,5,15,On-site,903077,Active
+E02875,Sales,BD Associate,Pune,1,18,On-site,492720,Active
+E02876,HR,Recruiter,Chennai,1,16,On-site,262155,Resigned
+E02877,IT,ML Engineer,Hyderabad,3,7,On-site,2491651,Active
+E02878,Operations,Operations Executive,Chennai,4,12,Remote,2104152,Active
+E02879,Operations,Operations Executive,Chennai,1,18,On-site,1418826,Resigned
+E02880,HR,Recruiter,Hyderabad,5,17,Hybrid,2447649,Active
+E02881,IT,System Admin,Kolkata,2,16,Hybrid,1337294,Resigned
+E02882,Marketing,SEO Specialist,Mumbai,2,5,On-site,2239150,Active
+E02883,Marketing,SEO Specialist,Chennai,1,11,Hybrid,1072501,Active
+E02884,Sales,Sales Executive,Kolkata,2,19,Remote,1507550,Active
+E02885,Marketing,Marketing Executive,Kolkata,5,7,Hybrid,1317697,Active
+E02886,Marketing,SEO Specialist,Delhi,2,13,On-site,1081299,Active
+E02887,Operations,Operations Executive,Chennai,5,8,Hybrid,429869,Active
+E02888,Operations,Operations Executive,Kolkata,5,16,Hybrid,2083136,Active
+E02889,Operations,Operations Manager,Pune,5,12,Remote,389972,Active
+E02890,Sales,Sales Executive,Kolkata,4,12,Hybrid,1122231,Resigned
+E02891,Support,Customer Support,Pune,4,5,Remote,2320856,Active
+E02892,Marketing,Content Strategist,Pune,1,17,Remote,1556542,Resigned
+E02893,Support,Tech Support,Chennai,1,2,Hybrid,2354228,Resigned
+E02894,Support,Customer Support,Bangalore,1,14,Hybrid,662525,Active
+E02895,Support,Support Engineer,Delhi,4,18,On-site,1532843,Active
+E02896,HR,HR Manager,Chennai,3,8,On-site,2092936,Active
+E02897,Sales,Sales Manager,Mumbai,1,18,On-site,1551112,Resigned
+E02898,Support,Support Engineer,Pune,3,16,Hybrid,608100,Active
+E02899,Finance,Auditor,Chennai,2,6,On-site,902863,Active
+E02900,Sales,Sales Manager,Hyderabad,1,3,On-site,260300,Resigned
+E02901,IT,ML Engineer,Chennai,2,8,On-site,1232453,Active
+E02902,HR,Recruiter,Mumbai,3,7,Hybrid,797514,Active
+E02903,IT,ML Engineer,Hyderabad,1,10,On-site,1234766,Resigned
+E02904,Operations,Operations Manager,Hyderabad,1,10,On-site,1175894,Active
+E02905,IT,DevOps Engineer,Chennai,5,10,Hybrid,2173625,Active
+E02906,Operations,Logistics Coordinator,Chennai,5,2,Hybrid,1069746,Resigned
+E02907,Marketing,SEO Specialist,Kolkata,2,9,On-site,1482133,Resigned
+E02908,Finance,Financial Analyst,Pune,1,2,On-site,2480306,Active
+E02909,Marketing,Content Strategist,Hyderabad,1,4,On-site,747502,Active
+E02910,Marketing,SEO Specialist,Kolkata,1,6,On-site,2186018,Active
+E02911,HR,HR Manager,Hyderabad,3,5,On-site,1490414,Active
+E02912,HR,HR Manager,Mumbai,5,3,On-site,688598,Active
+E02913,Finance,Accountant,Mumbai,4,11,Hybrid,258947,Active
+E02914,Operations,Logistics Coordinator,Mumbai,5,5,On-site,1313789,Active
+E02915,Operations,Operations Executive,Bangalore,3,14,Hybrid,1449841,Resigned
+E02916,IT,Software Engineer,Chennai,4,2,On-site,1976967,Active
+E02917,IT,System Admin,Kolkata,2,18,On-site,942439,Active
+E02918,Support,Support Engineer,Delhi,1,8,On-site,1373288,Active
+E02919,Marketing,Content Strategist,Bangalore,3,7,Remote,502697,Active
+E02920,Marketing,Content Strategist,Chennai,5,12,On-site,1778996,Active
+E02921,IT,Software Engineer,Chennai,1,12,On-site,1008861,Active
+E02922,IT,ML Engineer,Mumbai,2,14,Remote,969234,Active
+E02923,HR,Recruiter,Mumbai,1,14,Hybrid,1955203,Resigned
+E02924,Marketing,Content Strategist,Mumbai,2,20,On-site,700463,Active
+E02925,Finance,Accountant,Kolkata,3,17,Remote,2157860,Active
+E02926,Sales,Sales Manager,Delhi,1,19,Hybrid,658901,Active
+E02927,Support,Support Engineer,Hyderabad,3,18,Hybrid,1712370,Active
+E02928,Finance,Auditor,Kolkata,4,1,Remote,2142227,Active
+E02929,IT,Software Engineer,Bangalore,5,11,Hybrid,1468296,Active
+E02930,Marketing,Marketing Executive,Hyderabad,3,20,On-site,1427416,Active
+E02931,Sales,Sales Manager,Delhi,4,16,Hybrid,471519,Resigned
+E02932,Operations,Operations Executive,Hyderabad,2,7,On-site,2390335,Active
+E02933,Finance,Auditor,Delhi,5,12,On-site,2022907,Active
+E02934,Support,Customer Support,Pune,5,2,On-site,1182114,Active
+E02935,HR,HR Manager,Mumbai,4,19,Remote,319468,Resigned
+E02936,Operations,Logistics Coordinator,Chennai,2,8,On-site,2427096,Active
+E02937,Finance,Accountant,Pune,1,15,Hybrid,308126,Active
+E02938,Finance,Auditor,Pune,4,16,On-site,2230778,Active
+E02939,HR,HR Assistant,Hyderabad,3,13,On-site,1654817,Active
+E02940,Operations,Operations Manager,Hyderabad,5,12,On-site,2317222,Resigned
+E02941,HR,Recruiter,Chennai,2,7,On-site,559601,Active
+E02942,Support,Tech Support,Delhi,5,3,Hybrid,1662547,Active
+E02943,IT,Software Engineer,Kolkata,4,13,On-site,932932,Active
+E02944,Marketing,SEO Specialist,Delhi,4,19,On-site,2407269,Active
+E02945,Sales,Sales Executive,Bangalore,1,0,On-site,1979875,Active
+E02946,Sales,BD Associate,Delhi,5,9,Hybrid,1328734,Resigned
+E02947,Marketing,Marketing Executive,Kolkata,3,20,Hybrid,2047046,Active
+E02948,Finance,Auditor,Pune,2,0,On-site,1597376,Resigned
+E02949,IT,DevOps Engineer,Kolkata,5,14,On-site,2429000,Active
+E02950,Marketing,SEO Specialist,Pune,3,0,Remote,1845489,Active
+E02951,Finance,Accountant,Delhi,4,20,Hybrid,789439,Active
+E02952,Operations,Operations Executive,Mumbai,3,16,Remote,1096299,Active
+E02953,Support,Customer Support,Hyderabad,5,8,Hybrid,2238702,Active
+E02954,HR,HR Assistant,Delhi,2,16,On-site,1874611,Active
+E02955,HR,Recruiter,Hyderabad,4,10,On-site,1812331,Active
+E02956,Support,Support Engineer,Kolkata,3,11,On-site,411468,Resigned
+E02957,Finance,Accountant,Kolkata,5,1,On-site,749459,Active
+E02958,Operations,Operations Executive,Kolkata,1,11,Hybrid,2200078,Active
+E02959,HR,HR Assistant,Pune,5,20,On-site,612486,Active
+E02960,HR,Recruiter,Hyderabad,5,15,On-site,1460822,Active
+E02961,Sales,BD Associate,Bangalore,1,7,On-site,276038,Active
+E02962,Marketing,Content Strategist,Pune,2,18,Hybrid,2234194,Active
+E02963,Operations,Operations Manager,Kolkata,2,7,On-site,1631219,Active
+E02964,HR,HR Assistant,Delhi,2,6,Remote,1388270,Resigned
+E02965,Marketing,Marketing Executive,Chennai,3,2,Hybrid,1197538,Active
+E02966,Operations,Operations Executive,Kolkata,3,15,Hybrid,869074,Active
+E02967,Sales,Sales Manager,Mumbai,1,10,Hybrid,1971737,Active
+E02968,Finance,Financial Analyst,Delhi,5,1,On-site,1425806,Resigned
+E02969,Finance,Financial Analyst,Delhi,5,6,Remote,856143,Active
+E02970,Operations,Operations Executive,Bangalore,3,18,On-site,1073597,Resigned
+E02971,Finance,Accountant,Hyderabad,4,6,On-site,1859343,Active
+E02972,Support,Tech Support,Hyderabad,5,13,Hybrid,2112782,Active
+E02973,Sales,BD Associate,Delhi,2,16,On-site,1619709,Resigned
+E02974,Sales,Sales Executive,Bangalore,2,2,On-site,2211670,Resigned
+E02975,Operations,Operations Executive,Kolkata,3,0,On-site,2281137,Active
+E02976,Operations,Operations Executive,Delhi,4,4,On-site,2029277,Resigned
+E02977,Support,Support Engineer,Kolkata,5,13,Hybrid,2415889,Active
+E02978,Operations,Operations Executive,Delhi,5,8,On-site,2146499,Active
+E02979,Sales,Sales Manager,Delhi,5,8,On-site,617395,Resigned
+E02980,Sales,Sales Executive,Hyderabad,4,20,Hybrid,2271694,Resigned
+E02981,Operations,Operations Manager,Pune,3,16,On-site,266683,Active
+E02982,Finance,Financial Analyst,Hyderabad,4,14,Remote,1247291,Active
+E02983,Support,Support Engineer,Delhi,1,12,On-site,1567600,Resigned
+E02984,Finance,Accountant,Pune,5,5,On-site,2298862,Active
+E02985,IT,DevOps Engineer,Hyderabad,3,13,On-site,257322,Active
+E02986,Support,Tech Support,Mumbai,5,18,On-site,1096942,Resigned
+E02987,Marketing,Content Strategist,Bangalore,4,2,On-site,674001,Active
+E02988,IT,ML Engineer,Chennai,2,19,Hybrid,1361569,Active
+E02989,HR,HR Manager,Delhi,2,10,On-site,2134974,Resigned
+E02990,Support,Customer Support,Hyderabad,3,2,Remote,734737,Active
+E02991,Operations,Logistics Coordinator,Hyderabad,3,8,On-site,255589,Resigned
+E02992,IT,Data Analyst,Hyderabad,1,7,Hybrid,998658,Resigned
+E02993,Support,Support Engineer,Pune,1,8,Remote,595961,Active
+E02994,Sales,Sales Executive,Pune,3,20,Hybrid,802960,Active
+E02995,Support,Customer Support,Kolkata,3,13,Remote,1072412,Active
+E02996,IT,Data Analyst,Chennai,3,12,Hybrid,807331,Active
+E02997,Finance,Auditor,Bangalore,2,14,Hybrid,2433050,Resigned
+E02998,Finance,Auditor,Hyderabad,2,6,On-site,1671523,Resigned
+E02999,Marketing,SEO Specialist,Pune,1,15,On-site,559169,Resigned
+E03000,Finance,Accountant,Delhi,2,14,Hybrid,1364683,Active
