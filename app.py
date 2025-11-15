@@ -315,51 +315,81 @@ elif page == "📊 Model Evaluation":
     st.text(classification_report(y_test, y_pred))
 
 # ==========================================================
-# 🔍 EXPLAINABILITY (SHAP)
+# SHAP EXPLAINABILITY (FULL FIX)
 # ==========================================================
 
 elif page == "🔍 Explainability":
     st.markdown("## 🔍 Explainability (SHAP)")
-
-    X = df[FEATURES].copy()
-    y = df["left"].copy()
-
     st.info("Generating SHAP values (this uses a sample of the dataset for speed)…")
 
-    # Preprocess once
-    X_processed = preprocessor.transform(X)
-    feature_names = preprocessor.get_feature_names_out()
+    # Sample the dataset
+    X_sample = df[FEATURES].sample(300, random_state=42)
 
-    # Sample for background to keep SHAP fast
-    import numpy as np
+    # Ensure categorical dtype
+    for col in categorical_cols:
+        if col in X_sample.columns:
+            X_sample[col] = X_sample[col].astype("category")
 
-    n_samples = min(400, X_processed.shape[0])
-    sample_idx = np.random.choice(X_processed.shape[0], n_samples, replace=False)
-    X_sample = X_processed[sample_idx]
+    # 1️⃣ Extract pipeline steps
+    preprocessor = model.named_steps["preprocessor"]
+    classifier = model.named_steps["classifier"]
 
-    explainer = shap.Explainer(classifier, X_sample)
-    shap_values = explainer(X_sample)
+    # 2️⃣ Transform input
+    X_transformed = preprocessor.transform(X_sample)
 
-    tab1, tab2 = st.tabs(["🌍 Global", "👤 Individual"])
+    # 3️⃣ Convert sparse → dense (IMPORTANT!)
+    if hasattr(X_transformed, "toarray"):
+        X_dense = X_transformed.toarray()
+    else:
+        X_dense = X_transformed
 
-    # GLOBAL
+    # 4️⃣ Build SHAP explainer
+    explainer = shap.TreeExplainer(classifier)
+    shap_values = explainer.shap_values(X_dense)
+
+    # 5️⃣ Normalize SHAP format
+    if isinstance(shap_values, list):
+        shap_pos = shap_values[1]      # Positive class only
+    else:
+        if shap_values.ndim == 3:      # (classes, rows, features)
+            shap_pos = shap_values[1]
+        else:                          # Already correct format
+            shap_pos = shap_values
+
+    # Tabs
+    tab1, tab2 = st.tabs(["🌍 Global Importance", "👤 Individual Prediction"])
+
+    # ======================================================
+    # GLOBAL SUMMARY PLOT
+    # ======================================================
     with tab1:
-        st.subheader("🌍 Global SHAP Summary")
+        st.subheader("🌍 Global SHAP Summary Plot")
+
         fig, ax = plt.subplots(figsize=(10, 5))
-        shap.summary_plot(shap_values, X_sample, feature_names=feature_names, show=False)
+        shap.summary_plot(shap_pos, X_dense, show=False)
         st.pyplot(fig)
 
-    # INDIVIDUAL
+    # ======================================================
+    # INDIVIDUAL WATERFALL
+    # ======================================================
     with tab2:
-        idx = st.number_input("Select row index:", 0, len(X) - 1, 0)
+        st.subheader("👤 Individual SHAP Waterfall")
 
-        st.subheader("👤 SHAP Waterfall")
+        idx = st.number_input("Select row:", 0, len(X_dense) - 1, 0)
 
-        instance = X.iloc[[idx]]
-        instance_processed = preprocessor.transform(instance)
-        instance_sv = explainer(instance_processed)
+    # Safe base value extraction
+    if isinstance(explainer.expected_value, (list, np.ndarray)):
+        base_val = explainer.expected_value[1]
+    else:
+        base_val = explainer.expected_value
 
-        fig, ax = plt.subplots(figsize=(10, 4))
-        shap.plots.waterfall(instance_sv[0], show=False)
-        st.pyplot(fig)
+    explanation = shap.Explanation(
+        values=shap_pos[idx],
+        base_values=base_val,
+        data=X_dense[idx]
+    )
 
+    # Create proper Matplotlib figure
+    fig, ax = plt.subplots(figsize=(10, 5))
+    shap.plots.waterfall(explanation, max_display=15, show=False)
+    st.pyplot(fig)
